@@ -1,0 +1,938 @@
+{
+  "id": "2251:051412",
+  "type": "frame",
+  "name": "Group 48095802 1",
+  "isSkip": false,
+  "tag": "div",
+  "attr": {
+    "data-node-id": "2251:051412",
+    "data-name": "Group 48095802 1",
+    "style": [
+      "width: 252.11px",
+      "height: 185px",
+      "position: absolute",
+      "left: 133px",
+      "top: 16px",
+      "z-index: 2"
+    ]
+  },
+  "children": [
+    {
+      "id": "2251:051413",
+      "type": "frame",
+      "name": "气泡",
+      "isSkip": false,
+      "tag": "div",
+      "attr": {
+        "data-node-id": "2251:051413",
+        "data-name": "气泡",
+        "style": [
+          "position: absolute",
+          "left: 0px",
+          "top: 0px",
+          "z-index: 0"
+        ]
+      },
+      "children": [
+        {
+          "id": "2251:051413",
+          "name": "气泡",
+          "type": "svg",
+          "tag": "svg",
+          "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"252.11\" height=\"185\" viewBox=\"0 0 284.181640625 217\"><defs><filter id=\"master_svg0_2251_051413\" filterUnits=\"objectBoundingBox\" color-interpolation-filters=\"sRGB\" x=\"-0.0793297209920597\" y=\"-0.08648647935308679\" width=\"1.1586594419841194\" height=\"1.2162161983827169\"><feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/><feColorMatrix in=\"SourceAlpha\" type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0\"/><feOffset dy=\"4\" dx=\"0\"/><feGaussianBlur stdDeviation=\"5\"/><feColorMatrix type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.10000000149011612 0\"/><feBlend mode=\"normal\" in2=\"BackgroundImageFix\" result=\"effect1_dropShadow\"/><feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"effect1_dropShadow\" result=\"shape\"/></filter></defs><g filter=\"url(#master_svg0_2251_051413)\"><path d=\"M264.2058859375,12L24.1573906375,12C21.9482507375,12,20.1816406375,13.7480102,20.1816406375,15.95715L20.1816406375,51.256683C20.1816406375,52.192429,19.8535757375,53.09856,19.2545261375,53.817421L16.3010988275,57.361534C15.9920606615,57.73238,15.9920606615,58.267624,16.3010988275,58.638466L19.2545261375,62.182579C19.8535757375,62.90144,20.1816406375,63.807571,20.1816406375,64.74331699999999L20.1816406375,193.04286C20.1816406375,195.252,21.9482507375,197.00002,24.1573896375,197L264.2059059375,197.00002C266.41503593749997,197.00002,268.1816359375,195.252,268.1816359375,193.04285L268.1816359375,15.9571495C268.1816359375,13.7480102,266.41503593749997,12,264.2058859375,12Z\" fill-rule=\"evenodd\" fill=\"#FFFFFF\" fill-opacity=\"1\"/><path d=\"M267.7270159375,12.4407475Q266.27688593749997,11.00000024,264.2059059375,11.0000003L24.1573906375,11Q22.0864248375,11,20.6362834375,12.44074672Q19.1816406375,13.8859657,19.1816406375,15.957150200000001L19.1816406375,51.256683Q19.1816406375,52.342834,18.4863050375,53.177238L15.5328777475,56.721352Q14.4673353375,58.000011,15.5328786375,59.278656L18.486305237499998,62.822762Q19.1816406375,63.657166,19.1816406375,64.74331699999999L19.1816406375,193.04288Q19.1816406375,195.11404,20.6362829375,196.55925Q22.0864515375,198.00003,24.1573982375,198L264.2059059375,198.00003Q266.2768559375,198.00003,267.7270159375,196.55925Q269.1816359375,195.11404,269.1816359375,193.04285L269.1816359375,15.9571495Q269.1816359375,13.8859571,267.7270159375,12.4407475ZM24.1573906375,12L264.2059059375,12C266.41503593749997,12,268.1816359375,13.7480102,268.1816359375,15.9571495L268.1816359375,193.04285C268.1816359375,195.252,266.41503593749997,197.00003,264.2059059375,197.00003L24.1573896375,197C21.9482512375,197.00003,20.1816406375,195.252,20.1816406375,193.04288L20.1816406375,64.74331699999999C20.1816406375,63.807571,19.8535757375,62.90144,19.2545261375,62.182579L16.3010988275,58.63847C15.9920606615,58.267624,15.9920606615,57.732384,16.3010988275,57.361534L19.2545261375,53.817421C19.8535757375,53.098564,20.1816406375,52.192429,20.1816406375,51.256683L20.1816406375,15.957150200000001C20.1816406375,13.7480102,21.9482512375,12,24.1573906375,12Z\" fill-rule=\"evenodd\" fill=\"#E5E6EB\" fill-opacity=\"1\"/></g></svg>"
+        }
+      ],
+      "bound": {
+        "x": -0.0004725456237792969,
+        "y": 0,
+        "width": 252.11231994628906,
+        "height": 185.00001525878906
+      },
+      "isVirtual": false,
+      "componentType": false
+    },
+    {
+      "id": "2251:051416",
+      "type": "frame",
+      "name": "Frame 48095905",
+      "isSkip": false,
+      "tag": "div",
+      "attr": {
+        "data-node-id": "2251:051416",
+        "data-name": "Frame 48095905",
+        "style": [
+          "width: 200px",
+          "height: 137px",
+          "display: flex",
+          "justify-content: flex-start",
+          "align-items: flex-start",
+          "flex-direction: column",
+          "background: #FFF7E8",
+          "position: absolute",
+          "left: 28px",
+          "top: 24px",
+          "z-index: 1"
+        ]
+      },
+      "children": [
+        {
+          "id": "2251:051417",
+          "type": "frame",
+          "name": "Frame 48095903",
+          "isSkip": false,
+          "tag": "div",
+          "attr": {
+            "data-node-id": "2251:051417",
+            "data-name": "Frame 48095903",
+            "style": [
+              "width: 200px",
+              "display: flex",
+              "flex: none",
+              "justify-content: space-between",
+              "align-items: flex-start",
+              "padding-bottom: 20px"
+            ]
+          },
+          "children": [
+            {
+              "id": "2251:051424",
+              "type": "frame",
+              "name": "Frame 48095902",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051424",
+                "data-name": "Frame 48095902",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: center",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051431",
+                  "type": "svg",
+                  "name": "Rectangle 2997",
+                  "isSkip": false,
+                  "tag": "svg",
+                  "attr": {
+                    "data-node-id": "2251:051431",
+                    "data-name": "Rectangle 2997",
+                    "style": [
+                      "width: 10px",
+                      "height: 10px"
+                    ]
+                  },
+                  "children": [],
+                  "bound": {
+                    "x": 0,
+                    "y": 2,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "isVirtual": false,
+                  "componentType": false,
+                  "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\"><rect x=\"0\" y=\"0\" width=\"10\" height=\"10\" rx=\"0\" fill=\"#165DFF\" fill-opacity=\"1\"/></svg>"
+                },
+                {
+                  "id": "2251:051425",
+                  "type": "frame",
+                  "name": "本月实际续约",
+                  "isSkip": false,
+                  "tag": "div",
+                  "attr": {
+                    "data-node-id": "2251:051425",
+                    "data-name": "本月实际续约",
+                    "style": [
+                      "display: flex",
+                      "justify-content: flex-start",
+                      "align-items: flex-start",
+                      "gap: 10px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "id": "2251:051426",
+                      "type": "frame",
+                      "name": "当月已续",
+                      "isSkip": false,
+                      "tag": "span",
+                      "attr": {
+                        "data-node-id": "2251:051426",
+                        "data-name": "当月已续",
+                        "style": [
+                          "color: #1D2129",
+                          "font-size: 14px",
+                          "font-family: PingFang SC",
+                          "line-height: 14px"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "type": "characters",
+                          "text": "当月已续"
+                        }
+                      ],
+                      "bound": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 56,
+                        "height": 14
+                      },
+                      "isVirtual": false,
+                      "componentType": false
+                    }
+                  ],
+                  "bound": {
+                    "x": 20,
+                    "y": 0,
+                    "width": 56,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 0,
+                "y": 0,
+                "width": 76,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            },
+            {
+              "id": "2251:051418",
+              "type": "frame",
+              "name": "本月实际续约",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051418",
+                "data-name": "本月实际续约",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: flex-start",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051419",
+                  "type": "frame",
+                  "name": "70",
+                  "isSkip": false,
+                  "tag": "span",
+                  "attr": {
+                    "data-node-id": "2251:051419",
+                    "data-name": "70",
+                    "style": [
+                      "color: #1D2129",
+                      "font-size: 14px",
+                      "font-family: PingFang SC",
+                      "line-height: 14px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "type": "characters",
+                      "text": "70"
+                    }
+                  ],
+                  "bound": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 17,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 183,
+                "y": 0,
+                "width": 17,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            }
+          ],
+          "bound": {
+            "x": 0,
+            "y": 0,
+            "width": 200,
+            "height": 34
+          },
+          "isVirtual": false,
+          "componentType": false
+        },
+        {
+          "id": "2251:051449",
+          "type": "frame",
+          "name": "Frame 48095904",
+          "isSkip": false,
+          "tag": "div",
+          "attr": {
+            "data-node-id": "2251:051449",
+            "data-name": "Frame 48095904",
+            "style": [
+              "width: 200px",
+              "display: flex",
+              "flex: none",
+              "justify-content: space-between",
+              "align-items: flex-start",
+              "padding-bottom: 20px"
+            ]
+          },
+          "children": [
+            {
+              "id": "2251:051456",
+              "type": "frame",
+              "name": "Frame 48095902",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051456",
+                "data-name": "Frame 48095902",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: center",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051457",
+                  "type": "svg",
+                  "name": "Rectangle 2997",
+                  "isSkip": false,
+                  "tag": "svg",
+                  "attr": {
+                    "data-node-id": "2251:051457",
+                    "data-name": "Rectangle 2997",
+                    "style": [
+                      "width: 10px",
+                      "height: 10px"
+                    ]
+                  },
+                  "children": [],
+                  "bound": {
+                    "x": 0,
+                    "y": 2,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "isVirtual": false,
+                  "componentType": false,
+                  "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\"><g><rect x=\"0.5\" y=\"0.5\" width=\"9\" height=\"9\" rx=\"0\" fill-opacity=\"0\" stroke-opacity=\"1\" stroke=\"#165DFF\" fill=\"none\" stroke-width=\"1\"/><rect x=\"0\" y=\"0\" width=\"10\" height=\"10\" rx=\"0\" fill=\"#E8F3FF\" fill-opacity=\"1\"/><rect x=\"0.5\" y=\"0.5\" width=\"9\" height=\"9\" rx=\"0\" fill-opacity=\"0\" stroke-opacity=\"1\" stroke=\"#165DFF\" fill=\"none\" stroke-width=\"1\"/></g></svg>"
+                },
+                {
+                  "id": "2251:051459",
+                  "type": "frame",
+                  "name": "本月实际续约",
+                  "isSkip": false,
+                  "tag": "div",
+                  "attr": {
+                    "data-node-id": "2251:051459",
+                    "data-name": "本月实际续约",
+                    "style": [
+                      "display: flex",
+                      "justify-content: flex-start",
+                      "align-items: flex-start",
+                      "gap: 10px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "id": "2251:051460",
+                      "type": "frame",
+                      "name": "当月未续",
+                      "isSkip": false,
+                      "tag": "span",
+                      "attr": {
+                        "data-node-id": "2251:051460",
+                        "data-name": "当月未续",
+                        "style": [
+                          "color: #1D2129",
+                          "font-size: 14px",
+                          "font-family: PingFang SC",
+                          "line-height: 14px"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "type": "characters",
+                          "text": "当月未续"
+                        }
+                      ],
+                      "bound": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 56,
+                        "height": 14
+                      },
+                      "isVirtual": false,
+                      "componentType": false
+                    }
+                  ],
+                  "bound": {
+                    "x": 20,
+                    "y": 0,
+                    "width": 56,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 0,
+                "y": 0,
+                "width": 76,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            },
+            {
+              "id": "2251:051450",
+              "type": "frame",
+              "name": "本月实际续约",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051450",
+                "data-name": "本月实际续约",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: flex-start",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051451",
+                  "type": "frame",
+                  "name": "30",
+                  "isSkip": false,
+                  "tag": "span",
+                  "attr": {
+                    "data-node-id": "2251:051451",
+                    "data-name": "30",
+                    "style": [
+                      "color: #1D2129",
+                      "font-size: 14px",
+                      "font-family: PingFang SC",
+                      "line-height: 14px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "type": "characters",
+                      "text": "30"
+                    }
+                  ],
+                  "bound": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 17,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 183,
+                "y": 0,
+                "width": 17,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            }
+          ],
+          "bound": {
+            "x": 0,
+            "y": 34,
+            "width": 200,
+            "height": 34
+          },
+          "isVirtual": false,
+          "componentType": false
+        },
+        {
+          "id": "2251:051481",
+          "type": "frame",
+          "name": "Frame 48095798",
+          "isSkip": false,
+          "tag": "div",
+          "attr": {
+            "data-node-id": "2251:051481",
+            "data-name": "Frame 48095798",
+            "style": [
+              "display: flex",
+              "justify-content: flex-start",
+              "align-items: flex-start",
+              "flex-direction: column",
+              "gap: 10px",
+              "padding-bottom: 20px"
+            ]
+          },
+          "children": [
+            {
+              "id": "2251:051482",
+              "type": "svg",
+              "name": "Line 57",
+              "isSkip": false,
+              "tag": "svg",
+              "attr": {
+                "data-node-id": "2251:051482",
+                "data-name": "Line 57",
+                "style": [
+                  "width: 200px",
+                  "height: 0px"
+                ]
+              },
+              "children": [],
+              "bound": {
+                "x": 0,
+                "y": 0,
+                "width": 200.00250244140625,
+                "height": 0
+              },
+              "isVirtual": false,
+              "componentType": false,
+              "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"200\" height=\"0\" viewBox=\"0 0 200.00750237889588 2.000000009976361\"><line x1=\"0\" y1=\"0.5\" x2=\"200.00250244140625\" y2=\"0.5\" fill-opacity=\"0\" stroke-opacity=\"1\" stroke=\"#E5E6EB\" fill=\"none\" stroke-width=\"1\" transform=\"matrix(1,0.004999937489628792,-0.004999937489628792,1,0.004999937489628792,0)\"/></svg>"
+            }
+          ],
+          "bound": {
+            "x": 0,
+            "y": 68,
+            "width": 200.00250244140625,
+            "height": 21
+          },
+          "isVirtual": false,
+          "componentType": false
+        },
+        {
+          "id": "2251:051433",
+          "type": "frame",
+          "name": "Frame 48095905",
+          "isSkip": false,
+          "tag": "div",
+          "attr": {
+            "data-node-id": "2251:051433",
+            "data-name": "Frame 48095905",
+            "style": [
+              "width: 200px",
+              "display: flex",
+              "flex: none",
+              "justify-content: space-between",
+              "align-items: flex-start",
+              "padding-bottom: 20px"
+            ]
+          },
+          "children": [
+            {
+              "id": "2251:051440",
+              "type": "frame",
+              "name": "Frame 48095902",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051440",
+                "data-name": "Frame 48095902",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: center",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051441",
+                  "type": "svg",
+                  "name": "Rectangle 2997",
+                  "isSkip": false,
+                  "tag": "svg",
+                  "attr": {
+                    "data-node-id": "2251:051441",
+                    "data-name": "Rectangle 2997",
+                    "style": [
+                      "width: 10px",
+                      "height: 10px"
+                    ]
+                  },
+                  "children": [],
+                  "bound": {
+                    "x": 0,
+                    "y": 2,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "isVirtual": false,
+                  "componentType": false,
+                  "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\"><rect x=\"0\" y=\"0\" width=\"10\" height=\"10\" rx=\"0\" fill=\"#00B42A\" fill-opacity=\"1\"/></svg>"
+                },
+                {
+                  "id": "2251:051443",
+                  "type": "frame",
+                  "name": "本月实际续约",
+                  "isSkip": false,
+                  "tag": "div",
+                  "attr": {
+                    "data-node-id": "2251:051443",
+                    "data-name": "本月实际续约",
+                    "style": [
+                      "display: flex",
+                      "justify-content: flex-start",
+                      "align-items: flex-start",
+                      "gap: 10px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "id": "2251:051444",
+                      "type": "frame",
+                      "name": "提前续约",
+                      "isSkip": false,
+                      "tag": "span",
+                      "attr": {
+                        "data-node-id": "2251:051444",
+                        "data-name": "提前续约",
+                        "style": [
+                          "color: #1D2129",
+                          "font-size: 14px",
+                          "font-family: PingFang SC",
+                          "line-height: 14px"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "type": "characters",
+                          "text": "提前续约"
+                        }
+                      ],
+                      "bound": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 56,
+                        "height": 14
+                      },
+                      "isVirtual": false,
+                      "componentType": false
+                    }
+                  ],
+                  "bound": {
+                    "x": 20,
+                    "y": 0,
+                    "width": 56,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 0,
+                "y": 0,
+                "width": 76,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            },
+            {
+              "id": "2251:051434",
+              "type": "frame",
+              "name": "本月实际续约",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051434",
+                "data-name": "本月实际续约",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: flex-start",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051435",
+                  "type": "frame",
+                  "name": "8",
+                  "isSkip": false,
+                  "tag": "span",
+                  "attr": {
+                    "data-node-id": "2251:051435",
+                    "data-name": "8",
+                    "style": [
+                      "color: #1D2129",
+                      "font-size: 14px",
+                      "font-family: PingFang SC",
+                      "line-height: 14px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "type": "characters",
+                      "text": "8"
+                    }
+                  ],
+                  "bound": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 9,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 191,
+                "y": 0,
+                "width": 9,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            }
+          ],
+          "bound": {
+            "x": 0,
+            "y": 89,
+            "width": 200,
+            "height": 34
+          },
+          "isVirtual": false,
+          "componentType": false
+        },
+        {
+          "id": "2251:051465",
+          "type": "frame",
+          "name": "Frame 48095907",
+          "isSkip": false,
+          "tag": "div",
+          "attr": {
+            "data-node-id": "2251:051465",
+            "data-name": "Frame 48095907",
+            "style": [
+              "width: 200px",
+              "display: flex",
+              "flex: none",
+              "justify-content: space-between",
+              "align-items: flex-start"
+            ]
+          },
+          "children": [
+            {
+              "id": "2251:051466",
+              "type": "frame",
+              "name": "Frame 48095902",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051466",
+                "data-name": "Frame 48095902",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: center",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051473",
+                  "type": "svg",
+                  "name": "Rectangle 2997",
+                  "isSkip": false,
+                  "tag": "svg",
+                  "attr": {
+                    "data-node-id": "2251:051473",
+                    "data-name": "Rectangle 2997",
+                    "style": [
+                      "width: 10px",
+                      "height: 10px"
+                    ]
+                  },
+                  "children": [],
+                  "bound": {
+                    "x": 0,
+                    "y": 2,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "isVirtual": false,
+                  "componentType": false,
+                  "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\"><rect x=\"0\" y=\"0\" width=\"10\" height=\"10\" rx=\"0\" fill=\"#FF7D00\" fill-opacity=\"1\"/></svg>"
+                },
+                {
+                  "id": "2251:051467",
+                  "type": "frame",
+                  "name": "本月实际续约",
+                  "isSkip": false,
+                  "tag": "div",
+                  "attr": {
+                    "data-node-id": "2251:051467",
+                    "data-name": "本月实际续约",
+                    "style": [
+                      "display: flex",
+                      "justify-content: flex-start",
+                      "align-items: flex-start",
+                      "gap: 10px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "id": "2251:051468",
+                      "type": "frame",
+                      "name": "过期续约",
+                      "isSkip": false,
+                      "tag": "span",
+                      "attr": {
+                        "data-node-id": "2251:051468",
+                        "data-name": "过期续约",
+                        "style": [
+                          "color: #1D2129",
+                          "font-size: 14px",
+                          "font-family: PingFang SC",
+                          "line-height: 14px"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "type": "characters",
+                          "text": "过期续约"
+                        }
+                      ],
+                      "bound": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 56,
+                        "height": 14
+                      },
+                      "isVirtual": false,
+                      "componentType": false
+                    }
+                  ],
+                  "bound": {
+                    "x": 20,
+                    "y": 0,
+                    "width": 56,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 0,
+                "y": 0,
+                "width": 76,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            },
+            {
+              "id": "2251:051475",
+              "type": "frame",
+              "name": "本月实际续约",
+              "isSkip": false,
+              "tag": "div",
+              "attr": {
+                "data-node-id": "2251:051475",
+                "data-name": "本月实际续约",
+                "style": [
+                  "display: flex",
+                  "justify-content: flex-start",
+                  "align-items: flex-start",
+                  "gap: 10px"
+                ]
+              },
+              "children": [
+                {
+                  "id": "2251:051476",
+                  "type": "frame",
+                  "name": "2",
+                  "isSkip": false,
+                  "tag": "span",
+                  "attr": {
+                    "data-node-id": "2251:051476",
+                    "data-name": "2",
+                    "style": [
+                      "color: #1D2129",
+                      "font-size: 14px",
+                      "font-family: PingFang SC",
+                      "line-height: 14px"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "type": "characters",
+                      "text": "2"
+                    }
+                  ],
+                  "bound": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 9,
+                    "height": 14
+                  },
+                  "isVirtual": false,
+                  "componentType": false
+                }
+              ],
+              "bound": {
+                "x": 191,
+                "y": 0,
+                "width": 9,
+                "height": 14
+              },
+              "isVirtual": false,
+              "componentType": false
+            }
+          ],
+          "bound": {
+            "x": 0,
+            "y": 123,
+            "width": 200,
+            "height": 14
+          },
+          "isVirtual": false,
+          "componentType": false
+        }
+      ],
+      "bound": {
+        "x": 28,
+        "y": 24,
+        "width": 200.00250244140625,
+        "height": 137
+      },
+      "isVirtual": false,
+      "componentType": false
+    }
+  ],
+  "bound": {
+    "x": 133,
+    "y": 16,
+    "width": 252.11231994628906,
+    "height": 185.00001525878906
+  },
+  "isVirtual": false,
+  "componentType": false
+}

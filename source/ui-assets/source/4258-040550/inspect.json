@@ -1,0 +1,796 @@
+{
+  "id": "composition:e754bb8e90231ed8596ed6249407186b76d8ab940b4a5fb1fd9f27ced3f2f8e8",
+  "sourceNodeId": "4258:040550",
+  "familyId": "composition-family:untyped:1:550680:抽屉组合",
+  "familyName": "抽屉组合",
+  "name": "抽屉",
+  "displayLabel": "抽屉",
+  "sourceKind": "observed-frame-composition",
+  "sourceRole": "normative-composition-candidate",
+  "sourceOriginalRole": "normative-composition-candidate",
+  "usageProfile": null,
+  "roleEvidence": "actual shell/control composition in a dedicated normative page; not a universal business layout",
+  "sourceFile": "source-json/root-1-551574/node.json",
+  "sourceSha256": "c2b3428b615454511a090272099aafd48b1a06fd3e2de4c67ac4c2719c500e8c",
+  "jsonPointer": "/children/1/children/1/children/1/children/0/children/90",
+  "sourceBound": {
+    "x": 1272,
+    "y": 0,
+    "width": 648,
+    "height": 1080
+  },
+  "displaySize": {
+    "width": 648,
+    "height": 1080
+  },
+  "pageId": "1:550680",
+  "pageName": "抽屉",
+  "boardId": "1:551574",
+  "rawProperties": {},
+  "propertyAssignments": [],
+  "normalizedSemantics": null,
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "notes": [
+      "Observed instance/composition candidate; role and source image review still required."
+    ]
+  },
+  "textSlots": [
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/0/children/0/children/0/children/0/children/0",
+      "sampleText": "员工列表(30~35岁)",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "工号",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "姓名",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/0/children/2/children/0/children/0",
+      "sampleText": "所属公司",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/0/children/3/children/0/children/0",
+      "sampleText": "部门",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/0/children/4/children/0/children/0/children/0",
+      "sampleText": "年龄",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/1/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/1/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/1/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/1/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/1/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/2/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/2/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/2/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/2/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/2/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/3/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/3/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/3/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/3/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/3/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/4/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/4/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/4/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/4/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/4/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/5/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/5/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/5/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/5/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/5/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/6/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/6/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/6/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/6/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/6/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/7/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/7/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/7/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/7/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/7/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/8/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/8/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/8/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/8/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/8/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/9/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/9/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/9/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/9/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/9/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/10/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/10/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/10/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/10/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/10/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/11/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/11/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/11/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/11/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/11/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/12/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/12/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/12/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/12/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/12/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/13/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/13/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/13/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/13/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/13/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/14/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/14/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/14/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/14/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/14/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/15/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10010",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/15/children/0/children/1/children/0/children/0",
+      "sampleText": "彭超凡",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/15/children/0/children/2/children/0/children/0",
+      "sampleText": "上海亿阁科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/15/children/0/children/3/children/0/children/0",
+      "sampleText": "产品部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/15/children/0/children/4/children/0/children/0",
+      "sampleText": "35岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/16/children/0/children/0/children/1/children/0/children/0",
+      "sampleText": "10011",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/16/children/0/children/1/children/0/children/0",
+      "sampleText": "张三",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/16/children/0/children/2/children/0/children/0",
+      "sampleText": "江苏优生涯教育科技",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/16/children/0/children/3/children/0/children/0",
+      "sampleText": "优志愿事业部",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/0/children/0/children/16/children/0/children/4/children/0/children/0",
+      "sampleText": "32岁",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/2/children/0/children/1/children/0/children/0/children/0",
+      "sampleText": "年龄按周岁计算",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/4/children/0/children/0/children/0/children/0",
+      "sampleText": "共计：17人",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/4/children/0/children/1/children/0/children/0/children/0/children/0",
+      "sampleText": "取消",
+      "bound": null
+    },
+    {
+      "nodeId": null,
+      "name": null,
+      "jsonPointer": "/children/1/children/1/children/1/children/0/children/90/children/4/children/0/children/1/children/1/children/0/children/0/children/0",
+      "sampleText": "导出名单",
+      "bound": null
+    }
+  ],
+  "occurrenceCount": 2,
+  "sourceImage": {
+    "file": "reference-images/5f87599e18a3fae57843d00b.png",
+    "sha256": "5f87599e18a3fae57843d00b5c6addaaaeffff4b120749b209289b400e7b9d1a",
+    "crop": {
+      "x": 1422,
+      "y": 531,
+      "width": 648,
+      "height": 1080
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "0a1f4d3e4b8e5f92dd6910be6ad82a5861d6a95ed8f0af4877c917d0490e5154",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/normative-compositions-build8568/review-normative.json",
+            "browser-evidence/normative-compositions-build8568/page-31.jpg"
+          ],
+          "emittedSignature": "0a1f4d3e4b8e5f92dd6910be6ad82a5861d6a95ed8f0af4877c917d0490e5154",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "0a1f4d3e4b8e5f92dd6910be6ad82a5861d6a95ed8f0af4877c917d0490e5154",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 301,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "955434b7dedb6be6cd302339ded1bfcfa0121ca7c1f200549dd92f0790de63df",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/normative-compositions-build8568/review-normative.json",
+            "browser-evidence/normative-compositions-build8568/page-31.jpg"
+          ],
+          "emittedSignature": "955434b7dedb6be6cd302339ded1bfcfa0121ca7c1f200549dd92f0790de63df",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "955434b7dedb6be6cd302339ded1bfcfa0121ca7c1f200549dd92f0790de63df",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 301,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [
+    "composition-role-and-use-profile-review-required"
+  ],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": null,
+    "lookupLabel": null,
+    "routingTier": null,
+    "routingReason": null,
+    "axes": null,
+    "actualDefinitionCount": null,
+    "ownerExcludedCount": null
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

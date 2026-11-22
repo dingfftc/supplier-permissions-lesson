@@ -1,0 +1,34 @@
+{
+  "id": "master:208396800935818+3284:024425",
+  "sourceNodeId": "3284:024425",
+  "name": "general/shopping-购物团购车",
+  "kind": "icon",
+  "availability": "available",
+  "aliases": [
+    "业务管理",
+    "采购管理",
+    "采购",
+    "采购业务",
+    "购物车",
+    "purchasing"
+  ],
+  "width": 48,
+  "height": 48,
+  "format": "svg",
+  "maskSafe": true,
+  "reason": "独立图标，原始 SVG。",
+  "sourceDocumentId": "208396800935818",
+  "snapshotBuild": "build-f2f00f4b7c10eacbea02",
+  "sourceFile": "source-json/root-1-177000/node.json",
+  "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+  "jsonPointer": "/children/318",
+  "referenceSha256": "ac8f8de6b5a7a28b1ec9b9bf923de8c335682464947afc9754b92c3111cab5de",
+  "sourceReferenceCrop": {
+    "x": 400,
+    "y": 2211,
+    "width": 48,
+    "height": 48
+  },
+  "file": "3284-024425.svg",
+  "assetSha256": "5cb58de4b9a6a56153d8b29f40aa25def8209dc20df08746572f8119ed97b735"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "master:208396800935818+9154:38141",
+  "sourceNodeId": "9154:38141",
+  "name": "general/deep-thinking-AI-深度思考",
+  "kind": "icon",
+  "availability": "available",
+  "aliases": [
+    "AI摘要",
+    "AI智能摘要",
+    "智能摘要页签"
+  ],
+  "width": 48,
+  "height": 48,
+  "format": "svg",
+  "maskSafe": true,
+  "reason": "独立图标，原始 SVG。",
+  "usageMappings": [
+    {
+      "intent": "ai-summary",
+      "sourceNodeId": "9154:38141",
+      "label": "AI摘要功能候选",
+      "queryTerms": [
+        "AI摘要",
+        "AI智能摘要",
+        "智能摘要页签"
+      ],
+      "ruleClass": "E",
+      "when": "已明确提供AI摘要功能且业务需要智能感图形时，可选此源AI轮廓。",
+      "result": "图形表达AI功能；蓝紫渐变属于本次项目示例，按品牌或当前用户许可使用。",
+      "notFor": "不用于未接通、人工摘要或不具备AI能力的入口；不要求所有AI功能采用此图或渐变。",
+      "origin": "通话记录修订项目使用的源AI图形9154:38141；保留为可选项目例子。",
+      "verification": "检索/导出核对来源；成图评审功能语义、可读性及允许的强调范围。"
+    }
+  ],
+  "sourceDocumentId": "208396800935818",
+  "snapshotBuild": "build-f2f00f4b7c10eacbea02",
+  "sourceFile": "source-json/root-1-177000/node.json",
+  "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+  "jsonPointer": "/children/344",
+  "referenceSha256": "ac8f8de6b5a7a28b1ec9b9bf923de8c335682464947afc9754b92c3111cab5de",
+  "sourceReferenceCrop": {
+    "x": 1424,
+    "y": 803,
+    "width": 48,
+    "height": 48
+  },
+  "file": "9154-38141.svg",
+  "assetSha256": "2d236a304928791fb4d416dcfa4ee0bf68e2253114b2e848f8004537f01a9455"
+}

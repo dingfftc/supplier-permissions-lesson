@@ -1,0 +1,51 @@
+[
+  {
+    "file": "business-assets/checkbox-off.svg",
+    "sourceExport": "business-assets/sources/1301-015908/assets/asset-4ad2e60249bb001da315.svg",
+    "sha256": "4ad2e60249bb001da315c364a5d71eaa2397b68d35783e7212deb7aa5d18c2dc",
+    "sourceSha256": "4ad2e60249bb001da315c364a5d71eaa2397b68d35783e7212deb7aa5d18c2dc",
+    "identical": true
+  },
+  {
+    "file": "business-assets/checkbox-hover.svg",
+    "sourceExport": "business-assets/sources/1301-015917/assets/asset-71220c4d34f3a425e466.svg",
+    "sha256": "71220c4d34f3a425e4668a5754bf75d9d6437e503f5b6567fc8b9b8974e3fe20",
+    "sourceSha256": "71220c4d34f3a425e4668a5754bf75d9d6437e503f5b6567fc8b9b8974e3fe20",
+    "identical": true
+  },
+  {
+    "file": "business-assets/checkbox-on.svg",
+    "sourceExport": "business-assets/sources/1301-017213/assets/asset-a6c44b959f212a5ed23f.svg",
+    "sha256": "a6c44b959f212a5ed23f55f9626411bd5e141a392050ddd475c13758d86a5f3f",
+    "sourceSha256": "a6c44b959f212a5ed23f55f9626411bd5e141a392050ddd475c13758d86a5f3f",
+    "identical": true
+  },
+  {
+    "file": "business-assets/checkbox-mixed.svg",
+    "sourceExport": "business-assets/sources/1301-017222/assets/asset-3c5c2923ad54573f569d.svg",
+    "sha256": "3c5c2923ad54573f569d5e830d9c7a64012362b0e849f7fe4b05483ea0bf3d0e",
+    "sourceSha256": "3c5c2923ad54573f569d5e830d9c7a64012362b0e849f7fe4b05483ea0bf3d0e",
+    "identical": true
+  },
+  {
+    "file": "business-assets/checkbox-disabled.svg",
+    "sourceExport": "business-assets/sources/1301-017231/assets/asset-50b61723807774eb4b54.svg",
+    "sha256": "50b61723807774eb4b54512c16d9a1f8d24280c1c0f054609430ce97a250ea4b",
+    "sourceSha256": "50b61723807774eb4b54512c16d9a1f8d24280c1c0f054609430ce97a250ea4b",
+    "identical": true
+  },
+  {
+    "file": "business-assets/switch-off.svg",
+    "sourceExport": "business-assets/sources/1425-017974/assets/asset-a1b86c83deaae66efa30.svg",
+    "sha256": "a1b86c83deaae66efa301bc49563e4c724ecfc6dc358a455a4e16d7e58d578ee",
+    "sourceSha256": "a1b86c83deaae66efa301bc49563e4c724ecfc6dc358a455a4e16d7e58d578ee",
+    "identical": true
+  },
+  {
+    "file": "business-assets/switch-on.svg",
+    "sourceExport": "business-assets/sources/1425-017977/assets/asset-3912a0fd081a2e9c105f.svg",
+    "sha256": "3912a0fd081a2e9c105f23327af89378fab71ec6111a74c67152863e4ac25b53",
+    "sourceSha256": "3912a0fd081a2e9c105f23327af89378fab71ec6111a74c67152863e4ac25b53",
+    "identical": true
+  }
+]

@@ -1,0 +1,17 @@
+/* Exact source colors and geometry: gray22:126488 / blue792:011056.
+   Filter hover maps to the existing blue variant as a project interaction
+   composition, not a newly claimed source hover node. Row spacing is composition. */
+.lp-tags{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}
+.lp-tag-row{display:flex;flex-wrap:wrap;align-items:center;gap:4px;max-width:100%}
+.lp-tag{display:inline-block;flex:none;max-width:100%;height:24px;padding:3px 6px;border:0;border-radius:4px;background:#F7F8FA;box-shadow:inset 0 0 0 1px #E5E6EB;color:#4E5969;font:400 14px/18px "PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:default}
+.lp-tag-blue,.lp-tag-filter[aria-pressed=true],.lp-tag-filter:is(:hover,:focus-visible){background:#F5F9FF;box-shadow:inset 0 0 0 1px #BEDAFF;color:#165DFF}
+.lp-tag-filter{cursor:pointer;appearance:none;outline:none}.lp-filter-tags{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.lp-primary-state{font:400 14px/24px "PingFang SC",sans-serif;color:#86909C}
+.lp-auxiliary{font:400 12px/24px "PingFang SC",sans-serif;color:#86909C}
+/* Opt-in table task composition. 8/16/40 follow the existing chosen filter
+   example, not universal spacing for all custom content. Controls keep skins. */
+.lp-task-toolbar[data-task-toolbar]{display:flex;align-items:center;flex-wrap:wrap;gap:16px 40px}
+.lp-task-toolbar[data-task-toolbar="compact"]{justify-content:flex-start}
+.lp-task-toolbar[data-task-toolbar="separated"]{justify-content:space-between}
+.lp-task-toolbar[data-task-toolbar]>.lp-task-queries{flex:0 1 auto;margin-left:0;margin-right:0}
+.lp-task-toolbar[data-task-toolbar]>.lp-task-actions{flex:0 0 auto;margin-left:0;margin-right:0}

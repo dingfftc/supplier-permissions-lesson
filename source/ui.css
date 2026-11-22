@@ -1,0 +1,56 @@
+/* Source-backed component styles: local snapshot 208396800935818, 2026-10-29. */
+.eui-nav,.eui-nav *,.eui-drawer-layer,.eui-drawer-layer *{box-sizing:border-box}
+.eui-nav{width:200px;background:#fff;font-family:"PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif}
+.eui-nav-section,.eui-nav-children{width:200px;margin:0;padding:0}
+.eui-nav-children[hidden]{display:none!important}
+.eui-nav-row{display:block;position:relative;width:200px;height:38px;padding:0;margin:0;border:0;background:#fff;text-align:left;cursor:pointer;outline:none;overflow:hidden}
+.eui-nav-row:disabled{cursor:default;opacity:1}
+.eui-nav-state{display:none;position:absolute;inset:0;width:200px;height:38px;pointer-events:none}
+.eui-nav .mg-scene,.eui-nav .mg-scene *{box-sizing:border-box}
+.eui-nav .mg-scene{font:400 14px/24px "PingFang SC",sans-serif;font-variant:normal;font-feature-settings:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;text-indent:0;text-align:start;text-shadow:none;white-space:normal}
+.eui-nav .mg-scene .mg-node>img{display:block}
+/* The 16px semantic slot and its paint follow the source group variant. */
+.eui-nav-icon{display:block;position:absolute;left:0;top:0;width:16px;height:16px;background-color:#1D2129;-webkit-mask:var(--nav-image) center / contain no-repeat;mask:var(--nav-image) center / contain no-repeat}
+.eui-nav-state[data-state*="selected"] .eui-nav-icon{background-color:#165DFF}
+.eui-nav-state[data-state$="disabled"] .eui-nav-icon{background-color:#C9CDD4}
+@media(forced-colors:active){.eui-nav-icon{forced-color-adjust:none;background-color:ButtonText}.eui-nav-state[data-state*="selected"] .eui-nav-icon{background-color:Highlight}.eui-nav-state[data-state$="disabled"] .eui-nav-icon{background-color:GrayText}}
+.eui-nav-group[aria-expanded="true"][data-selected="false"]:not(:disabled) [data-state="expanded-default"]{display:block}
+.eui-nav-group[aria-expanded="true"][data-selected="false"]:not(:disabled):is(:hover,:focus-visible) [data-state="expanded-default"]{display:none}
+.eui-nav-group[aria-expanded="true"][data-selected="false"]:not(:disabled):is(:hover,:focus-visible) [data-state="expanded-hover"]{display:block}
+.eui-nav-group[aria-expanded="true"][data-selected="true"]:not(:disabled) [data-state="expanded-selected"]{display:block}
+.eui-nav-group[aria-expanded="true"][data-selected="true"]:not(:disabled):is(:hover,:focus-visible) [data-state="expanded-selected"]{display:none}
+.eui-nav-group[aria-expanded="true"][data-selected="true"]:not(:disabled):is(:hover,:focus-visible) [data-state="expanded-selected-hover"]{display:block}
+.eui-nav-group[aria-expanded="true"]:disabled [data-state="expanded-disabled"]{display:block}
+.eui-nav-group[aria-expanded="false"][data-selected="false"]:not(:disabled) [data-state="collapsed-default"]{display:block}
+.eui-nav-group[aria-expanded="false"][data-selected="false"]:not(:disabled):is(:hover,:focus-visible) [data-state="collapsed-default"]{display:none}
+.eui-nav-group[aria-expanded="false"][data-selected="false"]:not(:disabled):is(:hover,:focus-visible) [data-state="collapsed-hover"]{display:block}
+.eui-nav-group[aria-expanded="false"][data-selected="true"]:not(:disabled) [data-state="collapsed-selected"]{display:block}
+.eui-nav-group[aria-expanded="false"][data-selected="true"]:not(:disabled):is(:hover,:focus-visible) [data-state="collapsed-selected"]{display:none}
+.eui-nav-group[aria-expanded="false"][data-selected="true"]:not(:disabled):is(:hover,:focus-visible) [data-state="collapsed-selected-hover"]{display:block}
+.eui-nav-group[aria-expanded="false"]:disabled [data-state="collapsed-disabled"]{display:block}
+.eui-nav-leaf[data-selected="false"]:not(:disabled) [data-state="leaf-default"]{display:block}
+.eui-nav-leaf[data-selected="false"]:not(:disabled):is(:hover,:focus-visible) [data-state="leaf-default"]{display:none}
+.eui-nav-leaf[data-selected="false"]:not(:disabled):is(:hover,:focus-visible) [data-state="leaf-hover"]{display:block}
+.eui-nav-leaf[data-selected="true"]:not(:disabled) [data-state="leaf-selected"]{display:block}
+.eui-nav-leaf[data-selected="true"]:not(:disabled):is(:hover,:focus-visible) [data-state="leaf-selected"]{display:none}
+.eui-nav-leaf[data-selected="true"]:not(:disabled):is(:hover,:focus-visible) [data-state="leaf-selected-hover"]{display:block}
+.eui-nav-leaf:disabled [data-state="leaf-disabled"]{display:block}
+/* The fixed 648px shell is the chosen employee-list example, not a universal drawer width. */
+.eui-drawer-layer{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.65)}
+.eui-drawer{position:absolute;top:0;right:0;bottom:0;width:648px;display:flex;flex-direction:column;align-items:stretch;background:#fff;border-radius:4px 0 0 4px;box-shadow:-5px 0 30px 0 rgba(0,0,0,.15);overflow:hidden;outline:none;color:#1D2129;font-family:"PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif;font-weight:400}
+.eui-drawer-header{display:flex;align-items:center;justify-content:space-between;flex:none;height:56px;padding:0 24px}
+.eui-drawer-title{margin:0;font-size:16px;font-weight:500;line-height:16px;color:#1D2129}
+.eui-drawer-close{display:block;flex:none;width:20px;height:20px;padding:0;margin:0;border:0;background:transparent;cursor:pointer;outline:none}
+.eui-drawer-close img{display:block;width:20px;height:20px}
+.eui-drawer-separator{height:1px;flex:none;background:#E5E6EB}
+.eui-drawer-scroll-shell{position:relative;display:flex;flex:1;min-height:0}
+.eui-drawer-content{width:648px;overflow:auto;overscroll-behavior:contain;padding:24px 24px 0;scrollbar-width:none}
+.eui-drawer-content::-webkit-scrollbar{display:none}
+.eui-drawer-content-inner{width:600px;padding-bottom:80px}
+.eui-drawer-footer{display:flex;justify-content:flex-end;align-items:center;gap:16px;flex:none;min-height:64px;padding:16px 24px}
+/* Chosen drawer footer: source cancel 4258:041105 is explicitly the 88px minimum-width variation. */
+.eui-drawer-footer .btn{min-width:88px}
+.eui-drawer-scroll-hit{display:none;position:absolute;top:24px;right:0;bottom:0;width:10px;opacity:0;cursor:default;touch-action:none}
+.eui-drawer-scroll-hit.has-scroll{display:block}
+.eui-drawer-scroll-shell:hover .eui-drawer-scroll-hit,.eui-drawer-scroll-shell:focus-within .eui-drawer-scroll-hit{opacity:1}
+.eui-drawer-scroll-thumb{position:absolute;left:4px;top:0;width:2px;border-radius:1px;background:#E5E6EB}

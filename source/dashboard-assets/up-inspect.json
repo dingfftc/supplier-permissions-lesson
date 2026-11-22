@@ -1,0 +1,254 @@
+{
+  "id": "master:208396800935818+2284:037025",
+  "sourceNodeId": "2284:037025",
+  "familyId": "set:208396800935818+2284:037153",
+  "familyName": "描述文案",
+  "name": "涨or跌[a1]=描述(涨),尺寸[a0]=14px",
+  "displayLabel": "涨or跌[a1]=描述(涨),尺寸[a0]=14px",
+  "sourceKind": "component-definition",
+  "sourceRole": "component",
+  "sourceOriginalRole": "component",
+  "usageProfile": null,
+  "roleEvidence": {
+    "kind": "component",
+    "basis": "actual-componentType-record; semantics may need review"
+  },
+  "sourceFile": "source-json/root-2312-040984/node.json",
+  "sourceSha256": "001817d68a98b1adcbe44d49ee66723e8e195f9e7d0c26dcf6efe829956e6029",
+  "jsonPointer": "/children/12/children/0",
+  "sourceBound": {
+    "x": 20,
+    "y": 18,
+    "width": 100,
+    "height": 14
+  },
+  "displaySize": {
+    "width": 100,
+    "height": 14
+  },
+  "pageId": "269:99415",
+  "pageName": "数据展示",
+  "boardId": "2312:040984",
+  "rawProperties": {},
+  "propertyAssignments": [
+    {
+      "label": "涨or跌",
+      "key": "a1",
+      "value": "描述(涨)"
+    },
+    {
+      "label": "尺寸",
+      "key": "a0",
+      "value": "14px"
+    }
+  ],
+  "normalizedSemantics": {
+    "status": "not-defined",
+    "rawRetained": true
+  },
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "evidence": [],
+    "notes": []
+  },
+  "textSlots": [
+    {
+      "nodeId": "2284:037027",
+      "name": "同比上期",
+      "jsonPointer": "/children/12/children/0/children/0/children/0",
+      "sampleText": "同比上期",
+      "style": {
+        "color": "#4E5969",
+        "font-size": "14px",
+        "font-family": "PingFang SC",
+        "line-height": "14px"
+      },
+      "bound": {
+        "x": 0,
+        "y": 0,
+        "width": 56,
+        "height": 14
+      },
+      "binding": "source-text-node; not automatically a semantic product prop"
+    },
+    {
+      "nodeId": "2284:037030",
+      "name": "+36%",
+      "jsonPointer": "/children/12/children/0/children/1",
+      "sampleText": "+36%",
+      "style": {
+        "color": "#F53F3F",
+        "font-size": "14px",
+        "font-family": "PingFang SC",
+        "line-height": "14px"
+      },
+      "bound": {
+        "x": 60,
+        "y": 0,
+        "width": 40,
+        "height": 14
+      },
+      "binding": "source-text-node; not automatically a semantic product prop"
+    }
+  ],
+  "occurrenceCount": 1,
+  "sourceImage": {
+    "file": "reference-images/72c2bdd31c72d83edc292241.png",
+    "sha256": "72c2bdd31c72d83edc292241b53161ba2ca3507478ea073d68c825c853f42bf7",
+    "crop": {
+      "x": 225,
+      "y": 795,
+      "width": 100,
+      "height": 14
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "8bb179f7e0077cbcfad26c8310f1ec3d831007607cf2be9b12ca18d78b02a03f",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/remaining-definitions-build8568/review-remaining-a.json",
+            "browser-evidence/remaining-definitions-build8568/page-27.jpg"
+          ],
+          "emittedSignature": "8bb179f7e0077cbcfad26c8310f1ec3d831007607cf2be9b12ca18d78b02a03f",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "8bb179f7e0077cbcfad26c8310f1ec3d831007607cf2be9b12ca18d78b02a03f",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 4,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "466389ff022748efbd90f56d3fcd96886615a4dd9a6cf0b7de2a37ec69494253",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/remaining-definitions-build8568/review-remaining-a.json",
+            "browser-evidence/remaining-definitions-build8568/page-27.jpg"
+          ],
+          "emittedSignature": "466389ff022748efbd90f56d3fcd96886615a4dd9a6cf0b7de2a37ec69494253",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "466389ff022748efbd90f56d3fcd96886615a4dd9a6cf0b7de2a37ec69494253",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 4,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": "set:208396800935818+2284:037153",
+    "lookupLabel": "描述文案",
+    "routingTier": "text-or-internal-style-part",
+    "routingReason": "All actual members carry text slots without SVG/img or root paint shell; preserve as typography/internal-part styles, not a full field/control.",
+    "axes": [
+      {
+        "label": "涨or跌",
+        "sourceKey": "a1",
+        "observedValues": [
+          "描述(涨)"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a0",
+        "observedValues": [
+          "14px"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a1",
+        "observedValues": [
+          "12px"
+        ]
+      },
+      {
+        "label": "涨or跌",
+        "sourceKey": "a2",
+        "observedValues": [
+          "描述(跌)"
+        ]
+      },
+      {
+        "label": "涨or跌",
+        "sourceKey": "a3",
+        "observedValues": [
+          "描述(不涨不跌)"
+        ]
+      }
+    ],
+    "actualDefinitionCount": 6,
+    "ownerExcludedCount": 0
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

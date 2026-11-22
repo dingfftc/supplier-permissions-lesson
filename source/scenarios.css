@@ -1,0 +1,59 @@
+/* Business layout, r4. No new component skin: verified .btn/.eager-input,
+   source selector, table-status dot and drawer remain unchanged. */
+.es-workbench{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;align-items:start;min-width:0}
+.es-task-panel,.es-schedule-panel{min-width:0;background:#FFFFFF;border-radius:4px}
+.es-panel-heading{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding:24px 24px 20px}
+.es-panel-title{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.es-panel-heading h2,.es-schedule-heading h2,.es-request-page h2{margin:0;font:500 16px/16px "PingFang SC",sans-serif;color:#1D2129}
+.es-secondary{color:#86909C;font:400 14px/24px "PingFang SC",sans-serif}
+.es-filter-actions{display:flex;gap:16px;flex:none}
+.es-task{margin:0 24px;padding:24px 0;border-top:1px solid #E5E6EB}
+.es-task-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.es-task-title{display:block;min-width:0;padding:0;margin:0;border:0;background:transparent;text-align:left;color:#1D2129;font:500 16px/16px "PingFang SC",sans-serif;overflow-wrap:anywhere;margin-top:4px}
+.es-task-title:is(:hover,:focus-visible){color:#165DFF;outline:none}
+.es-task-top>.eb-status{flex:none}
+.es-task-meta{display:flex;gap:16px;flex-wrap:wrap;margin-top:8px;color:#86909C;font:400 14px/24px "PingFang SC",sans-serif}
+.es-task-note{margin:12px 0 16px;color:#4E5969;font:400 14px/24px "PingFang SC",sans-serif;overflow-wrap:anywhere}
+.es-task-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.es-task-order{color:#86909C;font:400 12px/16px "PingFang SC",sans-serif}
+.es-task-actions{display:flex;align-items:center;gap:16px;margin-left:auto}
+.es-schedule-heading{display:flex;flex-direction:column;gap:12px;padding:24px 24px 8px}
+.es-schedule{padding:0 24px 8px}
+.es-day{display:grid;grid-template-columns:50px minmax(0,1fr);gap:16px;padding:24px 0}
+.es-day+.es-day{border-top:1px solid #E5E6EB}
+.es-day-date{display:flex;flex-direction:column;gap:8px;color:#86909C;font:400 12px/16px "PingFang SC",sans-serif}
+.es-day-date strong{color:#1D2129;font:500 16px/16px "PingFang SC",sans-serif}
+.es-day-items{min-width:0;display:grid;gap:16px}
+.es-schedule-item{min-width:0;display:flex;flex-direction:column;gap:8px;padding:0;border:0;background:transparent;text-align:left;color:#1D2129;font:400 14px/24px "PingFang SC",sans-serif;overflow-wrap:anywhere}
+.es-schedule-item:is(:hover,:focus-visible){color:#165DFF;outline:none}
+.es-schedule-item small{color:#86909C;font:400 12px/16px "PingFang SC",sans-serif}
+.es-empty{display:flex;align-items:center;justify-content:center;flex-direction:column;padding:56px 24px;gap:24px}
+.es-empty h3{margin:0;color:#86909C;font:400 14px/24px "PingFang SC",sans-serif}
+.es-task-detail{display:grid;gap:32px}
+.es-detail-top{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.es-detail-grid{display:grid;grid-template-columns:88px minmax(0,1fr);gap:20px 16px;margin:0;font:400 14px/24px "PingFang SC",sans-serif}
+.es-detail-grid dt{color:#86909C}.es-detail-grid dd{margin:0;overflow-wrap:anywhere;color:#1D2129}
+.es-detail-date,.es-detail-phone{margin-left:16px;color:#86909C}
+.es-task-detail h3{font:500 16px/16px "PingFang SC",sans-serif;margin:0 0 16px;color:#1D2129}
+.es-task-detail p{margin:0;font:400 14px/24px "PingFang SC",sans-serif;color:#4E5969;overflow-wrap:anywhere}
+.es-request-page{padding:20px;min-height:600px}
+.es-request-form{max-width:880px;margin:0;padding:0}
+.es-request-form .eb-section-heading{margin:0 0 24px}
+.es-request-form .eb-form-section+.eb-form-section{padding-top:24px}
+.es-request-form .eb-form-label{white-space:nowrap}
+.es-request-form .eb-field-control{max-width:580px}
+.es-request-form .eb-form-footer{padding-top:8px}
+.es-request-review,.es-request-result{max-width:880px;padding:0}
+.es-review-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:32px}
+.es-review-grid{display:grid;grid-template-columns:112px minmax(0,1fr);gap:24px 16px;margin:0;font:400 14px/24px "PingFang SC",sans-serif}
+.es-review-grid dt{color:#86909C;text-align:right}.es-review-grid dd{margin:0;overflow-wrap:anywhere;color:#1D2129}
+.es-preserve-lines{white-space:pre-wrap}
+.es-review-footer{display:flex;gap:16px;padding:32px 0 0 128px;align-items:center}
+.es-result-heading{display:flex;gap:8px;align-items:center;margin-bottom:16px}
+.es-result-heading img{display:block;width:20px;height:20px}
+.es-result-identity{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid #E5E6EB;font:400 14px/24px "PingFang SC",sans-serif;color:#4E5969}
+.es-request-drawer>.eb-status{margin-bottom:32px}
+.es-request-drawer .es-review-grid{grid-template-columns:88px minmax(0,1fr)}
+.es-request-drawer .es-review-grid dt{text-align:left}
+@media(max-width:1120px){.es-workbench{grid-template-columns:minmax(0,1fr) 260px}.es-panel-heading{align-items:flex-start}.es-task-top{flex-wrap:wrap}.es-task-meta{gap:8px 16px}.es-schedule{padding-left:20px;padding-right:20px}.es-schedule-heading{padding-left:20px;padding-right:20px}.es-day{grid-template-columns:44px minmax(0,1fr);gap:12px}}
+@media(max-width:920px){.es-workbench{grid-template-columns:minmax(0,1fr)}.es-schedule{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}.es-day:nth-child(2){border-top:0}.es-request-form .eb-form-row{grid-template-columns:112px minmax(0,1fr)}}

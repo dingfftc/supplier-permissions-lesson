@@ -1,0 +1,20 @@
+/* Owner-confirmed content reduction, 2026-10-30 r2.
+   Removing duplicate headings also removes their empty layout space.
+   Source component geometry, outer16 and inner20 remain unchanged. */
+#supplier-view>.table-card,.eb-orders-page>.eb-card{padding:20px}
+.search-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.search-toolbar>.heading-actions{margin-left:0;padding-left:24px}
+.eb-order-toolbar{display:flex;justify-content:flex-start;gap:16px 40px;align-items:center}
+.eb-order-search{display:flex;align-items:center;gap:16px;margin:0}
+.eb-batch-actions{margin-left:0}
+.eb-batch-message{padding:0 0 16px}
+#supplier-view .table-scroll,#orders-view .eb-table-scroll{max-height:max(240px,calc(100vh - 250px))}
+.ed-dashboard .ed-heading{justify-content:flex-end}
+.ed-period{flex-wrap:wrap;justify-content:flex-end}
+.ed-period-range{display:inline}
+.eb-form-layout{display:block}
+.eb-form-card{max-width:880px}
+
+#supplier-form .form-label{white-space:nowrap}
+
+.ed-detail-label{color:#86909C;font:400 14px/14px "PingFang SC",sans-serif;margin-bottom:16px}

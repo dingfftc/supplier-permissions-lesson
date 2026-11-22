@@ -1,0 +1,12 @@
+/* Source-backed FORM COMPOSITION from references/input.md:
+   label1498:017714: 14/14/400 #86909C, right aligned;
+   label-container1498:017586: height32, centered vertically, gap4;
+   item1498:017585: label-field gap16 and bottom padding24.
+   Label width88 is this business layout's width (the source66 was an example).
+   Input/error internals remain the unchanged vendor CSS. */
+.form-description{margin-bottom:24px}
+.form-row{display:grid;grid-template-columns:88px minmax(0,1fr);column-gap:16px;padding-bottom:24px}
+.form-label{display:flex;align-items:center;justify-content:flex-end;gap:4px;height:32px;color:#86909C;text-align:right;font:400 14px/14px "PingFang SC",sans-serif}
+.field-control{min-width:0}
+.field-control>.eager-input{width:100%}
+.notes-row{padding-bottom:0}

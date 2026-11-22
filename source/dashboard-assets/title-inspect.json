@@ -1,0 +1,228 @@
+{
+  "id": "master:208396800935818+2284:033392",
+  "sourceNodeId": "2284:033392",
+  "familyId": "set:208396800935818+2284:035828",
+  "familyName": "数据标题",
+  "name": "类型[a3]=标题,尺寸[a0]=16px",
+  "displayLabel": "类型[a3]=标题,尺寸[a0]=16px",
+  "sourceKind": "component-definition",
+  "sourceRole": "component",
+  "sourceOriginalRole": "component",
+  "usageProfile": null,
+  "roleEvidence": {
+    "kind": "component",
+    "basis": "actual-componentType-record; semantics may need review"
+  },
+  "sourceFile": "source-json/root-2312-040984/node.json",
+  "sourceSha256": "001817d68a98b1adcbe44d49ee66723e8e195f9e7d0c26dcf6efe829956e6029",
+  "jsonPointer": "/children/0/children/2",
+  "sourceBound": {
+    "x": 20,
+    "y": 21,
+    "width": 56,
+    "height": 14
+  },
+  "displaySize": {
+    "width": 56,
+    "height": 14
+  },
+  "pageId": "269:99415",
+  "pageName": "数据展示",
+  "boardId": "2312:040984",
+  "rawProperties": {},
+  "propertyAssignments": [
+    {
+      "label": "类型",
+      "key": "a3",
+      "value": "标题"
+    },
+    {
+      "label": "尺寸",
+      "key": "a0",
+      "value": "16px"
+    }
+  ],
+  "normalizedSemantics": {
+    "status": "not-defined",
+    "rawRetained": true
+  },
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "evidence": [],
+    "notes": []
+  },
+  "textSlots": [
+    {
+      "nodeId": "2284:033393",
+      "name": "数据名称",
+      "jsonPointer": "/children/0/children/2/children/0",
+      "sampleText": "数据名称",
+      "style": {
+        "color": "#86909C",
+        "font-size": "14px",
+        "font-family": "PingFang SC",
+        "line-height": "14px"
+      },
+      "bound": {
+        "x": 0,
+        "y": 0,
+        "width": 56,
+        "height": 14
+      },
+      "binding": "source-text-node; not automatically a semantic product prop"
+    }
+  ],
+  "occurrenceCount": 1,
+  "sourceImage": {
+    "file": "reference-images/72c2bdd31c72d83edc292241.png",
+    "sha256": "72c2bdd31c72d83edc292241b53161ba2ca3507478ea073d68c825c853f42bf7",
+    "crop": {
+      "x": 225,
+      "y": 159,
+      "width": 56,
+      "height": 14
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "78a6271f25e78063a30820445195bfeaab22281b0a8106b0801d62b4d71ef09c",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/remaining-definitions-build8568/review-remaining-a.json",
+            "browser-evidence/remaining-definitions-build8568/page-25.jpg"
+          ],
+          "emittedSignature": "78a6271f25e78063a30820445195bfeaab22281b0a8106b0801d62b4d71ef09c",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "78a6271f25e78063a30820445195bfeaab22281b0a8106b0801d62b4d71ef09c",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 2,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "0334146fd71ed464bf179b349b169674cd552d4d9384a1e47b7bc82e525a5a10",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/remaining-definitions-build8568/review-remaining-a.json",
+            "browser-evidence/remaining-definitions-build8568/page-25.jpg"
+          ],
+          "emittedSignature": "0334146fd71ed464bf179b349b169674cd552d4d9384a1e47b7bc82e525a5a10",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "0334146fd71ed464bf179b349b169674cd552d4d9384a1e47b7bc82e525a5a10",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 2,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": "set:208396800935818+2284:035828",
+    "lookupLabel": "数据标题",
+    "routingTier": "asset-or-internal-part-review",
+    "routingReason": "Not assigned a primary-control route; retain source family, members and evidence for exact use-context review. This is not an exclusion.",
+    "axes": [
+      {
+        "label": "类型",
+        "sourceKey": "a4",
+        "observedValues": [
+          "标题+问号"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a0",
+        "observedValues": [
+          "16px"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a2",
+        "observedValues": [
+          "14px"
+        ]
+      },
+      {
+        "label": "类型",
+        "sourceKey": "a3",
+        "observedValues": [
+          "标题"
+        ]
+      }
+    ],
+    "actualDefinitionCount": 4,
+    "ownerExcludedCount": 0
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

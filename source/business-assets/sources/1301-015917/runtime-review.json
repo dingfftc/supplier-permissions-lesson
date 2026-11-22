@@ -1,0 +1,42 @@
+{
+  "fonts": [
+    {
+      "sourceFont": "PingFang SC",
+      "fallbackStack": [
+        "Source Han Sans CN",
+        "Microsoft YaHei",
+        "sans-serif"
+      ],
+      "localAliases": [
+        "PingFangSC-Regular",
+        "PingFangSC-Medium",
+        "PingFangSC-Semibold",
+        "PingFangSC-Light",
+        "PingFangSC-Thin",
+        "PingFangSC-Ultralight"
+      ]
+    }
+  ],
+  "manifests": [
+    {
+      "sourceNodeId": "1301:015917",
+      "mode": "source-size-static",
+      "risks": [],
+      "validationBinding": {
+        "currentRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+        "indexRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+        "runtimeAdapterRevisionSha256": "1e1306aa7a51ea8e792662202a61cb937785ee99dc869e91675967c3cb55e3f8",
+        "sameRenderer": true,
+        "sameContentAsSourceSample": true,
+        "mode": "source-size",
+        "applicableValidation": {
+          "geometry": "pass",
+          "visual": "pass",
+          "interaction": "not-tested"
+        },
+        "note": "A prior renderer, another output mode, changed text or a newly applied runtime adapter never certifies this output."
+      },
+      "generationGates": []
+    }
+  ]
+}

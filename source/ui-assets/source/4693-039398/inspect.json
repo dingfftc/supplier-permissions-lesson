@@ -1,0 +1,304 @@
+{
+  "id": "master:208396800935818+4693:039398",
+  "sourceNodeId": "4693:039398",
+  "familyId": "set:208396800935818+4693:039067",
+  "familyName": "左侧导航-浅色",
+  "name": "层级[b0N]=二级,有无子级[a1]=无子级,是否选中[a0]=未选,状态[a2]=悬浮/点击",
+  "displayLabel": "层级[b0N]=二级,有无子级[a1]=无子级,是否选中[a0]=未选,状态[a2]=悬浮/点击",
+  "sourceKind": "component-definition",
+  "sourceRole": "component",
+  "sourceOriginalRole": "component",
+  "usageProfile": null,
+  "roleEvidence": {
+    "kind": "component",
+    "basis": "actual-componentType-record; semantics may need review"
+  },
+  "sourceFile": "source-json/root-4693-039029/node.json",
+  "sourceSha256": "d4aac5ff73aaeffbea63d7dd2c1abd2d967fb73bf3287da2130443b6f8440628",
+  "jsonPointer": "/children/6/children/61",
+  "sourceBound": {
+    "x": 970,
+    "y": 370,
+    "width": 200,
+    "height": 38
+  },
+  "displaySize": {
+    "width": 200,
+    "height": 38
+  },
+  "pageId": "1:14840",
+  "pageName": "全局导航",
+  "boardId": "4693:039029",
+  "rawProperties": {},
+  "propertyAssignments": [
+    {
+      "label": "层级",
+      "key": "b0N",
+      "value": "二级"
+    },
+    {
+      "label": "有无子级",
+      "key": "a1",
+      "value": "无子级"
+    },
+    {
+      "label": "是否选中",
+      "key": "a0",
+      "value": "未选"
+    },
+    {
+      "label": "状态",
+      "key": "a2",
+      "value": "悬浮/点击"
+    }
+  ],
+  "normalizedSemantics": {
+    "status": "not-defined",
+    "rawRetained": true
+  },
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "evidence": [],
+    "notes": []
+  },
+  "textSlots": [
+    {
+      "nodeId": "4693:039402/4693:033917",
+      "name": "导航名称",
+      "jsonPointer": "/children/6/children/61/children/0/children/0/children/1/children/0",
+      "sampleText": "二级导航",
+      "style": {
+        "flex": "1",
+        "color": "#1D2129",
+        "font-size": "14px",
+        "font-family": "PingFang SC",
+        "line-height": "14px",
+        "--line": "1",
+        "overflow": "hidden; text-overflow: ellipsis; white-space: nowrap"
+      },
+      "bound": {
+        "x": 0,
+        "y": 0,
+        "width": 148,
+        "height": 14
+      },
+      "binding": "source-text-node; not automatically a semantic product prop"
+    }
+  ],
+  "occurrenceCount": 1,
+  "sourceImage": {
+    "file": "reference-images/54a0b32ab46783111a2a6b8b.png",
+    "sha256": "54a0b32ab46783111a2a6b8b0095acb45b6f7da11d4d6beedf672b8267834a28",
+    "crop": {
+      "x": 1176,
+      "y": 597,
+      "width": 200,
+      "height": 38
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "78fa5a2ca05239c6d2c25fe5600ce6a9fa04a65fb04c9f7b07a698be49698bd7",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/gallery-build8568/review-c.json",
+            "browser-evidence/gallery-build8568/page-65.jpg"
+          ],
+          "emittedSignature": "78fa5a2ca05239c6d2c25fe5600ce6a9fa04a65fb04c9f7b07a698be49698bd7",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "78fa5a2ca05239c6d2c25fe5600ce6a9fa04a65fb04c9f7b07a698be49698bd7",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 6,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "f1fbd51d8246ebb4be697931ebf0556d5e16d6febd7e928f43b505e18f1aa28c",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/gallery-build8568/review-c.json",
+            "browser-evidence/gallery-build8568/page-65.jpg"
+          ],
+          "emittedSignature": "f1fbd51d8246ebb4be697931ebf0556d5e16d6febd7e928f43b505e18f1aa28c",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "f1fbd51d8246ebb4be697931ebf0556d5e16d6febd7e928f43b505e18f1aa28c",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 6,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": "set:208396800935818+4693:039067",
+    "lookupLabel": "左侧导航-浅色",
+    "routingTier": "primary-control",
+    "routingReason": "Exact actual COMPONENT_SET and member trees describe a selectable control/composition in its dedicated source page; lookup priority only.",
+    "axes": [
+      {
+        "label": "层级",
+        "sourceKey": "a1",
+        "observedValues": [
+          "一级"
+        ]
+      },
+      {
+        "label": "有无子级",
+        "sourceKey": "a0",
+        "observedValues": [
+          "有子级-未展开"
+        ]
+      },
+      {
+        "label": "是否选中",
+        "sourceKey": "a0",
+        "observedValues": [
+          "未选"
+        ]
+      },
+      {
+        "label": "状态",
+        "sourceKey": "a0",
+        "observedValues": [
+          "默认"
+        ]
+      },
+      {
+        "label": "是否选中",
+        "sourceKey": "a1",
+        "observedValues": [
+          "选中"
+        ]
+      },
+      {
+        "label": "层级",
+        "sourceKey": "b0O",
+        "observedValues": [
+          "三级"
+        ]
+      },
+      {
+        "label": "有无子级",
+        "sourceKey": "a1",
+        "observedValues": [
+          "无子级"
+        ]
+      },
+      {
+        "label": "层级",
+        "sourceKey": "b0P",
+        "observedValues": [
+          "四级"
+        ]
+      },
+      {
+        "label": "层级",
+        "sourceKey": "b0Q",
+        "observedValues": [
+          "五级"
+        ]
+      },
+      {
+        "label": "层级",
+        "sourceKey": "b0N",
+        "observedValues": [
+          "二级"
+        ]
+      },
+      {
+        "label": "状态",
+        "sourceKey": "a2",
+        "observedValues": [
+          "悬浮/点击"
+        ]
+      },
+      {
+        "label": "状态",
+        "sourceKey": "a3",
+        "observedValues": [
+          "失效"
+        ]
+      },
+      {
+        "label": "有无子级",
+        "sourceKey": "a0V",
+        "observedValues": [
+          "有子级-已展开"
+        ]
+      }
+    ],
+    "actualDefinitionCount": 65,
+    "ownerExcludedCount": 0
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

@@ -1,0 +1,42 @@
+/* Source4340:028563 /2120:039535 and typical10848:71811/75428, read2026-10-30.
+   App shell outer16; white page inset20; inner table cells retain their own24. */
+#page-content{padding:16px;max-width:none}
+.shell-header{padding:12px 20px;border-bottom:0}
+.page-frame,.eb-page{background:#FFFFFF;border-radius:4px;min-width:0}
+.page-heading,.eb-page-heading{padding:20px 20px 16px;margin:0;align-items:flex-start;gap:16px}
+.page-heading h1,.eb-page-heading h1,.ed-heading h1{font:500 16px/16px "PingFang SC",sans-serif;margin:0;color:#1D2129}
+.page-description:empty{display:none}.eb-description{margin-top:12px}
+.table-card,.eb-orders-page>.eb-card{padding:0 20px 20px;border-radius:0;background:transparent}
+.search-toolbar,.eb-order-toolbar{padding:0;margin-bottom:16px;gap:16px}
+.list-heading,.eb-list-heading{padding:0 0 16px;margin:0}
+.pagination,.eb-pagination{padding:16px 0 0;min-height:48px}
+.jump-error,.eb-jump-error{padding:0 0 16px}.eb-prototype-note{padding:0 20px 20px;margin:0}
+.table-name-link{padding:0;margin:0;border:0;background:transparent;font:400 14px/24px "PingFang SC",sans-serif;color:#1D2129;text-align:left;width:100%}
+.table-name-link:is(:hover,:focus-visible){color:#165DFF;outline:none}
+.eb-form-layout{padding:0 20px 20px;gap:16px}.eb-form-card{padding:16px 0 0}.eb-form-aside{padding:20px;background:#F7F8FA}.eb-form-section+.eb-form-section{padding-top:20px}.eb-form-section h2{margin-bottom:24px}
+.ed-dashboard{padding:20px;gap:16px}.ed-dashboard .ed-heading{padding:0;margin:0}.ed-dashboard .ed-metrics,.ed-dashboard .ed-charts{gap:16px}
+.ed-dashboard .ed-panel,.ed-dashboard .ed-metric{padding:20px}.ed-dashboard .ed-rank-panel{padding:20px 20px 0}
+.ed-dashboard .ed-rank-scroll{margin:0}.ed-dashboard .ed-rank-table{min-width:700px}
+.shell-footnote{margin-top:16px}
+/* Source breadcrumb78:002601/002563/002635; root modules have no trail. */
+.page-breadcrumbs{display:flex;align-items:center;gap:4px;height:16px;font:400 14px/16px "PingFang SC",sans-serif}
+.breadcrumb-parent{display:flex;align-items:center;gap:4px;color:#86909C;text-decoration:none;background:none;border:0;padding:0;font:400 14px/16px "PingFang SC",sans-serif}
+.breadcrumb-parent:is(:hover,:focus-visible){color:#165DFF;outline:none}.breadcrumb-parent img{width:16px;height:16px}.breadcrumb-current{color:#1D2129}
+/* Source secondary heading4693:063261: return16 +gap8 + title16/16/500. */
+.drill-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px 20px 16px;min-height:69px}
+.drill-title{display:flex;align-items:flex-start;gap:8px;min-width:0}.drill-title h1{font:500 16px/16px "PingFang SC",sans-serif;margin:0;overflow-wrap:anywhere}
+.page-back{flex:none;width:16px;height:16px;border:0;padding:0;background:transparent}.page-back img{width:16px;height:16px}
+.drill-content{padding:0 20px 20px}.drill-info{display:grid;grid-template-columns:112px minmax(0,1fr);gap:24px 16px;margin:0;max-width:880px}
+.drill-info dt{font:400 14px/24px "PingFang SC",sans-serif;color:#86909C}.drill-info dd{margin:0;font:400 14px/24px "PingFang SC",sans-serif;overflow-wrap:anywhere}
+.drill-tabs{display:flex;gap:32px;border-bottom:1px solid #E5E6EB;height:33px;margin:0 0 24px}
+.drill-tab{position:relative;padding:0 0 16px;height:33px;border:0;background:transparent;color:#4E5969;font:400 16px/16px "PingFang SC",sans-serif}
+.drill-tab[aria-selected="true"]{color:#1D2129;font-weight:500}.drill-tab[aria-selected="true"]::after{content:"";position:absolute;bottom:0;height:2px;background:#1D2129;left:0;right:0}
+.drill-notes{white-space:pre-wrap;overflow-wrap:anywhere;line-height:24px;margin-top:24px;max-width:880px}
+.drill-subtitle{font:500 16px/16px "PingFang SC",sans-serif;margin:32px 0 24px}
+.drill-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:0 0 24px}.drill-overview dt{color:#86909C;margin:0 0 12px;font:400 14px/14px "PingFang SC",sans-serif}.drill-overview dd{margin:0;font:400 16px/16px "PingFang SC",sans-serif}
+.drill-table-scroll{overflow:auto;max-height:560px}.drill-table .number{text-align:right}.drill-table{min-width:720px}
+.drill-pagination{display:flex;align-items:center;justify-content:space-between;margin-top:16px;color:#4E5969}
+
+#supplier-view .list-heading{display:none}
+/* Keep the table viewport and its independent bottom rail within a desktop work area. */
+#orders-view .eb-table-scroll{max-height:max(240px,calc(100vh - 380px))}

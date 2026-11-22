@@ -1,0 +1,154 @@
+{
+  "sourceDocumentId": "208396800935818",
+  "assets": [
+    {
+      "file": "search-white.svg",
+      "sourceExport": "search-default/asset/icons/svg_57b77a3f.svg",
+      "node": "1945:042923",
+      "sha256": "277af829968a9c39d823d0aa21d93254a954e9b5b47e629c78f822ce51c61681",
+      "unmodified": true
+    },
+    {
+      "file": "success.svg",
+      "sourceExport": "check-circle/asset/icons/svg_9655fef1.svg",
+      "node": "1167:017925",
+      "sha256": "ef4c237e5624d7151342a289bab9b72ee07db8a1eca17bbdce8b52a592f5d7fc",
+      "unmodified": true
+    },
+    {
+      "file": "textarea-resize.svg",
+      "sourceExport": "textarea-with-count/asset/icons/svg_342bca95.svg",
+      "node": "6587:28043",
+      "sha256": "483112c495208e8f91b83a0cc9b050c80a0ba6d0bc38290840c22d0f8ed5c8d1",
+      "unmodified": true
+    },
+    {
+      "file": "dms-close-default.svg",
+      "sourceExport": "dms-tabs-board/asset/icons/svg_209274de.svg",
+      "node": "3335:026434",
+      "sha256": "c0772040f4b4564e3fa5e54b4a135bbeb00545199df462db98a14d5f565f940d",
+      "unmodified": true
+    },
+    {
+      "file": "dms-close-selected.svg",
+      "sourceExport": "dms-tabs-board/asset/icons/svg_bf95f7fa.svg",
+      "node": "3335:026466",
+      "sha256": "c4fb45557ee130488d6556f689f6be65f2f3aaf4f7402e4f526d8f757dda021a",
+      "unmodified": true
+    },
+    {
+      "file": "dms-close-selected-hover.svg",
+      "sourceExport": "dms-tabs-board/asset/icons/svg_87884f00.svg",
+      "node": "3335:026474",
+      "sha256": "3d95a81cd21ed914791e5c63875c12044e2707247e21582356c9692419b431cb",
+      "unmodified": true
+    },
+    {
+      "file": "dialog-close.svg",
+      "sourceExport": "dialog-edit/asset/icons/svg_3953a74b.svg",
+      "node": "1398:079849/1030:007879/964:015315",
+      "sha256": "101f9e61562e3a763957a6cd7a643d0fad05173d6b2b59086d7d753fd206f49a",
+      "unmodified": true
+    },
+    {
+      "file": "page-right.svg",
+      "sourceExport": "table-components-board/asset/icons/svg_ca1985e1.svg",
+      "node": "9306:40185",
+      "sha256": "8a903bffad4456515ac462256495819461b416ef0490c389c86ad0671e169022",
+      "unmodified": true
+    },
+    {
+      "file": "expand-down.svg",
+      "sourceExport": "table-expand-example/asset/icons/svg_37180d81.svg",
+      "node": "2173:058877/2173:055674/636:029478",
+      "sha256": "52909b1e732115e89ab6a3e7f6cc3947fa2bcc749f8617182d83ef75b6edd89a",
+      "unmodified": true
+    },
+    {
+      "file": "expand-up.svg",
+      "sourceExport": "table-expand-example/asset/icons/svg_f46dad7c.svg",
+      "node": "2205:047559/2173:060555/636:029478",
+      "sha256": "20bfaac12895ae41da09cd56d2850164607191eb2bc4187cfc68a807aa235eae",
+      "unmodified": true
+    },
+    {
+      "file": "textarea-resize-disabled.svg",
+      "sourceExport": "input-variants-board/asset/icons/svg_18b52925.svg",
+      "node": "6587:28057",
+      "sha256": "996e324c416172ec74dbe70d5e9b0c9d3d26767b106a3b641e55c5f11caa3ca9",
+      "unmodified": true
+    },
+    {
+      "file": "textarea-scrollbar.svg",
+      "sourceExport": "input-variants-board/asset/icons/svg_535aab53.svg",
+      "node": "6587:28049/186:90474",
+      "sha256": "d5bd5016bd34e8b36318a7eae50ddfe97b3ed55afa02cdaeb9b322747c84bfee",
+      "unmodified": true
+    },
+    {
+      "file": "search-clear.svg",
+      "sourceExport": "search-variants-board/asset/icons/svg_b43e1ff6.svg",
+      "node": "1945:042952",
+      "sha256": "3b3e510c2f365376cf02247045773dd639ae1127da6d710f1bdcffb119d65ab8",
+      "unmodified": true
+    },
+    {
+      "file": "search-disabled.svg",
+      "sourceExport": "search-variants-board/asset/icons/svg_b34caace.svg",
+      "node": "1945:042985",
+      "sha256": "a6408adc66c0c571e0f30d809feafb0e4946eb9104fdc298bfff50d08b29e0da",
+      "unmodified": true
+    },
+    {
+      "file": "empty-state.png",
+      "sourceExport": "empty-variants-board/asset/images/空状态-1-22-245653.png",
+      "node": "22:245653",
+      "sha256": "f59a9f9867fa96d77590e06c9caaf476d1cf7731a988791ade4282b419f31352",
+      "unmodified": true
+    },
+    {
+      "file": "page-left.svg",
+      "sourceExport": "table-main-board/asset/icons/svg_8088785f.svg",
+      "node": "1749:048085",
+      "sha256": "be91a8479e1934554bb52632fd67b97452b28b24b9761f63137c83720214d1a4",
+      "unmodified": true
+    },
+    {
+      "file": "page-left-hover.svg",
+      "sourceExport": "table-main-board/asset/icons/svg_45fb5801.svg",
+      "node": "1749:048084",
+      "sha256": "0fc957655a9b6fc906b9bac6fc4d9bb37b74a05cd2c08825e167c95c295ae4f7",
+      "unmodified": true
+    },
+    {
+      "file": "page-left-disabled.svg",
+      "sourceExport": "table-main-board/asset/icons/svg_30447200.svg",
+      "node": "1749:048086",
+      "sha256": "0cd8c0a9fe3edfe1f9be1f3de664577cfbe24a6f3a66cb3aaf47de54b6ddc160",
+      "unmodified": true
+    }
+  ],
+  "stateMappings": {
+    "nextArrow": {
+      "geometry": "page-right.svg",
+      "geometryNode": "9306:40185",
+      "paletteFromPreviousArrowStates": {
+        "default": "1749:048085",
+        "hover": "1749:048084",
+        "disabled": "1749:048086"
+      },
+      "implementation": "Unmodified original right-direction SVG used as alpha mask, colored by shared pagination arrow state palette. Independent right hover/disabled source nodes were not found."
+    },
+    "jumpFocus": {
+      "source": "1749:048078",
+      "sourceState": "悬浮/点击",
+      "implementation": [
+        "hover",
+        "active",
+        "focus",
+        "focus-visible"
+      ],
+      "mapping": "Clicking the jump input enters focus; retain recorded C9CDD4 inset stroke and remove browser-added outline. No independent focus/error source variant was found."
+    }
+  }
+}

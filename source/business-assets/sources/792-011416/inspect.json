@@ -1,0 +1,308 @@
+{
+  "id": "master:208396800935818+792:011416",
+  "sourceNodeId": "792:011416",
+  "familyId": "set:208396800935818+22:129069",
+  "familyName": "标签",
+  "name": "高度[a0]=24px,样式[a0]=填充+描边,颜色[a4]=安全绿,可删除[a2]=false",
+  "displayLabel": "高度[a0]=24px,样式[a0]=填充+描边,颜色[a4]=安全绿,可删除[a2]=false",
+  "sourceKind": "component-definition",
+  "sourceRole": "component",
+  "sourceOriginalRole": "component",
+  "usageProfile": null,
+  "roleEvidence": {
+    "kind": "component",
+    "basis": "actual-componentType-record; semantics may need review"
+  },
+  "sourceFile": "source-json/root-22-124440/node.json",
+  "sourceSha256": "9e23a89ec97dc6e3ae426141d1ee98f346dd2fbf376e4c7bc81c25b6bf8a5674",
+  "jsonPointer": "/children/0/children/103",
+  "sourceBound": {
+    "x": 260,
+    "y": 152,
+    "width": 68,
+    "height": 24
+  },
+  "displaySize": {
+    "width": 68,
+    "height": 24
+  },
+  "pageId": "1:29479",
+  "pageName": "标签",
+  "boardId": "22:124440",
+  "rawProperties": {},
+  "propertyAssignments": [
+    {
+      "label": "高度",
+      "key": "a0",
+      "value": "24px"
+    },
+    {
+      "label": "样式",
+      "key": "a0",
+      "value": "填充+描边"
+    },
+    {
+      "label": "颜色",
+      "key": "a4",
+      "value": "安全绿"
+    },
+    {
+      "label": "可删除",
+      "key": "a2",
+      "value": "false"
+    }
+  ],
+  "normalizedSemantics": {
+    "status": "not-defined",
+    "rawRetained": true
+  },
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "evidence": [],
+    "notes": []
+  },
+  "textSlots": [
+    {
+      "nodeId": "792:011417/792:008860",
+      "name": "标签文案",
+      "jsonPointer": "/children/0/children/103/children/0/children/0",
+      "sampleText": "标签文案",
+      "style": {
+        "color": "#00B42A",
+        "font-size": "14px",
+        "font-family": "PingFang SC",
+        "line-height": "18px"
+      },
+      "bound": {
+        "x": 0,
+        "y": 0,
+        "width": 56,
+        "height": 18
+      },
+      "binding": "source-text-node; not automatically a semantic product prop"
+    }
+  ],
+  "occurrenceCount": 1,
+  "sourceImage": {
+    "file": "reference-images/dec278d06b38ea178d3708ef.png",
+    "sha256": "dec278d06b38ea178d3708ef803d6940f5c128694bc371707b3c5c1a73dd9e10",
+    "crop": {
+      "x": 408,
+      "y": 246,
+      "width": 68,
+      "height": 24
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "0b8ade530beff5e45b97f318214b372cf9725db403db594be5336753bb6688a0",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/gallery-build8568/review-a.json",
+            "browser-evidence/gallery-build8568/page-09.jpg"
+          ],
+          "emittedSignature": "0b8ade530beff5e45b97f318214b372cf9725db403db594be5336753bb6688a0",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "0b8ade530beff5e45b97f318214b372cf9725db403db594be5336753bb6688a0",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 3,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "726708a0cbe77e8db1070c4951651366bbd5bf49efa31c1997c909381babf57a",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/gallery-build8568/review-a.json",
+            "browser-evidence/gallery-build8568/page-09.jpg"
+          ],
+          "emittedSignature": "726708a0cbe77e8db1070c4951651366bbd5bf49efa31c1997c909381babf57a",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "726708a0cbe77e8db1070c4951651366bbd5bf49efa31c1997c909381babf57a",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 3,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": "set:208396800935818+22:129069",
+    "lookupLabel": "标签",
+    "routingTier": "primary-control",
+    "routingReason": "Exact actual COMPONENT_SET and member trees describe a selectable control/composition in its dedicated source page; lookup priority only.",
+    "axes": [
+      {
+        "label": "高度",
+        "sourceKey": "ac",
+        "observedValues": [
+          "18px"
+        ]
+      },
+      {
+        "label": "样式",
+        "sourceKey": "a0",
+        "observedValues": [
+          "填充+描边"
+        ]
+      },
+      {
+        "label": "颜色",
+        "sourceKey": "a0",
+        "observedValues": [
+          "灰(次正文)"
+        ]
+      },
+      {
+        "label": "可删除",
+        "sourceKey": "a2",
+        "observedValues": [
+          "false"
+        ]
+      },
+      {
+        "label": "颜色",
+        "sourceKey": "a2",
+        "observedValues": [
+          "主色蓝"
+        ]
+      },
+      {
+        "label": "样式",
+        "sourceKey": "a2",
+        "observedValues": [
+          "填充"
+        ]
+      },
+      {
+        "label": "样式",
+        "sourceKey": "a4",
+        "observedValues": [
+          "描边"
+        ]
+      },
+      {
+        "label": "可删除",
+        "sourceKey": "a0",
+        "observedValues": [
+          "true"
+        ]
+      },
+      {
+        "label": "颜色",
+        "sourceKey": "a3",
+        "observedValues": [
+          "提示橙"
+        ]
+      },
+      {
+        "label": "颜色",
+        "sourceKey": "a4",
+        "observedValues": [
+          "安全绿"
+        ]
+      },
+      {
+        "label": "颜色",
+        "sourceKey": "a5",
+        "observedValues": [
+          "错误红"
+        ]
+      },
+      {
+        "label": "高度",
+        "sourceKey": "ab",
+        "observedValues": [
+          "20px"
+        ]
+      },
+      {
+        "label": "高度",
+        "sourceKey": "aY",
+        "observedValues": [
+          "22px"
+        ]
+      },
+      {
+        "label": "高度",
+        "sourceKey": "a0",
+        "observedValues": [
+          "24px"
+        ]
+      }
+    ],
+    "actualDefinitionCount": 120,
+    "ownerExcludedCount": 0
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

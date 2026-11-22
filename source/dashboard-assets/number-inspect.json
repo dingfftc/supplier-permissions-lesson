@@ -1,0 +1,302 @@
+{
+  "id": "master:208396800935818+2284:035949",
+  "sourceNodeId": "2284:035949",
+  "familyId": "set:208396800935818+2284:035979",
+  "familyName": "数值",
+  "name": "尺寸[a5]=36px",
+  "displayLabel": "尺寸[a5]=36px",
+  "sourceKind": "component-definition",
+  "sourceRole": "component",
+  "sourceOriginalRole": "component",
+  "usageProfile": null,
+  "roleEvidence": {
+    "kind": "component",
+    "basis": "actual-componentType-record; semantics may need review"
+  },
+  "sourceFile": "source-json/root-2312-040984/node.json",
+  "sourceSha256": "001817d68a98b1adcbe44d49ee66723e8e195f9e7d0c26dcf6efe829956e6029",
+  "jsonPointer": "/children/10/children/0",
+  "sourceBound": {
+    "x": 20,
+    "y": 20,
+    "width": 83,
+    "height": 36
+  },
+  "displaySize": {
+    "width": 83,
+    "height": 36
+  },
+  "pageId": "269:99415",
+  "pageName": "数据展示",
+  "boardId": "2312:040984",
+  "rawProperties": {},
+  "propertyAssignments": [
+    {
+      "label": "尺寸",
+      "key": "a5",
+      "value": "36px"
+    }
+  ],
+  "normalizedSemantics": {
+    "status": "not-defined",
+    "rawRetained": true
+  },
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "evidence": [],
+    "notes": []
+  },
+  "textSlots": [
+    {
+      "nodeId": "2284:035950",
+      "name": "8,253",
+      "jsonPointer": "/children/10/children/0/children/0",
+      "sampleText": "8,253",
+      "style": {
+        "color": "#1D2129",
+        "font-size": "36px",
+        "font-family": "Bebas",
+        "line-height": "36px"
+      },
+      "bound": {
+        "x": 0,
+        "y": 0,
+        "width": 83,
+        "height": 36
+      },
+      "binding": "source-text-node; not automatically a semantic product prop"
+    }
+  ],
+  "occurrenceCount": 1,
+  "sourceImage": {
+    "file": "reference-images/72c2bdd31c72d83edc292241.png",
+    "sha256": "72c2bdd31c72d83edc292241b53161ba2ca3507478ea073d68c825c853f42bf7",
+    "crop": {
+      "x": 460,
+      "y": 365,
+      "width": 83,
+      "height": 36
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "46e533c971f81eca26e9b68561bcfed7224e429a8d59310f287137787b36ef58",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass-with-font-fallback",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/remaining-definitions-build8568/review-remaining-a.json",
+            "browser-evidence/remaining-definitions-build8568/page-26.jpg"
+          ],
+          "emittedSignature": "46e533c971f81eca26e9b68561bcfed7224e429a8d59310f287137787b36ef58",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "46e533c971f81eca26e9b68561bcfed7224e429a8d59310f287137787b36ef58",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 2,
+      "risks": [],
+      "fontFallbacks": [
+        {
+          "sourceFont": "Bebas",
+          "fallbackStack": [
+            "Bebas Neue",
+            "sans-serif"
+          ],
+          "cssFontStack": "\"Bebas\",\"Bebas Neue\",sans-serif",
+          "missingOriginalFont": true,
+          "missingEvidence": {
+            "file": "font-inventory.json",
+            "availability": "not-found-in-CoreText-or-searched-font-files",
+            "coreTextProbe": {
+              "availableExactFamily": false,
+              "fontURL": "/System/Library/Fonts/Helvetica.ttc",
+              "requested": "Bebas",
+              "resolvedFamily": "Helvetica",
+              "resolvedPostscript": "Helvetica"
+            },
+            "fontInventorySourceRootCount": 260
+          },
+          "actualFallbackFont": "Bebas Neue",
+          "actualFallbackVerified": false,
+          "fallbackAvailabilityEvidence": {
+            "file": "coretext-font-metadata.json",
+            "exactFamilyRegistered": true,
+            "registeredFamily": "Bebas Neue",
+            "scope": "Installed family availability; not proof of actual browser glyph/font use."
+          },
+          "status": "font-substitution",
+          "sourceFontPreserved": true,
+          "nodeIds": [
+            "2284:035950"
+          ],
+          "reviewRequired": true
+        }
+      ],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass-with-font-fallback",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "d59e1ebb77a03544cf5c155e77913dd7e4b17b1eb5e7088831dd0950014d95d5",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass-with-font-fallback",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/remaining-definitions-build8568/review-remaining-a.json",
+            "browser-evidence/remaining-definitions-build8568/page-26.jpg"
+          ],
+          "emittedSignature": "d59e1ebb77a03544cf5c155e77913dd7e4b17b1eb5e7088831dd0950014d95d5",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "d59e1ebb77a03544cf5c155e77913dd7e4b17b1eb5e7088831dd0950014d95d5",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 2,
+      "risks": [],
+      "fontFallbacks": [
+        {
+          "sourceFont": "Bebas",
+          "fallbackStack": [
+            "Bebas Neue",
+            "sans-serif"
+          ],
+          "cssFontStack": "\"Bebas\",\"Bebas Neue\",sans-serif",
+          "missingOriginalFont": true,
+          "missingEvidence": {
+            "file": "font-inventory.json",
+            "availability": "not-found-in-CoreText-or-searched-font-files",
+            "coreTextProbe": {
+              "availableExactFamily": false,
+              "fontURL": "/System/Library/Fonts/Helvetica.ttc",
+              "requested": "Bebas",
+              "resolvedFamily": "Helvetica",
+              "resolvedPostscript": "Helvetica"
+            },
+            "fontInventorySourceRootCount": 260
+          },
+          "actualFallbackFont": "Bebas Neue",
+          "actualFallbackVerified": false,
+          "fallbackAvailabilityEvidence": {
+            "file": "coretext-font-metadata.json",
+            "exactFamilyRegistered": true,
+            "registeredFamily": "Bebas Neue",
+            "scope": "Installed family availability; not proof of actual browser glyph/font use."
+          },
+          "status": "font-substitution",
+          "sourceFontPreserved": true,
+          "nodeIds": [
+            "2284:035950"
+          ],
+          "reviewRequired": true
+        }
+      ],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass-with-font-fallback",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": "set:208396800935818+2284:035979",
+    "lookupLabel": "数值",
+    "routingTier": "text-or-internal-style-part",
+    "routingReason": "All actual members carry text slots without SVG/img or root paint shell; preserve as typography/internal-part styles, not a full field/control.",
+    "axes": [
+      {
+        "label": "尺寸",
+        "sourceKey": "a5",
+        "observedValues": [
+          "36px"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a6",
+        "observedValues": [
+          "32px"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a7",
+        "observedValues": [
+          "28px"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a8",
+        "observedValues": [
+          "24px"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a9",
+        "observedValues": [
+          "20px"
+        ]
+      }
+    ],
+    "actualDefinitionCount": 5,
+    "ownerExcludedCount": 0
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

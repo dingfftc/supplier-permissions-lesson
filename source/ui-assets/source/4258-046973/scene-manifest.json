@@ -1,0 +1,269 @@
+{
+  "rendererVersion": "0.10.6",
+  "instanceId": "mg-f0fa6dfb9d794858",
+  "sourceDocumentId": "208396800935818",
+  "provenanceScope": "JSON supplied by copy-locked exporter; renderer has no live design connection",
+  "sourceFile": "/Users/liuyuan/Documents/Codex/2026-10-23/pao-sh/outputs/Eager设计规范交付-2026-10-29/eager-admin-design/assets/source-runtime/source-json/root-1-551574/node.json",
+  "sourceSha256": "c2b3428b615454511a090272099aafd48b1a06fd3e2de4c67ac4c2719c500e8c",
+  "sourceNodeId": "4258:046973",
+  "sourceName": "矩形 828",
+  "sourceSize": {
+    "width": 1920,
+    "height": 1080
+  },
+  "sourceRootOffsetIgnored": {
+    "x": 0,
+    "y": 0
+  },
+  "mode": "source-size-static",
+  "rootWidthPolicy": "source",
+  "rootWidthOverride": null,
+  "textAdaptation": {
+    "applied": false,
+    "overriddenSlotKeys": [],
+    "sourceBoundDifferencesMayBeExpected": false
+  },
+  "status": "render-required-not-verified",
+  "textOverrides": {},
+  "usedTextOverrides": {},
+  "textSlots": [],
+  "graphicScopeSubstitutions": [],
+  "textPaintAdjustments": [],
+  "rootPaintViewport": null,
+  "fontFallbacks": [],
+  "fontPolicy": {
+    "schemaVersion": 1,
+    "sourcePreferredPreserved": true,
+    "noFontsRedistributed": true,
+    "availabilityScope": "Target-machine font availability is unknown until the generated review page runs. Previous maintainer-machine availability is not inherited.",
+    "mappings": {
+      "Alibaba PuHuiTi 2.0": {
+        "fallbackStack": [
+          "PingFang SC",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Alibaba PuHuiTi 2.0，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "Bebas": {
+        "fallbackStack": [
+          "Bebas Neue",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Bebas，允许使用配置替代栈Bebas Neue,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+        "localAliases": [
+          "Bebas-Regular",
+          "Bebas Regular"
+        ],
+        "localAliasEvidence": {
+          "method": "Exact full and PostScript names from author-linked original Bebas Regular name table. Metadata only; font binaries not redistributed.",
+          "sourceAuditSha256": "78ec274a020baada0d2d537ee5d3cdd7fa039aef081f618c7d110180cd3290df"
+        }
+      },
+      "Inter": {
+        "fallbackStack": [
+          "Arial",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Inter，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "Nunito": {
+        "fallbackStack": [
+          "Arial",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Nunito，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "Nunito Sans": {
+        "fallbackStack": [
+          "Arial",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Nunito Sans，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "YouSheBiaoTiHei": {
+        "fallbackStack": [
+          "PingFang SC",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体YouSheBiaoTiHei，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "PingFang SC": {
+        "fallbackStack": [
+          "Source Han Sans CN",
+          "Microsoft YaHei",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体PingFang SC，允许使用配置替代栈Source Han Sans CN,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+        "localAliases": [
+          "PingFangSC-Regular",
+          "PingFangSC-Medium",
+          "PingFangSC-Semibold",
+          "PingFangSC-Light",
+          "PingFangSC-Thin",
+          "PingFangSC-Ultralight"
+        ],
+        "localAliasEvidence": {
+          "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+          "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+        }
+      },
+      "Source Han Sans CN": {
+        "fallbackStack": [
+          "PingFang SC",
+          "Microsoft YaHei",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Source Han Sans CN，允许使用配置替代栈PingFang SC,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+        "localAliases": [
+          "SourceHanSansCN-Regular"
+        ],
+        "localAliasEvidence": {
+          "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+          "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+        }
+      }
+    }
+  },
+  "exactSourceFontClaim": false,
+  "fontValidationStatus": "needs-environment-evidence",
+  "nodes": [
+    {
+      "renderId": "mg-f0fa6dfb9d794858-1",
+      "nodeId": "4258:046973",
+      "name": "矩形 828",
+      "sourceBound": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "expectedSourceBound": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "componentType": false,
+      "state": {
+        "variantAttributes": {},
+        "props": {},
+        "rawName": "矩形 828"
+      },
+      "sourceStyles": {
+        "width": "1920px",
+        "height": "1080px",
+        "background": "rgba(0,0,0,0.65)",
+        "position": "absolute",
+        "left": "0px",
+        "top": "0px",
+        "z-index": "100"
+      },
+      "geometryStrategy": "native bound; flex/padding removed",
+      "strokeStrategy": null
+    }
+  ],
+  "assets": [],
+  "skipped": [],
+  "normalizations": [],
+  "risks": [],
+  "limitations": [
+    "Not an interactive-control adapter",
+    "Source-size mode does not reflow; flow mode needs family-specific baseline and changed-text validation",
+    "Text substitutions require browser overflow checks",
+    "Canvas/DOM font rasterization may differ; no font-size reduction is performed"
+  ],
+  "catalogIdentity": {
+    "id": "composition:de0d61828f173f1d9a80b66c8a5e7234a74bd6c1d3cb6cc8910e79292538fb41",
+    "sourceNodeId": "4258:046973",
+    "sourceFile": "source-json/root-1-551574/node.json",
+    "sourceSha256": "c2b3428b615454511a090272099aafd48b1a06fd3e2de4c67ac4c2719c500e8c",
+    "jsonPointer": "/children/2/children/1/children/1/children/0/children/94",
+    "sourceRole": "unresolved-composition-role",
+    "normalizedSemantics": null,
+    "ownerPolicy": {
+      "disposition": "not-excluded-by-recorded-rules",
+      "notes": [
+        "Observed instance/composition candidate; role and source image review still required."
+      ]
+    },
+    "generationGates": [
+      "not-a-default-product-control; source-role-review-required",
+      "visual-review-required-for-selected-output-mode"
+    ]
+  },
+  "sourceImage": {
+    "file": "reference-images/5f87599e18a3fae57843d00b.png",
+    "sha256": "5f87599e18a3fae57843d00b5c6addaaaeffff4b120749b209289b400e7b9d1a",
+    "crop": {
+      "x": 150,
+      "y": 1831,
+      "width": 1920,
+      "height": 1080
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "componentUsageProfile": null,
+  "widthAdaptationProfile": {
+    "policy": "source",
+    "sourceNodeId": "4258:046973",
+    "sourceSha256": "c2b3428b615454511a090272099aafd48b1a06fd3e2de4c67ac4c2719c500e8c",
+    "basis": "Source width is the default; fixed selector/dialog dimensions are preserved.",
+    "changedTextBrowserReviewRequired": false
+  },
+  "validationBinding": {
+    "currentRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+    "indexRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+    "runtimeAdapterRevisionSha256": "1e1306aa7a51ea8e792662202a61cb937785ee99dc869e91675967c3cb55e3f8",
+    "sameRenderer": true,
+    "sameContentAsSourceSample": true,
+    "mode": "source-size",
+    "applicableValidation": {
+      "geometry": "pass",
+      "visual": "not-tested",
+      "interaction": "not-tested"
+    },
+    "note": "A prior renderer, another output mode, changed text or a newly applied runtime adapter never certifies this output."
+  },
+  "portableRuntimeBuild": "portable-build-f2f00f4b7c10eacbea02-b3d4e65809"
+}

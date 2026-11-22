@@ -1,0 +1,166 @@
+{
+  "source": "local snapshot 208396800935818",
+  "pageId": "1:550680",
+  "businessReference": "4258:040449",
+  "classification": "business-page-reference, not a universal chart component",
+  "reused": "bar fill #4EA0F8; 36px source width where space permits; 1px #E5E6EB dashed grid; 15% white hover over blue bars",
+  "nodes": [
+    {
+      "id": "4258:040716/4258:030133",
+      "type": "frame",
+      "name": "120",
+      "isSkip": false,
+      "tag": "span",
+      "attr": {
+        "data-node-id": "4258:040716/4258:030133",
+        "data-name": "120",
+        "style": [
+          "color: #BCC3CC",
+          "font-size: 12px",
+          "font-family: Source Han Sans CN",
+          "text-align: right",
+          "line-height: 12px"
+        ]
+      },
+      "children": [
+        {
+          "type": "characters",
+          "text": "120"
+        }
+      ],
+      "bound": {
+        "x": 0,
+        "y": 0,
+        "width": 20,
+        "height": 12
+      },
+      "isVirtual": false,
+      "componentType": false
+    },
+    {
+      "id": "4258:040716/4258:030131",
+      "type": "frame",
+      "name": "直线 16",
+      "isSkip": false,
+      "tag": "div",
+      "attr": {
+        "data-node-id": "4258:040716/4258:030131",
+        "data-name": "直线 16",
+        "style": [
+          "height: 0px",
+          "flex: 1",
+          "border-style: dashed",
+          "border-color: #E5E6EB",
+          "border-top-width: 0px",
+          "border-bottom-width: 1px",
+          "border-right-width: 0px",
+          "border-left-width: 0px"
+        ]
+      },
+      "children": [],
+      "bound": {
+        "x": 28,
+        "y": 6.5,
+        "width": 342,
+        "height": 0
+      },
+      "isVirtual": false,
+      "componentType": false
+    },
+    {
+      "id": "4258:040642",
+      "type": "svg",
+      "name": "有数值",
+      "isSkip": false,
+      "tag": "svg",
+      "attr": {
+        "data-node-id": "4258:040642",
+        "data-name": "有数值",
+        "style": [
+          "width: 36px",
+          "height: 260px"
+        ]
+      },
+      "children": [],
+      "bound": {
+        "x": 16.200000762939453,
+        "y": 30,
+        "width": 36,
+        "height": 260
+      },
+      "isVirtual": false,
+      "componentType": "INSTANCE",
+      "props": {},
+      "ukey": "108118251306241+2835:55128",
+      "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"36\" height=\"260\" viewBox=\"0 0 36 260\"><rect x=\"0\" y=\"0\" width=\"36\" height=\"260\" rx=\"0\" fill=\"#4EA0F8\" fill-opacity=\"1\"/></svg>"
+    },
+    {
+      "id": "4258:040868/4258:030192",
+      "type": "frame",
+      "name": "20以下",
+      "isSkip": false,
+      "tag": "span",
+      "attr": {
+        "data-node-id": "4258:040868/4258:030192",
+        "data-name": "20以下",
+        "style": [
+          "color: #BCC3CC",
+          "font-size: 14px",
+          "font-family: PingFang SC",
+          "text-align: center",
+          "line-height: 14px"
+        ]
+      },
+      "children": [
+        {
+          "type": "characters",
+          "text": "20以下"
+        }
+      ],
+      "bound": {
+        "x": 0,
+        "y": 0,
+        "width": 45,
+        "height": 14
+      },
+      "isVirtual": false,
+      "componentType": false
+    },
+    {
+      "id": "4258:040491",
+      "type": "frame",
+      "name": "鼠标悬浮——出现浅蓝色色块 原本蓝色变为浅蓝色——即覆盖上透明度为15%的白色（如果需要具体色值@冯娜）",
+      "isSkip": false,
+      "tag": "span",
+      "attr": {
+        "data-node-id": "4258:040491",
+        "data-name": "鼠标悬浮——出现浅蓝色色块 原本蓝色变为浅蓝色——即覆盖上透明度为15%的白色（如果需要具体色值@冯娜）",
+        "style": [
+          "color: #FF7D00",
+          "font-size: 14px",
+          "font-family: PingFang SC",
+          "text-align: justify",
+          "line-height: 16px",
+          "position: absolute",
+          "left: 875px",
+          "top: 520px",
+          "z-index: 100"
+        ]
+      },
+      "children": [
+        {
+          "type": "characters",
+          "text": "鼠标悬浮——出现浅蓝色色块<br />原本蓝色变为浅蓝色——即覆盖上透明度为15%的白色（如果需要具体色值@冯娜）"
+        }
+      ],
+      "bound": {
+        "x": 875,
+        "y": 520,
+        "width": 516,
+        "height": 32
+      },
+      "isVirtual": false,
+      "componentType": false
+    }
+  ]
+}

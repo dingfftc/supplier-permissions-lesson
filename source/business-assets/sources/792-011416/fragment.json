@@ -1,0 +1,415 @@
+{
+  "instanceId": "mg-ca3206886d724bff",
+  "markup": "<div id=\"mg-ca3206886d724bff-1\" data-instance-id=\"mg-ca3206886d724bff\" data-source-id=\"792:011416\" data-source-name=\"高度[a0]=24px,样式[a0]=填充+描边,颜色[a4]=安全绿,可删除[a2]=false\" data-source-width=\"68\" data-source-height=\"24\" class=\"mg-node mg-scene\" style=\"background:#E8FFEA;border-radius:4px;overflow:hidden;position:relative;left:0px;top:0px;width:68px;height:24px;margin:0;padding:0;border:0;box-sizing:border-box\"><div id=\"mg-ca3206886d724bff-2\" data-instance-id=\"mg-ca3206886d724bff\" data-source-id=\"792:011417\" data-source-name=\"标签文案 2\" data-source-width=\"56\" data-source-height=\"18\" class=\"mg-node\" style=\"position:absolute;left:6px;top:3px;width:56px;height:18px;margin:0;padding:0;border:0;box-sizing:border-box\"><span id=\"mg-ca3206886d724bff-3\" data-instance-id=\"mg-ca3206886d724bff\" data-source-id=\"792:011417/792:008860\" data-source-name=\"标签文案\" data-source-width=\"56\" data-source-height=\"18\" data-text-node=\"true\" data-text-slot=\"node:792:011417/792:008860\" data-source-text-height=\"18\" data-source-breaks=\"0\" data-slot-overridden=\"false\" class=\"mg-node\" style=\"color:#00B42A;font-size:14px;font-family:&quot;PingFang SC&quot;,&quot;Source Han Sans CN&quot;,&quot;Microsoft YaHei&quot;,sans-serif;line-height:18px;font-weight:400;font-style:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;text-decoration:none;text-indent:0;text-shadow:none;text-align:start;word-break:normal;overflow-wrap:normal;font-variant:normal;font-feature-settings:normal;white-space:pre-wrap;display:block;position:absolute;left:0px;top:0px;width:56px;height:18px;margin:0;padding:0;border:0;box-sizing:border-box\">标签文案</span></div><i aria-hidden=\"true\" class=\"mg-stroke\" style=\"border-style:solid;border-color:#AFF0B5;border-width:1px;position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;box-sizing:border-box;pointer-events:none;border-radius:inherit\"></i></div>",
+  "css": ".mg-scene,.mg-scene *{box-sizing:border-box}.mg-scene{font:400 14px/24px \"PingFang SC\",sans-serif;font-variant:normal;font-feature-settings:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;text-indent:0;text-align:start;text-shadow:none;white-space:normal}.mg-scene .mg-node>img{display:block}.mg-scene .mg-stroke{display:block}",
+  "assets": [],
+  "reviewNotes": [
+    {
+      "type": "font-fallback",
+      "sourceFont": "PingFang SC",
+      "fallbackStack": [
+        "Source Han Sans CN",
+        "Microsoft YaHei",
+        "sans-serif"
+      ],
+      "cssFontStack": "\"PingFang SC\",\"Source Han Sans CN\",\"Microsoft YaHei\",sans-serif",
+      "missingOriginalFont": null,
+      "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+      "actualFallbackFont": null,
+      "actualFallbackVerified": false,
+      "fallbackAvailabilityEvidence": null,
+      "status": "fallback-declared-availability-unverified",
+      "sourceFontPreserved": true,
+      "nodeIds": [
+        "792:011417/792:008860"
+      ],
+      "reviewRequired": true
+    }
+  ],
+  "manifest": {
+    "rendererVersion": "0.10.6",
+    "instanceId": "mg-ca3206886d724bff",
+    "sourceDocumentId": "208396800935818",
+    "provenanceScope": "JSON supplied by copy-locked exporter; renderer has no live design connection",
+    "sourceFile": "/Users/liuyuan/Documents/Codex/2026-10-23/pao-sh/outputs/Eager设计规范交付-2026-10-29/eager-admin-design/assets/source-runtime/source-json/root-22-124440/node.json",
+    "sourceSha256": "9e23a89ec97dc6e3ae426141d1ee98f346dd2fbf376e4c7bc81c25b6bf8a5674",
+    "sourceNodeId": "792:011416",
+    "sourceName": "高度[a0]=24px,样式[a0]=填充+描边,颜色[a4]=安全绿,可删除[a2]=false",
+    "sourceSize": {
+      "width": 68,
+      "height": 24
+    },
+    "sourceRootOffsetIgnored": {
+      "x": 260,
+      "y": 152
+    },
+    "mode": "source-size-static",
+    "rootWidthPolicy": "source",
+    "rootWidthOverride": null,
+    "textAdaptation": {
+      "applied": false,
+      "overriddenSlotKeys": [],
+      "sourceBoundDifferencesMayBeExpected": false
+    },
+    "status": "render-required-not-verified",
+    "textOverrides": {},
+    "usedTextOverrides": {},
+    "textSlots": [
+      {
+        "slotId": "node:792:011417/792:008860",
+        "nodeId": "792:011417/792:008860",
+        "jsonPointer": "/children/0/children/103/children/0/children/0",
+        "name": "标签文案",
+        "sourceText": "标签文案",
+        "sourceStyles": {
+          "color": "#00B42A",
+          "font-size": "14px",
+          "font-family": "PingFang SC",
+          "line-height": "18px"
+        }
+      }
+    ],
+    "graphicScopeSubstitutions": [],
+    "textPaintAdjustments": [],
+    "rootPaintViewport": null,
+    "fontFallbacks": [
+      {
+        "sourceFont": "PingFang SC",
+        "fallbackStack": [
+          "Source Han Sans CN",
+          "Microsoft YaHei",
+          "sans-serif"
+        ],
+        "cssFontStack": "\"PingFang SC\",\"Source Han Sans CN\",\"Microsoft YaHei\",sans-serif",
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "fallbackAvailabilityEvidence": null,
+        "status": "fallback-declared-availability-unverified",
+        "sourceFontPreserved": true,
+        "nodeIds": [
+          "792:011417/792:008860"
+        ],
+        "reviewRequired": true
+      }
+    ],
+    "fontPolicy": {
+      "schemaVersion": 1,
+      "sourcePreferredPreserved": true,
+      "noFontsRedistributed": true,
+      "availabilityScope": "Target-machine font availability is unknown until the generated review page runs. Previous maintainer-machine availability is not inherited.",
+      "mappings": {
+        "Alibaba PuHuiTi 2.0": {
+          "fallbackStack": [
+            "PingFang SC",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Alibaba PuHuiTi 2.0，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "Bebas": {
+          "fallbackStack": [
+            "Bebas Neue",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Bebas，允许使用配置替代栈Bebas Neue,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+          "localAliases": [
+            "Bebas-Regular",
+            "Bebas Regular"
+          ],
+          "localAliasEvidence": {
+            "method": "Exact full and PostScript names from author-linked original Bebas Regular name table. Metadata only; font binaries not redistributed.",
+            "sourceAuditSha256": "78ec274a020baada0d2d537ee5d3cdd7fa039aef081f618c7d110180cd3290df"
+          }
+        },
+        "Inter": {
+          "fallbackStack": [
+            "Arial",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Inter，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "Nunito": {
+          "fallbackStack": [
+            "Arial",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Nunito，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "Nunito Sans": {
+          "fallbackStack": [
+            "Arial",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Nunito Sans，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "YouSheBiaoTiHei": {
+          "fallbackStack": [
+            "PingFang SC",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体YouSheBiaoTiHei，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "PingFang SC": {
+          "fallbackStack": [
+            "Source Han Sans CN",
+            "Microsoft YaHei",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体PingFang SC，允许使用配置替代栈Source Han Sans CN,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+          "localAliases": [
+            "PingFangSC-Regular",
+            "PingFangSC-Medium",
+            "PingFangSC-Semibold",
+            "PingFangSC-Light",
+            "PingFangSC-Thin",
+            "PingFangSC-Ultralight"
+          ],
+          "localAliasEvidence": {
+            "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+            "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+          }
+        },
+        "Source Han Sans CN": {
+          "fallbackStack": [
+            "PingFang SC",
+            "Microsoft YaHei",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Source Han Sans CN，允许使用配置替代栈PingFang SC,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+          "localAliases": [
+            "SourceHanSansCN-Regular"
+          ],
+          "localAliasEvidence": {
+            "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+            "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+          }
+        }
+      }
+    },
+    "exactSourceFontClaim": false,
+    "fontValidationStatus": "needs-environment-evidence",
+    "nodes": [
+      {
+        "renderId": "mg-ca3206886d724bff-1",
+        "nodeId": "792:011416",
+        "name": "高度[a0]=24px,样式[a0]=填充+描边,颜色[a4]=安全绿,可删除[a2]=false",
+        "sourceBound": {
+          "x": 260,
+          "y": 152,
+          "width": 68,
+          "height": 24
+        },
+        "expectedSourceBound": {
+          "x": 0,
+          "y": 0,
+          "width": 68,
+          "height": 24
+        },
+        "componentType": "COMPONENT",
+        "state": {
+          "variantAttributes": {
+            "高度": "24px",
+            "样式": "填充+描边",
+            "颜色": "安全绿",
+            "可删除": "false"
+          },
+          "props": {},
+          "rawName": "高度[a0]=24px,样式[a0]=填充+描边,颜色[a4]=安全绿,可删除[a2]=false"
+        },
+        "sourceStyles": {
+          "width": "68px",
+          "height": "24px",
+          "display": "flex",
+          "justify-content": "flex-start",
+          "align-items": "center",
+          "gap": "2px",
+          "padding-top": "3px",
+          "padding-bottom": "3px",
+          "padding-right": "6px",
+          "padding-left": "6px",
+          "background": "#E8FFEA",
+          "border-style": "solid",
+          "border-color": "#AFF0B5",
+          "border-width": "1px",
+          "border-radius": "4px",
+          "position": "absolute",
+          "left": "260px",
+          "top": "152px",
+          "z-index": "103",
+          "overflow": "hidden"
+        },
+        "geometryStrategy": "native bound; flex/padding removed",
+        "strokeStrategy": "separate inset border-box overlay"
+      },
+      {
+        "renderId": "mg-ca3206886d724bff-2",
+        "nodeId": "792:011417",
+        "name": "标签文案 2",
+        "sourceBound": {
+          "x": 6,
+          "y": 3,
+          "width": 56,
+          "height": 18
+        },
+        "expectedSourceBound": {
+          "x": 6,
+          "y": 3,
+          "width": 56,
+          "height": 18
+        },
+        "componentType": "INSTANCE",
+        "state": {
+          "variantAttributes": {},
+          "props": {
+            "字号": "14px",
+            "颜色": "安全绿"
+          },
+          "rawName": "标签文案 2"
+        },
+        "sourceStyles": {
+          "display": "flex",
+          "justify-content": "flex-start",
+          "align-items": "flex-start",
+          "flex-direction": "column"
+        },
+        "geometryStrategy": "native bound; flex/padding removed",
+        "strokeStrategy": null
+      },
+      {
+        "renderId": "mg-ca3206886d724bff-3",
+        "nodeId": "792:011417/792:008860",
+        "name": "标签文案",
+        "sourceBound": {
+          "x": 0,
+          "y": 0,
+          "width": 56,
+          "height": 18
+        },
+        "expectedSourceBound": {
+          "x": 0,
+          "y": 0,
+          "width": 56,
+          "height": 18
+        },
+        "componentType": false,
+        "state": {
+          "variantAttributes": {},
+          "props": {},
+          "rawName": "标签文案"
+        },
+        "sourceStyles": {
+          "color": "#00B42A",
+          "font-size": "14px",
+          "font-family": "PingFang SC",
+          "line-height": "18px"
+        },
+        "geometryStrategy": "native bound; flex/padding removed",
+        "strokeStrategy": null
+      }
+    ],
+    "assets": [],
+    "skipped": [],
+    "normalizations": [],
+    "risks": [],
+    "limitations": [
+      "Not an interactive-control adapter",
+      "Source-size mode does not reflow; flow mode needs family-specific baseline and changed-text validation",
+      "Text substitutions require browser overflow checks",
+      "Canvas/DOM font rasterization may differ; no font-size reduction is performed"
+    ],
+    "catalogIdentity": {
+      "id": "master:208396800935818+792:011416",
+      "sourceNodeId": "792:011416",
+      "sourceFile": "source-json/root-22-124440/node.json",
+      "sourceSha256": "9e23a89ec97dc6e3ae426141d1ee98f346dd2fbf376e4c7bc81c25b6bf8a5674",
+      "jsonPointer": "/children/0/children/103",
+      "sourceRole": "component",
+      "normalizedSemantics": {
+        "status": "not-defined",
+        "rawRetained": true
+      },
+      "ownerPolicy": {
+        "disposition": "not-excluded-by-recorded-rules",
+        "evidence": [],
+        "notes": []
+      },
+      "generationGates": []
+    },
+    "sourceImage": {
+      "file": "reference-images/dec278d06b38ea178d3708ef.png",
+      "sha256": "dec278d06b38ea178d3708ef803d6940f5c128694bc371707b3c5c1a73dd9e10",
+      "crop": {
+        "x": 408,
+        "y": 246,
+        "width": 68,
+        "height": 24
+      },
+      "mappingStatus": "bound-size-matched",
+      "noImageStretch": true,
+      "referenceLimitation": null,
+      "nativeReferenceOverride": null,
+      "visualApproval": null,
+      "scale": 1.0,
+      "referenceImagePackaged": true,
+      "sourceDocumentId": "208396800935818",
+      "nativeBytesUnmodified": true,
+      "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+    },
+    "componentUsageProfile": null,
+    "widthAdaptationProfile": {
+      "policy": "source",
+      "sourceNodeId": "792:011416",
+      "sourceSha256": "9e23a89ec97dc6e3ae426141d1ee98f346dd2fbf376e4c7bc81c25b6bf8a5674",
+      "basis": "Source width is the default; fixed selector/dialog dimensions are preserved.",
+      "changedTextBrowserReviewRequired": false
+    },
+    "validationBinding": {
+      "currentRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+      "indexRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+      "runtimeAdapterRevisionSha256": "1e1306aa7a51ea8e792662202a61cb937785ee99dc869e91675967c3cb55e3f8",
+      "sameRenderer": true,
+      "sameContentAsSourceSample": true,
+      "mode": "source-size",
+      "applicableValidation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "note": "A prior renderer, another output mode, changed text or a newly applied runtime adapter never certifies this output."
+    },
+    "portableRuntimeBuild": "portable-build-f2f00f4b7c10eacbea02-b3d4e65809"
+  }
+}

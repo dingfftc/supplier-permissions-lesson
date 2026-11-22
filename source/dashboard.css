@@ -1,0 +1,121 @@
+/* Dashboard layout is business composition, not a standard Eager chart component.
+   Source-backed metric part styles: 2284:033392 / 035949 / 036132 / 037025 / 037035.
+   Chart sample: 4258:040449; bar #4EA0F8, dashed #E5E6EB grid and 15% white hover.
+   No decorative shadows. Shared buttons and tables come from verified-components.css. */
+.ed-dashboard{background:#FFFFFF;border-radius:4px;display:flex;flex-direction:column;gap:16px;min-width:0;color:#1D2129;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.ed-dashboard h1,.ed-dashboard h2,.ed-dashboard p{margin:0}
+.ed-dashboard .ed-heading{padding:20px 20px 0;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.ed-dashboard h1{font-size:16px;font-weight:500;line-height:16px}
+.ed-dashboard .ed-subtitle{margin-top:12px;color:#86909C;font-size:12px;line-height:12px}
+.ed-period{display:flex;align-items:center;gap:16px}
+.ed-period-range{color:#4E5969;font-size:14px;line-height:14px;margin-right:8px}
+.ed-metrics{padding:0 20px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.ed-metric{background:#FFFFFF;border-radius:4px;padding:20px;min-width:0}
+.ed-metric-title{color:#86909C;font:400 14px/14px "PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif;white-space:pre}
+.ed-metric-amount{display:flex;align-items:flex-end;gap:4px;margin-top:16px}
+.ed-metric-number{color:#1D2129;font:400 36px/36px "Bebas","Bebas Neue",sans-serif;white-space:pre;letter-spacing:normal;font-variant:normal;font-feature-settings:normal}
+.ed-metric-unit{color:#1D2129;font:500 16px/16px "PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif;white-space:pre}
+.ed-metric-change{display:flex;gap:4px;align-items:flex-start;margin-top:16px;white-space:pre;color:#4E5969;font:400 14px/14px "PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif}
+.ed-metric-change [data-change]{color:#F53F3F}.ed-metric-change [data-change].ed-down{color:#00B42A}
+.ed-charts{padding:0 20px;display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:16px}
+.ed-panel{min-width:0;background:#FFFFFF;border-radius:4px;padding:20px}
+.ed-panel-head{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px}
+.ed-panel h2{font:500 16px/16px "PingFang SC",sans-serif}
+.ed-chart-unit{color:#86909C;font-size:12px;line-height:12px;white-space:nowrap}
+.ed-chart-wrap{width:100%;min-width:0;height:242px}
+.ed-chart{width:100%;height:242px;display:block;overflow:visible}
+.ed-chart text{font-family:"PingFang SC",sans-serif;font-weight:400;font-size:12px;fill:#86909C}
+.ed-chart .ed-grid{stroke:#E5E6EB;stroke-width:1;stroke-dasharray:4 4}
+.ed-chart .ed-line{fill:none;stroke:#165DFF;stroke-width:2}
+.ed-chart .ed-point{fill:#FFFFFF;stroke:#165DFF;stroke-width:2;pointer-events:none}
+.ed-chart [data-day],.ed-chart [data-category]{cursor:pointer;outline:none}
+.ed-chart [data-day]:hover .ed-point,.ed-chart [data-day]:focus .ed-point,.ed-chart [data-day].ed-selected .ed-point{fill:#165DFF}
+.ed-chart .ed-bar{fill:#4EA0F8}.ed-chart .ed-bar-hover{fill:#FFFFFF;opacity:0}
+.ed-chart [data-category]:is(:hover,:focus) .ed-bar-hover{opacity:.15}
+.ed-chart .ed-bar-value{fill:#4E5969;font-size:14px}
+.ed-chart .ed-bar-name{font-size:12px}
+.ed-rank-panel{padding-bottom:0;overflow:visible}
+.ed-rank-panel .ed-panel-head{margin-bottom:20px}
+.ed-rank-scroll{margin:0;overflow-x:auto}
+.ed-rank-table{width:100%;min-width:700px;border-collapse:collapse;table-layout:fixed;text-align:left}
+.ed-rank-table .ed-num{text-align:right;font-variant-numeric:tabular-nums}
+.ed-rank-table .ed-supplier-link{display:inline;padding:0;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;color:#1D2129;font:400 14px/24px "PingFang SC",sans-serif;white-space:normal;text-align:left;cursor:pointer}
+.ed-rank-table .ed-supplier-link:is(:hover,:active){color:#165DFF}
+.ed-rank-table .ed-rank{color:#86909C}
+.ed-font-note{padding:0 20px 20px;color:#86909C;font-size:12px;line-height:24px}
+.ed-drawer-content{color:#1D2129;font:400 14px/24px "PingFang SC",sans-serif}
+.ed-drawer-content p{margin:0 0 20px}.ed-drawer-content dl{display:grid;grid-template-columns:112px minmax(0,1fr);margin:0;row-gap:16px;column-gap:16px}
+.ed-drawer-content dt{margin:0;color:#86909C}.ed-drawer-content dd{margin:0;overflow-wrap:anywhere}
+.ed-drawer-content .ed-detail-total{font:400 36px/36px "Bebas","Bebas Neue",sans-serif;margin:0 0 24px}
+.ed-drawer-content .ed-detail-total span{margin-left:4px;font:500 16px/16px "PingFang SC",sans-serif}
+@media(max-width:1120px){.ed-charts{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr)}.ed-metric{padding:20px}.ed-metrics{gap:16px}.ed-period-range{display:none}}
+@media(max-width:900px){.ed-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.ed-charts{grid-template-columns:minmax(0,1fr)}}
+
+/* Chart data popup 2251:051412/051413: original SVG, no raster or reshaped bubble.
+   ViewBox contains 16px left/right and 12px top/20px bottom shadow extents.
+   Source data area 2251:051416: width200, left28,top24,height137; the pale
+   yellow fill marks customization and is NOT a product background. */
+.ed-data-tooltip{position:fixed;width:252.11232px;height:185px;z-index:950;pointer-events:none;isolation:isolate;font:400 14px/14px "PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif;color:#1D2129}
+.ed-data-tooltip[hidden]{display:none!important}
+.ed-tooltip-bubble{position:absolute;left:-16px;top:-12px;width:284.18164px;height:217px;max-width:none;display:block;pointer-events:none}
+.ed-data-tooltip[data-side="left"] .ed-tooltip-bubble{transform:scaleX(-1)}
+.ed-tooltip-content{position:absolute;left:28px;top:24px;width:200px;height:137px;background:transparent}
+.ed-data-tooltip[data-side="left"] .ed-tooltip-content{left:24px}
+.ed-tooltip-row{display:flex;justify-content:space-between;align-items:flex-start;height:34px;font:400 14px/14px "PingFang SC","Source Han Sans CN","Microsoft YaHei",sans-serif;color:#1D2129;white-space:nowrap}
+.ed-tooltip-row-divider{height:35px;padding-bottom:20px;border-bottom:1px solid #E5E6EB;margin-bottom:20px}
+.ed-tooltip-row:last-child{height:14px}
+.ed-tooltip-label{display:inline-flex;align-items:center;gap:10px;flex:none}
+.ed-tooltip-value{flex:none;text-align:right}
+.ed-tooltip-swatch{display:block;width:10px;height:10px;flex:none;background:#165DFF}
+
+.ed-data-tooltip[data-chart="category"] .ed-tooltip-swatch{background:#4EA0F8}
+
+
+/* r3 business composition: hierarchy and grouping, not a new company component.
+   The high-specificity ed-designed selectors intentionally replace old sample
+   page arrangements without changing shared buttons, table, popup or typography.
+   Source number2284:035949 =36/36; supporting2284:035955 =32/32.
+   Source font sizes remain intact. The shared alignment helper aligns visible
+   glyph bottoms after fonts load; line-box bottom alignment is insufficient. */
+.ed-dashboard.ed-designed{padding:0;background:transparent;border-radius:0;gap:16px}
+.ed-dashboard.ed-designed .ed-summary{padding:20px;background:#FFFFFF;border-radius:4px}
+.ed-dashboard.ed-designed .ed-heading{padding:0;margin:0 0 20px;justify-content:flex-start}
+.ed-dashboard.ed-designed .ed-period{width:100%;display:flex;align-items:center;justify-content:flex-start;gap:16px;flex-wrap:wrap}
+.ed-dashboard.ed-designed .ed-period-range{display:inline;margin:0 auto 0 0}
+.ed-dashboard.ed-designed .ed-metrics{padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;align-items:stretch}
+.ed-dashboard.ed-designed .ed-metric{display:flex;flex-direction:column;min-width:0;min-height:144px;margin:0;padding:20px;background:#FFFFFF;border-radius:0}
+.ed-dashboard.ed-designed .ed-metric-primary{margin:0;padding:20px;min-height:144px;background:#F7F8FA;border-radius:4px}
+.ed-dashboard.ed-designed .ed-metric-supporting+.ed-metric-supporting{border-left:1px solid #E5E6EB}
+.ed-dashboard.ed-designed .ed-metric-title{font-size:14px;line-height:14px}
+.ed-dashboard.ed-designed .ed-metric-amount{height:36px;min-height:36px;flex:none;align-items:flex-end;gap:4px;margin-top:16px;white-space:nowrap}
+.ed-dashboard.ed-designed .ed-metric-number{font-size:36px;line-height:36px}
+.ed-dashboard.ed-designed .ed-metric-supporting .ed-metric-number{font-size:32px;line-height:32px}
+.ed-dashboard.ed-designed .ed-metric-unit{font-size:16px;line-height:16px}
+.ed-dashboard.ed-designed .ed-metric-supporting .ed-metric-unit{font-size:14px;line-height:14px}
+.ed-dashboard.ed-designed .ed-metric-change{margin-top:auto;gap:4px;line-height:14px;font-size:14px}
+.ed-dashboard.ed-designed .ed-charts{padding:0;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px}
+.ed-dashboard.ed-designed .ed-panel{padding:20px;background:#FFFFFF;border-radius:4px}
+.ed-dashboard.ed-designed .ed-panel-head{margin-bottom:24px}
+.ed-dashboard.ed-designed .ed-rank-panel{padding:20px 20px 0}
+.ed-dashboard.ed-designed .ed-rank-panel .ed-panel-head{margin-bottom:20px}
+.ed-dashboard.ed-designed .ed-rank-scroll{margin:0}
+.ed-dashboard.ed-designed .ed-font-note{padding:0;color:#86909C;font-size:12px;line-height:24px}
+@media(max-width:1120px){
+  .ed-dashboard.ed-designed .ed-metric-supporting{padding-right:16px;padding-left:16px}
+  .ed-dashboard.ed-designed .ed-charts{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr)}
+}
+@media(max-width:900px){
+  .ed-dashboard.ed-designed .ed-metrics{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:16px}
+  .ed-dashboard.ed-designed .ed-metric-supporting{padding:20px;margin:0;min-height:144px}
+  .ed-dashboard.ed-designed .ed-metric-supporting+.ed-metric-supporting{border-left:0}
+  .ed-dashboard.ed-designed .ed-metric:nth-child(even){border-left:1px solid #E5E6EB}
+  .ed-dashboard.ed-designed .ed-charts{grid-template-columns:minmax(0,1fr)}
+}
+
+/* Zero-size markers expose actual alphabetic baselines without changing typography. */
+.ed-baseline-marker{display:inline-block;width:0;height:0;padding:0;margin:0;border:0;vertical-align:baseline}
+[data-ink-number],[data-ink-unit]{display:inline-block;white-space:nowrap}
+.ed-drawer-content .ed-detail-total{display:flex;align-items:flex-end;gap:4px}
+.ed-drawer-content .ed-detail-total [data-ink-number],.ed-drawer-content .ed-detail-total [data-ink-number] [data-ink-text]{font:inherit;margin:0}
+.ed-drawer-content .ed-detail-total [data-ink-unit]{font:500 16px/16px "PingFang SC",sans-serif;margin:0}
+.ed-drawer-content .ed-detail-total [data-ink-unit] [data-ink-text]{font:inherit;margin:0}

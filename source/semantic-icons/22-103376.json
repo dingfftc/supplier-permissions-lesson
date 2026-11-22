@@ -1,0 +1,35 @@
+{
+  "id": "master:208396800935818+22:103376",
+  "sourceNodeId": "22:103376",
+  "name": "general/analysis-line-分析图表折线图",
+  "kind": "icon",
+  "availability": "available",
+  "aliases": [
+    "经营分析",
+    "经营趋势",
+    "变化趋势",
+    "趋势分析",
+    "采购趋势",
+    "趋势图",
+    "trend"
+  ],
+  "width": 48,
+  "height": 48,
+  "format": "svg",
+  "maskSafe": true,
+  "reason": "独立图标，原始 SVG。",
+  "sourceDocumentId": "208396800935818",
+  "snapshotBuild": "build-f2f00f4b7c10eacbea02",
+  "sourceFile": "source-json/root-1-177000/node.json",
+  "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+  "jsonPointer": "/children/110",
+  "referenceSha256": "ac8f8de6b5a7a28b1ec9b9bf923de8c335682464947afc9754b92c3111cab5de",
+  "sourceReferenceCrop": {
+    "x": 272,
+    "y": 2083,
+    "width": 48,
+    "height": 48
+  },
+  "file": "22-103376.svg",
+  "assetSha256": "13f73fc7fb01eb30a0eddd2686716c3fd5e80f5db9780ae6b5803a6a914a4052"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "master:208396800935818+636:033563",
+  "sourceNodeId": "636:033563",
+  "name": "general/download-下载",
+  "kind": "icon",
+  "availability": "available",
+  "aliases": [
+    "下载文件",
+    "下载报表",
+    "download"
+  ],
+  "width": 48,
+  "height": 48,
+  "format": "svg",
+  "maskSafe": true,
+  "reason": "独立图标，原始 SVG。",
+  "usageMappings": [
+    {
+      "intent": "file-download",
+      "sourceNodeId": "636:033563",
+      "label": "下载现有文件",
+      "queryTerms": [
+        "下载",
+        "下载文件",
+        "下载附件",
+        "下载已生成报表",
+        "download",
+        "download file"
+      ],
+      "ruleClass": "P",
+      "when": "获取一个已存在或已生成的文件、附件、录音或报表。",
+      "result": "保留源下载轮廓与实际下载动作。",
+      "notFor": "不把Eager当前数据导出入口自动映射到下载图形。",
+      "origin": "保留源名称及下载用途，2026-11-09去除误导性的导出别名。",
+      "verification": "检索下载仍命中本节点；核对点击后的对象是现有文件。"
+    }
+  ],
+  "sourceDocumentId": "208396800935818",
+  "snapshotBuild": "build-f2f00f4b7c10eacbea02",
+  "sourceFile": "source-json/root-1-177000/node.json",
+  "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+  "jsonPointer": "/children/34",
+  "referenceSha256": "ac8f8de6b5a7a28b1ec9b9bf923de8c335682464947afc9754b92c3111cab5de",
+  "sourceReferenceCrop": {
+    "x": 784,
+    "y": 931,
+    "width": 48,
+    "height": 48
+  },
+  "file": "636-033563.svg",
+  "assetSha256": "53e004359567441f764fa35e32f6818ebfb9b2c85509ca56a23a3dad39f7d39c"
+}

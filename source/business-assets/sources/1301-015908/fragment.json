@@ -1,0 +1,450 @@
+{
+  "instanceId": "mg-9df43644ae804f8d",
+  "markup": "<div id=\"mg-9df43644ae804f8d-1\" data-instance-id=\"mg-9df43644ae804f8d\" data-source-id=\"1301:015908\" data-source-name=\"状态[a0]=未选\" data-source-width=\"46\" data-source-height=\"32\" class=\"mg-node mg-scene\" style=\"position:relative;left:0px;top:0px;width:46px;height:32px;margin:0;padding:0;border:0;box-sizing:border-box\"><img id=\"mg-9df43644ae804f8d-2\" data-instance-id=\"mg-9df43644ae804f8d\" data-source-id=\"1301:016182\" data-source-name=\"general/multiple-choice-多选未选中\" data-source-width=\"14\" data-source-height=\"14\" class=\"mg-node mg-svg\" src=\"assets/asset-4ad2e60249bb001da315.svg\" alt=\"\" style=\"position:absolute;left:0px;top:9px;width:14px;height:14px;margin:0;padding:0;border:0;box-sizing:border-box\"><div id=\"mg-9df43644ae804f8d-3\" data-instance-id=\"mg-9df43644ae804f8d\" data-source-id=\"1301:017505\" data-source-name=\"基础多选文案\" data-source-width=\"28\" data-source-height=\"14\" class=\"mg-node\" style=\"position:absolute;left:18px;top:9px;width:28px;height:14px;margin:0;padding:0;border:0;box-sizing:border-box\"><span id=\"mg-9df43644ae804f8d-4\" data-instance-id=\"mg-9df43644ae804f8d\" data-source-id=\"1301:017505/1301:017041\" data-source-name=\"未选\" data-source-width=\"28\" data-source-height=\"14\" data-text-node=\"true\" data-text-slot=\"node:1301:017505/1301:017041\" data-source-text-height=\"14\" data-source-breaks=\"0\" data-slot-overridden=\"false\" class=\"mg-node\" style=\"color:#1D2129;font-size:14px;font-family:&quot;PingFang SC&quot;,&quot;Source Han Sans CN&quot;,&quot;Microsoft YaHei&quot;,sans-serif;line-height:14px;font-weight:400;font-style:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;text-decoration:none;text-indent:0;text-shadow:none;text-align:start;word-break:normal;overflow-wrap:normal;font-variant:normal;font-feature-settings:normal;white-space:pre-wrap;display:block;position:absolute;left:0px;top:0px;width:28px;height:14px;margin:0;padding:0;border:0;box-sizing:border-box\">未选</span></div></div>",
+  "css": ".mg-scene,.mg-scene *{box-sizing:border-box}.mg-scene{font:400 14px/24px \"PingFang SC\",sans-serif;font-variant:normal;font-feature-settings:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;text-indent:0;text-align:start;text-shadow:none;white-space:normal}.mg-scene .mg-node>img{display:block}.mg-scene .mg-stroke{display:block}",
+  "assets": [
+    {
+      "file": "assets/asset-4ad2e60249bb001da315.svg",
+      "sha256": "4ad2e60249bb001da315c364a5d71eaa2397b68d35783e7212deb7aa5d18c2dc",
+      "sourceNodeIds": [
+        "1301:016182"
+      ],
+      "unmodified": true
+    }
+  ],
+  "reviewNotes": [
+    {
+      "type": "font-fallback",
+      "sourceFont": "PingFang SC",
+      "fallbackStack": [
+        "Source Han Sans CN",
+        "Microsoft YaHei",
+        "sans-serif"
+      ],
+      "cssFontStack": "\"PingFang SC\",\"Source Han Sans CN\",\"Microsoft YaHei\",sans-serif",
+      "missingOriginalFont": null,
+      "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+      "actualFallbackFont": null,
+      "actualFallbackVerified": false,
+      "fallbackAvailabilityEvidence": null,
+      "status": "fallback-declared-availability-unverified",
+      "sourceFontPreserved": true,
+      "nodeIds": [
+        "1301:017505/1301:017041"
+      ],
+      "reviewRequired": true
+    }
+  ],
+  "manifest": {
+    "rendererVersion": "0.10.6",
+    "instanceId": "mg-9df43644ae804f8d",
+    "sourceDocumentId": "208396800935818",
+    "provenanceScope": "JSON supplied by copy-locked exporter; renderer has no live design connection",
+    "sourceFile": "/Users/liuyuan/Documents/Codex/2026-10-23/pao-sh/outputs/Eager设计规范交付-2026-10-29/eager-admin-design/assets/source-runtime/source-json/root-1301-015233/node.json",
+    "sourceSha256": "ddcf570871db69ab059132f6bc0e4b22dbcc2879a252bc667e37617d418641a2",
+    "sourceNodeId": "1301:015908",
+    "sourceName": "状态[a0]=未选",
+    "sourceSize": {
+      "width": 46,
+      "height": 32
+    },
+    "sourceRootOffsetIgnored": {
+      "x": 20,
+      "y": 20
+    },
+    "mode": "source-size-static",
+    "rootWidthPolicy": "source",
+    "rootWidthOverride": null,
+    "textAdaptation": {
+      "applied": false,
+      "overriddenSlotKeys": [],
+      "sourceBoundDifferencesMayBeExpected": false
+    },
+    "status": "render-required-not-verified",
+    "textOverrides": {},
+    "usedTextOverrides": {},
+    "textSlots": [
+      {
+        "slotId": "node:1301:017505/1301:017041",
+        "nodeId": "1301:017505/1301:017041",
+        "jsonPointer": "/children/0/children/0/children/1/children/0",
+        "name": "未选",
+        "sourceText": "未选",
+        "sourceStyles": {
+          "color": "#1D2129",
+          "font-size": "14px",
+          "font-family": "PingFang SC",
+          "line-height": "14px"
+        }
+      }
+    ],
+    "graphicScopeSubstitutions": [],
+    "textPaintAdjustments": [],
+    "rootPaintViewport": null,
+    "fontFallbacks": [
+      {
+        "sourceFont": "PingFang SC",
+        "fallbackStack": [
+          "Source Han Sans CN",
+          "Microsoft YaHei",
+          "sans-serif"
+        ],
+        "cssFontStack": "\"PingFang SC\",\"Source Han Sans CN\",\"Microsoft YaHei\",sans-serif",
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "fallbackAvailabilityEvidence": null,
+        "status": "fallback-declared-availability-unverified",
+        "sourceFontPreserved": true,
+        "nodeIds": [
+          "1301:017505/1301:017041"
+        ],
+        "reviewRequired": true
+      }
+    ],
+    "fontPolicy": {
+      "schemaVersion": 1,
+      "sourcePreferredPreserved": true,
+      "noFontsRedistributed": true,
+      "availabilityScope": "Target-machine font availability is unknown until the generated review page runs. Previous maintainer-machine availability is not inherited.",
+      "mappings": {
+        "Alibaba PuHuiTi 2.0": {
+          "fallbackStack": [
+            "PingFang SC",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Alibaba PuHuiTi 2.0，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "Bebas": {
+          "fallbackStack": [
+            "Bebas Neue",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Bebas，允许使用配置替代栈Bebas Neue,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+          "localAliases": [
+            "Bebas-Regular",
+            "Bebas Regular"
+          ],
+          "localAliasEvidence": {
+            "method": "Exact full and PostScript names from author-linked original Bebas Regular name table. Metadata only; font binaries not redistributed.",
+            "sourceAuditSha256": "78ec274a020baada0d2d537ee5d3cdd7fa039aef081f618c7d110180cd3290df"
+          }
+        },
+        "Inter": {
+          "fallbackStack": [
+            "Arial",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Inter，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "Nunito": {
+          "fallbackStack": [
+            "Arial",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Nunito，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "Nunito Sans": {
+          "fallbackStack": [
+            "Arial",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Nunito Sans，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "YouSheBiaoTiHei": {
+          "fallbackStack": [
+            "PingFang SC",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体YouSheBiaoTiHei，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+        },
+        "PingFang SC": {
+          "fallbackStack": [
+            "Source Han Sans CN",
+            "Microsoft YaHei",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体PingFang SC，允许使用配置替代栈Source Han Sans CN,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+          "localAliases": [
+            "PingFangSC-Regular",
+            "PingFangSC-Medium",
+            "PingFangSC-Semibold",
+            "PingFangSC-Light",
+            "PingFangSC-Thin",
+            "PingFangSC-Ultralight"
+          ],
+          "localAliasEvidence": {
+            "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+            "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+          }
+        },
+        "Source Han Sans CN": {
+          "fallbackStack": [
+            "PingFang SC",
+            "Microsoft YaHei",
+            "sans-serif"
+          ],
+          "missingOriginalFont": null,
+          "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+          "actualFallbackFont": null,
+          "actualFallbackVerified": false,
+          "warning": "若缺少原字体Source Han Sans CN，允许使用配置替代栈PingFang SC,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+          "localAliases": [
+            "SourceHanSansCN-Regular"
+          ],
+          "localAliasEvidence": {
+            "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+            "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+          }
+        }
+      }
+    },
+    "exactSourceFontClaim": false,
+    "fontValidationStatus": "needs-environment-evidence",
+    "nodes": [
+      {
+        "renderId": "mg-9df43644ae804f8d-1",
+        "nodeId": "1301:015908",
+        "name": "状态[a0]=未选",
+        "sourceBound": {
+          "x": 20,
+          "y": 20,
+          "width": 46,
+          "height": 32
+        },
+        "expectedSourceBound": {
+          "x": 0,
+          "y": 0,
+          "width": 46,
+          "height": 32
+        },
+        "componentType": "COMPONENT",
+        "state": {
+          "variantAttributes": {
+            "状态": "未选"
+          },
+          "props": {},
+          "rawName": "状态[a0]=未选"
+        },
+        "sourceStyles": {
+          "width": "46px",
+          "height": "32px",
+          "display": "flex",
+          "justify-content": "center",
+          "align-items": "center",
+          "gap": "4px",
+          "padding-top": "9px",
+          "padding-bottom": "9px",
+          "position": "absolute",
+          "left": "20px",
+          "top": "20px",
+          "z-index": "0"
+        },
+        "geometryStrategy": "native bound; flex/padding removed",
+        "strokeStrategy": null
+      },
+      {
+        "renderId": "mg-9df43644ae804f8d-2",
+        "nodeId": "1301:016182",
+        "name": "general/multiple-choice-多选未选中",
+        "sourceBound": {
+          "x": 0,
+          "y": 9,
+          "width": 14,
+          "height": 14
+        },
+        "expectedSourceBound": {
+          "x": 0,
+          "y": 9,
+          "width": 14,
+          "height": 14
+        },
+        "componentType": "INSTANCE",
+        "state": {
+          "variantAttributes": {},
+          "props": {},
+          "rawName": "general/multiple-choice-多选未选中"
+        },
+        "sourceStyles": {
+          "width": "14px",
+          "height": "14px"
+        },
+        "geometryStrategy": "native bound; flex/padding removed",
+        "strokeStrategy": null
+      },
+      {
+        "renderId": "mg-9df43644ae804f8d-3",
+        "nodeId": "1301:017505",
+        "name": "基础多选文案",
+        "sourceBound": {
+          "x": 18,
+          "y": 9,
+          "width": 28,
+          "height": 14
+        },
+        "expectedSourceBound": {
+          "x": 18,
+          "y": 9,
+          "width": 28,
+          "height": 14
+        },
+        "componentType": "INSTANCE",
+        "state": {
+          "variantAttributes": {},
+          "props": {
+            "颜色": "文案(正文色)"
+          },
+          "rawName": "基础多选文案"
+        },
+        "sourceStyles": {
+          "display": "flex",
+          "justify-content": "flex-start",
+          "align-items": "flex-start",
+          "flex-direction": "column"
+        },
+        "geometryStrategy": "native bound; flex/padding removed",
+        "strokeStrategy": null
+      },
+      {
+        "renderId": "mg-9df43644ae804f8d-4",
+        "nodeId": "1301:017505/1301:017041",
+        "name": "未选",
+        "sourceBound": {
+          "x": 0,
+          "y": 0,
+          "width": 28,
+          "height": 14
+        },
+        "expectedSourceBound": {
+          "x": 0,
+          "y": 0,
+          "width": 28,
+          "height": 14
+        },
+        "componentType": false,
+        "state": {
+          "variantAttributes": {},
+          "props": {},
+          "rawName": "未选"
+        },
+        "sourceStyles": {
+          "color": "#1D2129",
+          "font-size": "14px",
+          "font-family": "PingFang SC",
+          "line-height": "14px"
+        },
+        "geometryStrategy": "native bound; flex/padding removed",
+        "strokeStrategy": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "assets/asset-4ad2e60249bb001da315.svg",
+        "sha256": "4ad2e60249bb001da315c364a5d71eaa2397b68d35783e7212deb7aa5d18c2dc",
+        "sourceNodeIds": [
+          "1301:016182"
+        ],
+        "unmodified": true
+      }
+    ],
+    "skipped": [],
+    "normalizations": [],
+    "risks": [],
+    "limitations": [
+      "Not an interactive-control adapter",
+      "Source-size mode does not reflow; flow mode needs family-specific baseline and changed-text validation",
+      "Text substitutions require browser overflow checks",
+      "Canvas/DOM font rasterization may differ; no font-size reduction is performed"
+    ],
+    "catalogIdentity": {
+      "id": "master:208396800935818+1301:015908",
+      "sourceNodeId": "1301:015908",
+      "sourceFile": "source-json/root-1301-015233/node.json",
+      "sourceSha256": "ddcf570871db69ab059132f6bc0e4b22dbcc2879a252bc667e37617d418641a2",
+      "jsonPointer": "/children/0/children/0",
+      "sourceRole": "component",
+      "normalizedSemantics": {
+        "status": "not-defined",
+        "rawRetained": true
+      },
+      "ownerPolicy": {
+        "disposition": "not-excluded-by-recorded-rules",
+        "evidence": [],
+        "notes": []
+      },
+      "generationGates": []
+    },
+    "sourceImage": {
+      "file": "reference-images/8707f8edd528598e9e6592fc.png",
+      "sha256": "8707f8edd528598e9e6592fca505c0d695ae7c40af4f5c27729f927c53d8b7ff",
+      "crop": {
+        "x": 187,
+        "y": 101,
+        "width": 46,
+        "height": 32
+      },
+      "mappingStatus": "bound-size-matched",
+      "noImageStretch": true,
+      "referenceLimitation": null,
+      "nativeReferenceOverride": null,
+      "visualApproval": null,
+      "scale": 1.0,
+      "referenceImagePackaged": true,
+      "sourceDocumentId": "208396800935818",
+      "nativeBytesUnmodified": true,
+      "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+    },
+    "componentUsageProfile": null,
+    "widthAdaptationProfile": {
+      "policy": "source",
+      "sourceNodeId": "1301:015908",
+      "sourceSha256": "ddcf570871db69ab059132f6bc0e4b22dbcc2879a252bc667e37617d418641a2",
+      "basis": "Source width is the default; fixed selector/dialog dimensions are preserved.",
+      "changedTextBrowserReviewRequired": false
+    },
+    "validationBinding": {
+      "currentRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+      "indexRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+      "runtimeAdapterRevisionSha256": "1e1306aa7a51ea8e792662202a61cb937785ee99dc869e91675967c3cb55e3f8",
+      "sameRenderer": true,
+      "sameContentAsSourceSample": true,
+      "mode": "source-size",
+      "applicableValidation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "note": "A prior renderer, another output mode, changed text or a newly applied runtime adapter never certifies this output."
+    },
+    "portableRuntimeBuild": "portable-build-f2f00f4b7c10eacbea02-b3d4e65809"
+  }
+}

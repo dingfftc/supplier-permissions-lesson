@@ -1,0 +1,61 @@
+{
+  "id": "master:208396800935818+636:033506",
+  "sourceNodeId": "636:033506",
+  "name": "general/upload-上传",
+  "kind": "icon",
+  "availability": "available",
+  "aliases": [
+    "上传附件",
+    "上传凭证",
+    "上传文件",
+    "upload",
+    "导入文件",
+    "import file",
+    "Eager数据导出",
+    "导出当前结果",
+    "导出筛选结果"
+  ],
+  "width": 48,
+  "height": 48,
+  "format": "svg",
+  "maskSafe": true,
+  "reason": "独立图标，原始 SVG。",
+  "usageMappings": [
+    {
+      "intent": "eager-data-export",
+      "sourceNodeId": "636:033506",
+      "label": "Eager数据导出入口",
+      "queryTerms": [
+        "导出",
+        "导出文件",
+        "导出报表",
+        "数据导出",
+        "导出当前结果",
+        "导出筛选结果",
+        "export",
+        "export file",
+        "export report"
+      ],
+      "ruleClass": "P",
+      "when": "Eager PC后台将当前列表、筛选结果或业务数据导出为文件的入口。",
+      "result": "使用用户确认的上传轮廓；保留导出原业务行为、文件格式与数据范围。",
+      "notFor": "下载既有文件、附件或已生成报表时用file-download。其他品牌或有明确约定的导出入口按该场景确认，不推成通用图形含义。",
+      "origin": "2026-11-09维护者针对真实使用反馈C明确确认，覆盖旧下载别名映射。",
+      "verification": "检索/resolve命中本节点并核对导出资产指纹；成图核对入口语义与原导出行为。"
+    }
+  ],
+  "sourceDocumentId": "208396800935818",
+  "snapshotBuild": "build-f2f00f4b7c10eacbea02",
+  "sourceFile": "source-json/root-1-177000/node.json",
+  "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+  "jsonPointer": "/children/35",
+  "referenceSha256": "ac8f8de6b5a7a28b1ec9b9bf923de8c335682464947afc9754b92c3111cab5de",
+  "sourceReferenceCrop": {
+    "x": 912,
+    "y": 931,
+    "width": 48,
+    "height": 48
+  },
+  "file": "636-033506.svg",
+  "assetSha256": "d7beae6b92253254a2de01ac6a101c008f0dd0afc63d8a881d182dd7b084e388"
+}

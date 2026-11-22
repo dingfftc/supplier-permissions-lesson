@@ -1,0 +1,293 @@
+{
+  "id": "master:208396800935818+1425:017974",
+  "sourceNodeId": "1425:017974",
+  "familyId": "set:208396800935818+1425:018119",
+  "familyName": "开关",
+  "name": "尺寸[a0]=16px,开关[aH]=false,是否禁用[a2]=true,描述文字[a2]=false",
+  "displayLabel": "16px · 关 · 可用 · 无描述",
+  "sourceKind": "component-definition",
+  "sourceRole": "component",
+  "sourceOriginalRole": "component",
+  "usageProfile": null,
+  "roleEvidence": {
+    "kind": "component",
+    "basis": "actual-componentType-record; semantics may need review"
+  },
+  "sourceFile": "source-json/root-711-006587/node.json",
+  "sourceSha256": "eec8dd6c2f273819818e0ee90ad30f4a7ce7489662793e3f2f933e8d32d9dd44",
+  "jsonPointer": "/children/0/children/14",
+  "sourceBound": {
+    "x": 20,
+    "y": 80,
+    "width": 30,
+    "height": 16
+  },
+  "displaySize": {
+    "width": 30,
+    "height": 16
+  },
+  "pageId": "1:24846",
+  "pageName": "开关",
+  "boardId": "711:006587",
+  "rawProperties": {},
+  "propertyAssignments": [
+    {
+      "label": "尺寸",
+      "key": "a0",
+      "value": "16px"
+    },
+    {
+      "label": "开关",
+      "key": "aH",
+      "value": "false"
+    },
+    {
+      "label": "是否禁用",
+      "key": "a2",
+      "value": "true"
+    },
+    {
+      "label": "描述文字",
+      "key": "a2",
+      "value": "false"
+    }
+  ],
+  "normalizedSemantics": {
+    "nodeId": "1425:017974",
+    "family": "switch",
+    "kind": "raw-boolean-label-is-inverted",
+    "raw": {
+      "尺寸": "16px",
+      "开关": "false",
+      "是否禁用": "true",
+      "描述文字": "false"
+    },
+    "normalizedSemantics": {
+      "checked": false,
+      "disabled": false,
+      "descriptionVisible": false,
+      "sizePx": 16
+    },
+    "evidence": {
+      "sourceFile": "source-json/root-711-006587/node.json",
+      "sourceSha256": "eec8dd6c2f273819818e0ee90ad30f4a7ce7489662793e3f2f933e8d32d9dd44",
+      "jsonPointer": "/children/0/children/14",
+      "boardId": "711:006587",
+      "componentSetId": "1425:018119",
+      "rowLabelNodeId": "1739:052225/603:95046",
+      "rowLabelText": "关",
+      "instanceColorProps": [
+        {
+          "nodeId": "1425:017969",
+          "props": {
+            "开关": "false",
+            "颜色": "灰(填充-灰底悬浮)",
+            "尺寸": "16px"
+          }
+        }
+      ]
+    },
+    "reason": "Source raw 是否禁用=true is drawn in enabled rows; raw false is in explicit 禁用 rows and child props name 禁用 colors. Preserve the exact source variant and expose correct product disabled semantics.",
+    "scope": "Only these eight exact16px variants; do not globally invert booleans in other components. 20px variants remain excluded by owner decision.",
+    "changesSourcePixels": false,
+    "changesDesignDocument": false,
+    "rawRetained": true,
+    "normalized": {
+      "checked": false,
+      "disabled": false,
+      "descriptionVisible": false,
+      "sizePx": 16
+    },
+    "displayLabel": "16px · 关 · 可用 · 无描述",
+    "status": "verified-source-semantic-overlay",
+    "sourceOfTruth": "source-semantic-overrides.json",
+    "doesNotImplyVisualOrInteractionPass": true
+  },
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "evidence": [],
+    "notes": []
+  },
+  "textSlots": [],
+  "occurrenceCount": 1,
+  "sourceImage": {
+    "file": "reference-images/c9f040971c4ef979b1a79b55.png",
+    "sha256": "c9f040971c4ef979b1a79b558740df6d15e4a15820d36b6ed99c221100c8f37a",
+    "crop": {
+      "x": 196,
+      "y": 227,
+      "width": 30,
+      "height": 16
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "b908e0f0ec28a813c81962f9cf1a4a1692cf4387b31d36bdd0db5ae358824e91",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/gallery-build8568/review-b.json",
+            "browser-evidence/gallery-build8568/page-35.jpg"
+          ],
+          "emittedSignature": "b908e0f0ec28a813c81962f9cf1a4a1692cf4387b31d36bdd0db5ae358824e91",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "b908e0f0ec28a813c81962f9cf1a4a1692cf4387b31d36bdd0db5ae358824e91",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 3,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "e013ac13e8a5a2474b686010ce8d16c3664a5253855271a15a77becaf62a3589",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "visual",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-visual-review",
+          "files": [
+            "browser-evidence/gallery-build8568/review-b.json",
+            "browser-evidence/gallery-build8568/page-35.jpg"
+          ],
+          "emittedSignature": "e013ac13e8a5a2474b686010ce8d16c3664a5253855271a15a77becaf62a3589",
+          "originalBuildId": "build-8568ad35d1cf458221fd",
+          "scope": "Original actual screenshot review reused only for identical source SHA and normalized emitted markup + complete CSS + asset byte hashes + source size. Renderer version is not a matching criterion. Original status and limitations are preserved."
+        },
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "e013ac13e8a5a2474b686010ce8d16c3664a5253855271a15a77becaf62a3589",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 3,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "pass",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": "set:208396800935818+1425:018119",
+    "lookupLabel": "开关",
+    "routingTier": "primary-control",
+    "routingReason": "Exact actual COMPONENT_SET and member trees describe a selectable control/composition in its dedicated source page; lookup priority only.",
+    "axes": [
+      {
+        "label": "尺寸",
+        "sourceKey": "a1",
+        "observedValues": [
+          "20px"
+        ]
+      },
+      {
+        "label": "开关",
+        "sourceKey": "aG",
+        "observedValues": [
+          "true"
+        ]
+      },
+      {
+        "label": "是否禁用",
+        "sourceKey": "a2",
+        "observedValues": [
+          "true"
+        ]
+      },
+      {
+        "label": "描述文字",
+        "sourceKey": "a0",
+        "observedValues": [
+          "true"
+        ]
+      },
+      {
+        "label": "开关",
+        "sourceKey": "aH",
+        "observedValues": [
+          "false"
+        ]
+      },
+      {
+        "label": "是否禁用",
+        "sourceKey": "a4",
+        "observedValues": [
+          "false"
+        ]
+      },
+      {
+        "label": "尺寸",
+        "sourceKey": "a0",
+        "observedValues": [
+          "16px"
+        ]
+      },
+      {
+        "label": "描述文字",
+        "sourceKey": "a2",
+        "observedValues": [
+          "false"
+        ]
+      }
+    ],
+    "actualDefinitionCount": 16,
+    "ownerExcludedCount": 8
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

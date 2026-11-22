@@ -1,0 +1,142 @@
+{
+  "id": "composition:de0d61828f173f1d9a80b66c8a5e7234a74bd6c1d3cb6cc8910e79292538fb41",
+  "sourceNodeId": "4258:046973",
+  "familyId": "composition-family:untyped:1:550680:抽屉组合",
+  "familyName": "抽屉组合",
+  "name": "矩形 828",
+  "displayLabel": "矩形 828",
+  "sourceKind": "observed-frame-composition",
+  "sourceRole": "unresolved-composition-role",
+  "sourceOriginalRole": "unresolved-composition-role",
+  "usageProfile": null,
+  "roleEvidence": "observed frame retained for source review, not automatically a product rule",
+  "sourceFile": "source-json/root-1-551574/node.json",
+  "sourceSha256": "c2b3428b615454511a090272099aafd48b1a06fd3e2de4c67ac4c2719c500e8c",
+  "jsonPointer": "/children/2/children/1/children/1/children/0/children/94",
+  "sourceBound": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  },
+  "displaySize": {
+    "width": 1920,
+    "height": 1080
+  },
+  "pageId": "1:550680",
+  "pageName": "抽屉",
+  "boardId": "1:551574",
+  "rawProperties": {},
+  "propertyAssignments": [],
+  "normalizedSemantics": null,
+  "ownerPolicy": {
+    "disposition": "not-excluded-by-recorded-rules",
+    "notes": [
+      "Observed instance/composition candidate; role and source image review still required."
+    ]
+  },
+  "textSlots": [],
+  "occurrenceCount": 1,
+  "sourceImage": {
+    "file": "reference-images/5f87599e18a3fae57843d00b.png",
+    "sha256": "5f87599e18a3fae57843d00b5c6addaaaeffff4b120749b209289b400e7b9d1a",
+    "crop": {
+      "x": 150,
+      "y": 1831,
+      "width": 1920,
+      "height": 1080
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "modes": {
+    "source-size": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "fa3975e842d4c5a3f78a3b6aac9f96ab14ea653c64cf63c3ab61651045364121",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "fa3975e842d4c5a3f78a3b6aac9f96ab14ea653c64cf63c3ab61651045364121",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 1,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "not-tested",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    },
+    "flow": {
+      "generated": true,
+      "rendererVersion": "0.10.6",
+      "buildId": "build-f2f00f4b7c10eacbea02",
+      "emittedSignature": "c393950cdf4cc3e10c77e9f92a0679488e05f496685bf815480ba81bac5da624",
+      "emittedSignatureRevision": "source-emitted-v1",
+      "evidence": [
+        {
+          "category": "geometry",
+          "status": "pass",
+          "origin": "source-and-emitted-signature-linked-dom-diagnostic",
+          "files": [
+            "catalog/measurements/browser-9ddb7cb69c7da761d4c7.json"
+          ],
+          "emittedSignature": "c393950cdf4cc3e10c77e9f92a0679488e05f496685bf815480ba81bac5da624",
+          "originalBuildId": "build-d577bdf9fe56ce12a9aa",
+          "scope": "Actual browser measurements from the named original build; current source and emitted markup/CSS/assets are identical. Original differences and unsupported checks remain retained; this does not assert new browser execution or visual approval."
+        }
+      ],
+      "rootPaintViewport": null,
+      "nodeCount": 1,
+      "risks": [],
+      "fontFallbacks": [],
+      "validation": {
+        "geometry": "pass",
+        "visual": "not-tested",
+        "interaction": "not-tested"
+      },
+      "preGeneratedFragmentPackaged": false
+    }
+  },
+  "generationGates": [
+    "not-a-default-product-control; source-role-review-required",
+    "visual-review-required-for-selected-output-mode"
+  ],
+  "containedOwnerSizeConflicts": [],
+  "rootWidthPolicy": "source; any alternative requires a selected family use profile",
+  "interactiveBehaviorImplemented": false,
+  "exactSourceFontClaim": false,
+  "generationBlocked": false,
+  "componentUsageProfile": null,
+  "familyRoute": {
+    "familyId": null,
+    "lookupLabel": null,
+    "routingTier": null,
+    "routingReason": null,
+    "axes": null,
+    "actualDefinitionCount": null,
+    "ownerExcludedCount": null
+  },
+  "portableStatus": "Source-backed static renderer; inspect actual output and implement behavior separately."
+}

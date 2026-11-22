@@ -1,0 +1,386 @@
+{
+  "rendererVersion": "0.10.6",
+  "instanceId": "mg-c9996ab9334c473a",
+  "sourceDocumentId": "208396800935818",
+  "provenanceScope": "JSON supplied by copy-locked exporter; renderer has no live design connection",
+  "sourceFile": "/Users/liuyuan/Documents/Codex/2026-10-23/pao-sh/outputs/Eager设计规范交付-2026-10-29/eager-admin-design/assets/source-runtime/source-json/root-711-006587/node.json",
+  "sourceSha256": "eec8dd6c2f273819818e0ee90ad30f4a7ce7489662793e3f2f933e8d32d9dd44",
+  "sourceNodeId": "1425:017974",
+  "sourceName": "尺寸[a0]=16px,开关[aH]=false,是否禁用[a2]=true,描述文字[a2]=false",
+  "sourceSize": {
+    "width": 30,
+    "height": 16
+  },
+  "sourceRootOffsetIgnored": {
+    "x": 20,
+    "y": 80
+  },
+  "mode": "source-size-static",
+  "rootWidthPolicy": "source",
+  "rootWidthOverride": null,
+  "textAdaptation": {
+    "applied": false,
+    "overriddenSlotKeys": [],
+    "sourceBoundDifferencesMayBeExpected": false
+  },
+  "status": "render-required-not-verified",
+  "textOverrides": {},
+  "usedTextOverrides": {},
+  "textSlots": [],
+  "graphicScopeSubstitutions": [],
+  "textPaintAdjustments": [],
+  "rootPaintViewport": null,
+  "fontFallbacks": [],
+  "fontPolicy": {
+    "schemaVersion": 1,
+    "sourcePreferredPreserved": true,
+    "noFontsRedistributed": true,
+    "availabilityScope": "Target-machine font availability is unknown until the generated review page runs. Previous maintainer-machine availability is not inherited.",
+    "mappings": {
+      "Alibaba PuHuiTi 2.0": {
+        "fallbackStack": [
+          "PingFang SC",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Alibaba PuHuiTi 2.0，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "Bebas": {
+        "fallbackStack": [
+          "Bebas Neue",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Bebas，允许使用配置替代栈Bebas Neue,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+        "localAliases": [
+          "Bebas-Regular",
+          "Bebas Regular"
+        ],
+        "localAliasEvidence": {
+          "method": "Exact full and PostScript names from author-linked original Bebas Regular name table. Metadata only; font binaries not redistributed.",
+          "sourceAuditSha256": "78ec274a020baada0d2d537ee5d3cdd7fa039aef081f618c7d110180cd3290df"
+        }
+      },
+      "Inter": {
+        "fallbackStack": [
+          "Arial",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Inter，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "Nunito": {
+        "fallbackStack": [
+          "Arial",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Nunito，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "Nunito Sans": {
+        "fallbackStack": [
+          "Arial",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Nunito Sans，允许使用配置替代栈Arial,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "YouSheBiaoTiHei": {
+        "fallbackStack": [
+          "PingFang SC",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体YouSheBiaoTiHei，允许使用配置替代栈PingFang SC,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。"
+      },
+      "PingFang SC": {
+        "fallbackStack": [
+          "Source Han Sans CN",
+          "Microsoft YaHei",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体PingFang SC，允许使用配置替代栈Source Han Sans CN,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+        "localAliases": [
+          "PingFangSC-Regular",
+          "PingFangSC-Medium",
+          "PingFangSC-Semibold",
+          "PingFangSC-Light",
+          "PingFangSC-Thin",
+          "PingFangSC-Ultralight"
+        ],
+        "localAliasEvidence": {
+          "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+          "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+        }
+      },
+      "Source Han Sans CN": {
+        "fallbackStack": [
+          "PingFang SC",
+          "Microsoft YaHei",
+          "sans-serif"
+        ],
+        "missingOriginalFont": null,
+        "missingEvidence": "Target machine not checked yet; open review.html for local FontFace loading check.",
+        "actualFallbackFont": null,
+        "actualFallbackVerified": false,
+        "warning": "若缺少原字体Source Han Sans CN，允许使用配置替代栈PingFang SC,Microsoft YaHei,sans-serif，必须在审阅说明中提示，且不宣称字形完全一致。",
+        "localAliases": [
+          "SourceHanSansCN-Regular"
+        ],
+        "localAliasEvidence": {
+          "method": "Exact PostScript names observed in CoreText registry; names only, not a target-machine availability claim.",
+          "sourceAuditSha256": "4a2b87bb76986cf5b8e4ffbc76aacb1d4d2d4e6b7e6bd73f0d6df64a5b1a78c1"
+        }
+      }
+    }
+  },
+  "exactSourceFontClaim": false,
+  "fontValidationStatus": "needs-environment-evidence",
+  "nodes": [
+    {
+      "renderId": "mg-c9996ab9334c473a-1",
+      "nodeId": "1425:017974",
+      "name": "尺寸[a0]=16px,开关[aH]=false,是否禁用[a2]=true,描述文字[a2]=false",
+      "sourceBound": {
+        "x": 20,
+        "y": 80,
+        "width": 30,
+        "height": 16
+      },
+      "expectedSourceBound": {
+        "x": 0,
+        "y": 0,
+        "width": 30,
+        "height": 16
+      },
+      "componentType": "COMPONENT",
+      "state": {
+        "variantAttributes": {
+          "尺寸": "16px",
+          "开关": "false",
+          "是否禁用": "true",
+          "描述文字": "false"
+        },
+        "props": {},
+        "rawName": "尺寸[a0]=16px,开关[aH]=false,是否禁用[a2]=true,描述文字[a2]=false"
+      },
+      "sourceStyles": {
+        "width": "30px",
+        "height": "16px",
+        "position": "absolute",
+        "left": "20px",
+        "top": "80px",
+        "z-index": "14"
+      },
+      "geometryStrategy": "native bound; flex/padding removed",
+      "strokeStrategy": null
+    },
+    {
+      "renderId": "mg-c9996ab9334c473a-2",
+      "nodeId": "1425:017969",
+      "name": "开关元素 7",
+      "sourceBound": {
+        "x": 0,
+        "y": 0,
+        "width": 30,
+        "height": 16
+      },
+      "expectedSourceBound": {
+        "x": 0,
+        "y": 0,
+        "width": 30,
+        "height": 16
+      },
+      "componentType": "INSTANCE",
+      "state": {
+        "variantAttributes": {},
+        "props": {
+          "开关": "false",
+          "颜色": "灰(填充-灰底悬浮)",
+          "尺寸": "16px"
+        },
+        "rawName": "开关元素 7"
+      },
+      "sourceStyles": {
+        "position": "absolute",
+        "left": "0%",
+        "right": "0%",
+        "top": "0%",
+        "bottom": "0%",
+        "z-index": "0"
+      },
+      "geometryStrategy": "native bound; flex/padding removed",
+      "strokeStrategy": null
+    },
+    {
+      "renderId": "mg-c9996ab9334c473a-3",
+      "nodeId": "1425:017969",
+      "name": "开关元素 7",
+      "sourceBound": null,
+      "expectedSourceBound": {
+        "x": 0,
+        "y": 0,
+        "width": 30,
+        "height": 16
+      },
+      "componentType": null,
+      "state": {
+        "variantAttributes": {},
+        "props": {},
+        "rawName": "开关元素 7"
+      },
+      "sourceStyles": {},
+      "geometryStrategy": "native bound; flex/padding removed",
+      "strokeStrategy": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/asset-a1b86c83deaae66efa30.svg",
+      "sha256": "a1b86c83deaae66efa301bc49563e4c724ecfc6dc358a455a4e16d7e58d578ee",
+      "sourceNodeIds": [
+        "1425:017969"
+      ],
+      "unmodified": true
+    }
+  ],
+  "skipped": [],
+  "normalizations": [],
+  "risks": [],
+  "limitations": [
+    "Not an interactive-control adapter",
+    "Source-size mode does not reflow; flow mode needs family-specific baseline and changed-text validation",
+    "Text substitutions require browser overflow checks",
+    "Canvas/DOM font rasterization may differ; no font-size reduction is performed"
+  ],
+  "catalogIdentity": {
+    "id": "master:208396800935818+1425:017974",
+    "sourceNodeId": "1425:017974",
+    "sourceFile": "source-json/root-711-006587/node.json",
+    "sourceSha256": "eec8dd6c2f273819818e0ee90ad30f4a7ce7489662793e3f2f933e8d32d9dd44",
+    "jsonPointer": "/children/0/children/14",
+    "sourceRole": "component",
+    "normalizedSemantics": {
+      "nodeId": "1425:017974",
+      "family": "switch",
+      "kind": "raw-boolean-label-is-inverted",
+      "raw": {
+        "尺寸": "16px",
+        "开关": "false",
+        "是否禁用": "true",
+        "描述文字": "false"
+      },
+      "normalizedSemantics": {
+        "checked": false,
+        "disabled": false,
+        "descriptionVisible": false,
+        "sizePx": 16
+      },
+      "evidence": {
+        "sourceFile": "source-json/root-711-006587/node.json",
+        "sourceSha256": "eec8dd6c2f273819818e0ee90ad30f4a7ce7489662793e3f2f933e8d32d9dd44",
+        "jsonPointer": "/children/0/children/14",
+        "boardId": "711:006587",
+        "componentSetId": "1425:018119",
+        "rowLabelNodeId": "1739:052225/603:95046",
+        "rowLabelText": "关",
+        "instanceColorProps": [
+          {
+            "nodeId": "1425:017969",
+            "props": {
+              "开关": "false",
+              "颜色": "灰(填充-灰底悬浮)",
+              "尺寸": "16px"
+            }
+          }
+        ]
+      },
+      "reason": "Source raw 是否禁用=true is drawn in enabled rows; raw false is in explicit 禁用 rows and child props name 禁用 colors. Preserve the exact source variant and expose correct product disabled semantics.",
+      "scope": "Only these eight exact16px variants; do not globally invert booleans in other components. 20px variants remain excluded by owner decision.",
+      "changesSourcePixels": false,
+      "changesDesignDocument": false,
+      "rawRetained": true,
+      "normalized": {
+        "checked": false,
+        "disabled": false,
+        "descriptionVisible": false,
+        "sizePx": 16
+      },
+      "displayLabel": "16px · 关 · 可用 · 无描述",
+      "status": "verified-source-semantic-overlay",
+      "sourceOfTruth": "source-semantic-overrides.json",
+      "doesNotImplyVisualOrInteractionPass": true
+    },
+    "ownerPolicy": {
+      "disposition": "not-excluded-by-recorded-rules",
+      "evidence": [],
+      "notes": []
+    },
+    "generationGates": []
+  },
+  "sourceImage": {
+    "file": "reference-images/c9f040971c4ef979b1a79b55.png",
+    "sha256": "c9f040971c4ef979b1a79b558740df6d15e4a15820d36b6ed99c221100c8f37a",
+    "crop": {
+      "x": 196,
+      "y": 227,
+      "width": 30,
+      "height": 16
+    },
+    "mappingStatus": "bound-size-matched",
+    "noImageStretch": true,
+    "referenceLimitation": null,
+    "nativeReferenceOverride": null,
+    "visualApproval": null,
+    "scale": 1.0,
+    "referenceImagePackaged": true,
+    "sourceDocumentId": "208396800935818",
+    "nativeBytesUnmodified": true,
+    "scaleEvidence": "Exact PNG SHA matched native screenshot request scale."
+  },
+  "componentUsageProfile": null,
+  "widthAdaptationProfile": {
+    "policy": "source",
+    "sourceNodeId": "1425:017974",
+    "sourceSha256": "eec8dd6c2f273819818e0ee90ad30f4a7ce7489662793e3f2f933e8d32d9dd44",
+    "basis": "Source width is the default; fixed selector/dialog dimensions are preserved.",
+    "changedTextBrowserReviewRequired": false
+  },
+  "validationBinding": {
+    "currentRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+    "indexRendererSha256": "b3d4e65809140eddbf47fa37fe436e65d5721cc397b9e71fdc604da1b5ece207",
+    "runtimeAdapterRevisionSha256": "1e1306aa7a51ea8e792662202a61cb937785ee99dc869e91675967c3cb55e3f8",
+    "sameRenderer": true,
+    "sameContentAsSourceSample": true,
+    "mode": "source-size",
+    "applicableValidation": {
+      "geometry": "pass",
+      "visual": "pass",
+      "interaction": "not-tested"
+    },
+    "note": "A prior renderer, another output mode, changed text or a newly applied runtime adapter never certifies this output."
+  },
+  "portableRuntimeBuild": "portable-build-f2f00f4b7c10eacbea02-b3d4e65809"
+}

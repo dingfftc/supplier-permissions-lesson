@@ -1,0 +1,161 @@
+/* Source-backed implementation, working source: MasterGo COPY 208396800935818.
+   Raw exports in ../source-exports preserve actual SVGs and component structure.
+   Insets use box-shadow so the 1px inside stroke does not change source geometry.
+   This stylesheet records implementation, not a claim of rendered visual approval. */
+
+/* Buttons: 636:030960/030953/032452; outline blue 027728/027740/027752;
+   outline gray 027734/027746/027758. Width follows text, except source dialog min88. */
+.btn{box-sizing:border-box;display:inline-flex;justify-content:center;align-items:center;height:32px;padding:9px 16px;gap:4px;border:0;border-radius:4px;background:transparent;color:#1D2129;font-family:"PingFang SC",sans-serif;font-size:14px;font-weight:400;line-height:14px;letter-spacing:normal;text-align:center;white-space:nowrap}
+.btn.primary{background:#165DFF;color:#FFFFFF}
+.btn.primary:is(:hover,[data-visual-state="hover"]):not(:disabled),.btn.primary:active:not(:disabled){background:#4080FF}
+.btn.primary:disabled{background:#F7F8FA;color:#C9CDD4}
+.btn.secondary{background:transparent;color:#1D2129;box-shadow:inset 0 0 0 1px #E5E6EB}
+.btn.secondary:is(:hover,[data-visual-state="hover"]):not(:disabled),.btn.secondary:active:not(:disabled){color:#165DFF;box-shadow:inset 0 0 0 1px #165DFF}
+.btn.secondary:disabled{background:transparent;color:#C9CDD4;box-shadow:inset 0 0 0 1px #E5E6EB}
+.btn.outline-blue{background:transparent;color:#165DFF;box-shadow:inset 0 0 0 1px #165DFF}
+.btn.outline-blue:is(:hover,[data-visual-state="hover"]):not(:disabled),.btn.outline-blue:active:not(:disabled){background:#F5F9FF}
+.btn.outline-blue:disabled{background:transparent;color:#C9CDD4;box-shadow:inset 0 0 0 1px #E5E6EB}
+/* Table action text: 2173:045771; no filled hover box or 32px visual button. */
+.btn.text{height:14px;padding:0;gap:4px;background:transparent;color:#165DFF;box-shadow:none}
+.btn.text:disabled{color:#C9CDD4;background:transparent}
+
+/* Ordinary input: 937:010686/010696/010667; error6587:27529. */
+.eager-input{box-sizing:border-box;height:32px;padding:0 12px;border:0;border-radius:4px;background:#FFFFFF;box-shadow:inset 0 0 0 1px #E5E6EB;color:#4E5969;font:400 14px/14px "PingFang SC",sans-serif}
+.eager-input::placeholder{color:#BCC3CC;opacity:1}.eager-input:is(:hover,[data-visual-state="hover"]){box-shadow:inset 0 0 0 1px #C9CDD4}.eager-input:is(:focus,[data-visual-state="focus"]){outline:none;box-shadow:inset 0 0 0 1px #165DFF}.eager-input[aria-invalid="true"]{box-shadow:inset 0 0 0 1px #F53F3F}
+
+/* Search1945:042914 and all measured state variants. The input has no native
+   browser clear affordance; source clear icon/state is a separate asset. */
+.search-control{display:flex;align-items:center;height:32px;padding:0;gap:0;border:0;background:transparent}
+.search-control input{box-sizing:border-box;flex:1;align-self:stretch;min-width:0;height:32px;padding:4px 12px;border:0;border-radius:4px 0 0 4px;background:#FFFFFF;box-shadow:inset 1px 0 #E5E6EB,inset 0 1px #E5E6EB,inset 0 -1px #E5E6EB;color:#4E5969;font:400 14px/14px "PingFang SC",sans-serif;appearance:none}
+.search-control input::placeholder{color:#BCC3CC;opacity:1}.search-control input::-webkit-search-decoration,.search-control input::-webkit-search-cancel-button{appearance:none;display:none}
+.search-control:is(:hover,[data-visual-state="hover"]) input:not(:disabled){box-shadow:inset 1px 0 #C9CDD4,inset 0 1px #C9CDD4,inset 0 -1px #C9CDD4}
+.search-control input:not(:disabled):is(:focus,[data-visual-state="focus"]){outline:none;box-shadow:inset 1px 0 #165DFF,inset 0 1px #165DFF,inset 0 -1px #165DFF}
+.search-control .search-submit.btn.primary,.search-control .search-submit.btn.primary:is(:hover,[data-visual-state="hover"]),.search-control .search-submit.btn.primary:active{flex:0 0 32px;width:32px;height:32px;padding:8px;gap:0;border:0;border-radius:0 4px 4px 0;background:#165DFF;box-shadow:none;color:#FFFFFF}
+.search-submit img{width:16px;height:16px;flex:none}.search-control input:disabled{color:#86909C;background:#FFFFFF;box-shadow:inset 1px 0 #E5E6EB,inset 0 1px #E5E6EB,inset 0 -1px #E5E6EB}.search-control .search-submit.btn.primary:disabled{background:#F7F8FA;box-shadow:inset -1px 0 #E5E6EB,inset 0 1px #E5E6EB,inset 0 -1px #E5E6EB}
+
+/* Counted textarea6587:28037: text region left16,top12, right17, bottom2;
+   counter right7/bottom7/pad2; resize glyph is the original 4x4 SVG. */
+.eager-textarea{box-sizing:border-box;position:relative;display:flex;width:100%;height:112px;min-height:112px;padding:12px 17px 2px 16px;gap:10px;border:0;border-radius:4px;background:#FFFFFF;box-shadow:inset 0 0 0 1px #E5E6EB}
+.eager-textarea textarea{box-sizing:border-box;display:block;flex:1;min-width:0;width:100%;height:98px;min-height:0;margin:0;padding:0;border:0;border-radius:0;outline:none;box-shadow:none;background:transparent;color:#4E5969;resize:none;overflow:auto;font:400 14px/24px "PingFang SC",sans-serif;letter-spacing:normal;text-align:justify}
+.eager-textarea textarea::placeholder{color:#BCC3CC;opacity:1}.eager-textarea:is(:hover,[data-visual-state="hover"]){box-shadow:inset 0 0 0 1px #C9CDD4}
+.eager-textarea:has(textarea:focus),.eager-textarea[data-visual-state="focus"]{box-shadow:inset 0 0 0 1px #165DFF}
+.textarea-resize{position:absolute;right:3px;bottom:2px;width:4px;height:4px;pointer-events:none}.textarea-count{position:absolute;right:7px;bottom:7px;display:flex;align-items:center;padding:2px;background:#FFFFFF;font:400 12px/12px "PingFang SC",sans-serif;white-space:nowrap;pointer-events:none}.textarea-count>span:first-child{color:#86909C}.textarea-count>span:last-child{color:#BCC3CC}.textarea-count.over-limit>span{color:#F53F3F}.field-error{margin:0;color:#F53F3F;font:400 12px/16px "PingFang SC",sans-serif;text-align:justify;overflow-wrap:anywhere}.field-error:not(:empty){margin-top:8px}.field-error:empty{display:none}
+
+/* Table header2207:043718; body2145:042957 + 1px divider2145:042998.
+   The 16px column gap is mapped to8+8 cell spacing, outer edges24. */
+.customer-table th{box-sizing:border-box;height:56px;padding:0 8px;border:0;background:#FAFAFA;vertical-align:middle;color:#86909C;font:400 14px/18px "PingFang SC",sans-serif}
+.customer-table tbody>tr:not(.expanded-row)>td{box-sizing:border-box;height:57px;padding:0 8px;border:0;border-bottom:1px solid #E5E6EB;vertical-align:middle;color:#1D2129;font:400 14px/24px "PingFang SC",sans-serif}
+.customer-table th:first-child,.customer-table tbody>tr:not(.expanded-row)>td:first-child{padding-left:24px}.customer-table th:last-child,.customer-table tbody>tr:not(.expanded-row)>td:last-child{padding-right:24px}.customer-name,.record-preview,.table-date{color:#1D2129;font-weight:400;font-size:14px;line-height:24px}
+/* Expansion2173:058788 uses blue text+down/up14px, then nested table.
+   Nested header2173:060317 is62px:38px vertical padding plus its tallest24px child.
+   Expanded child rows2173:060311 use #FBFCFE; no invented blue left rule. */
+.row-actions{display:flex;align-items:center;gap:16px}
+.expand-control img{width:14px;height:14px;flex:none}
+.customer-table>tbody>.expanded-row>td{padding:0;border:0;background:#FBFCFE}
+.detail-table{width:100%;min-width:0}.detail-table th{position:static;height:62px}
+.customer-table.detail-table>tbody>tr>td{height:auto;min-height:57px;padding-top:16px;padding-bottom:16px;background:#FBFCFE;vertical-align:middle}
+.detail-record{white-space:pre-wrap;overflow-wrap:anywhere}
+
+/* Pagination9306:40144: owner removes page-size selector. */
+.pagination-summary{color:#4E5969;font:400 14px/24px "PingFang SC",sans-serif}.page-controls .btn.page-number,.page-controls .btn.page-prev,.page-controls .btn.page-next{width:32px;height:32px;padding:4px 12px;border:0;border-radius:0;background:transparent;box-shadow:none;color:#4E5969;font:400 14px/24px "PingFang SC",sans-serif}
+.page-controls .btn.page-number[aria-current="page"]{color:#165DFF}.page-controls .btn.page-prev,.page-controls .btn.page-next{padding:9px}.page-controls .page-prev img,.page-controls .page-next img{width:14px;height:14px}
+.page-jump{display:flex;align-items:center;justify-content:center;gap:8px;margin-left:16px;color:#4E5969;font:400 14px/24px "PingFang SC",sans-serif}.page-jump input{box-sizing:border-box;width:56px;height:32px;padding:4px 8px;border:0;border-radius:2px;box-shadow:inset 0 0 0 1px #E5E6EB;background:#FFFFFF;color:#4E5969;text-align:center;font:400 14px/24px "PingFang SC",sans-serif;appearance:textfield}.page-jump input::-webkit-inner-spin-button,.page-jump input::-webkit-outer-spin-button{appearance:none;margin:0}
+
+/* DMS3335:026428/026460/026436/026468. Original close SVG for each state. */
+.dms-tabs{display:flex;padding:8px 16px;gap:4px;border:0;background:#F7F8FA}
+.dms-tab-wrap{box-sizing:border-box;display:flex;align-items:center;justify-content:center;height:24px;padding:5px 12px;gap:4px;border:0;border-radius:4px;background:#FFFFFF;color:#4E5969}
+.dms-tab-wrap.selected{color:#165DFF}.dms-tab-wrap:not(.selected):is(:hover,[data-visual-state="hover"]),.dms-tab-wrap:not(.selected):active{color:#165DFF}.dms-tab-wrap.selected:is(:hover,[data-visual-state="hover"]),.dms-tab-wrap.selected:active{color:#4080FF}
+.dms-tab{display:inline-flex;align-items:center;justify-content:center;height:14px;padding:0;margin:0;border:0;background:transparent;color:inherit;font:400 14px/14px "PingFang SC",sans-serif;letter-spacing:normal;text-align:center;white-space:nowrap}
+.dms-close{display:flex;align-items:center;justify-content:center;width:14px;height:14px;margin:0;padding:0;border:0;border-radius:0;background:transparent;color:inherit}
+.dms-close .source-close-icon{display:block;width:14px;height:14px;background:url("assets/dms-close-default.svg") center/14px 14px no-repeat}.selected .dms-close .source-close-icon,.dms-tab-wrap:not(.selected):is(:hover,[data-visual-state="hover"]) .source-close-icon,.dms-tab-wrap:not(.selected):active .source-close-icon{background-image:url("assets/dms-close-selected.svg")}.dms-tab-wrap.selected:is(:hover,[data-visual-state="hover"]) .source-close-icon,.dms-tab-wrap.selected:active .source-close-icon{background-image:url("assets/dms-close-selected-hover.svg")}
+
+/* Edit1398:079564 and confirm874:016852: source shell and separate layouts. */
+.dialog{box-sizing:border-box;max-width:none;max-height:min(600px,calc(100vh - 48px));padding:0;border:0;border-radius:4px;background:#FFFFFF;color:#1D2129;box-shadow:none;overflow:hidden}
+.dialog::backdrop{background:rgba(0,0,0,.65)}.edit-dialog{width:560px}.confirm-dialog{width:420px}
+.dialog-header{display:flex;align-items:center;justify-content:space-between;height:57px;padding:0 24px;border-bottom:1px solid #E5E6EB}
+.dialog-header h2{color:#1D2129;font:500 16px/16px "PingFang SC",sans-serif;letter-spacing:normal}.dialog-close{display:flex;align-items:center;justify-content:center;flex:none;width:20px;height:20px;padding:0;margin:0;border:0;background:transparent}.dialog-close .source-close-icon{display:block;width:20px;height:20px;background:url("assets/dialog-close.svg") center/20px 20px no-repeat}
+.dialog-body{display:flex;flex-direction:column;padding:24px;gap:0}.dialog-footer{display:flex;align-items:flex-start;justify-content:flex-end;padding:0 24px 24px;gap:16px;border:0;background:#FFFFFF}.dialog-footer .btn{min-width:88px}.confirm-dialog .dialog-header{justify-content:center;padding:0 30px;gap:8px}.confirm-body{padding:20px 24px;color:#1D2129;font:400 14px/24px "PingFang SC",sans-serif}.confirm-dialog .dialog-footer{justify-content:center}
+
+/* Success1209:011948. Fixed360, content20 + top/bottom10 gives40. */
+.toast{box-sizing:border-box;display:flex;align-items:center;width:360px;height:auto;padding:10px 16px;gap:8px;border:0;border-radius:4px;background:#E8FFEA;box-shadow:inset 0 0 0 1px #AFF0B5;color:#00B42A;font:400 14px/20px "PingFang SC",sans-serif}
+.toast-symbol{flex:0 0 20px;width:20px;height:20px}.toast>span{flex:1;min-width:0;line-height:20px;text-align:justify}
+
+/* Counted textarea states from6587:28029 board: hover28065/28072,
+   focus28086/28093, disabled28051/28058, error28664/28674/28684. */
+.eager-textarea:has(textarea[aria-invalid="true"]),.eager-textarea[data-visual-state="error"]{box-shadow:inset 0 0 0 1px #F53F3F}
+.eager-textarea:has(textarea:disabled),.eager-textarea[data-visual-state="disabled"]{background:#F7F8FA;box-shadow:inset 0 0 0 1px #E5E6EB}
+.eager-textarea textarea:disabled{color:#86909C;-webkit-text-fill-color:#86909C;opacity:1}
+.eager-textarea:has(textarea:disabled) .textarea-count{display:none}
+.eager-textarea:has(textarea:disabled) .textarea-resize{content:url("assets/textarea-resize-disabled.svg")}
+.textarea-count.empty>span,.eager-textarea:has(textarea:placeholder-shown) .textarea-count>span{color:#BCC3CC}
+.eager-textarea textarea{scrollbar-width:none}.eager-textarea textarea::-webkit-scrollbar{display:none}
+.eager-textarea.is-scrollable{padding-top:0;padding-bottom:0}
+.eager-textarea.is-scrollable textarea{height:112px;padding-top:12px;padding-bottom:4px}
+.eager-textarea.is-scrollable .textarea-resize{bottom:0}
+.textarea-scrollbar{position:absolute;right:5px;top:12px;width:2px;height:50px;border-radius:1px;background:#E5E6EB;pointer-events:none}
+
+.eager-textarea textarea:disabled::placeholder{color:#BCC3CC;-webkit-text-fill-color:#BCC3CC;opacity:1}
+
+/* Text buttons636:028956(default)/029214(hover/click)/029013(disabled).
+   Expansion instances swap the underlying arrow to down/up; the unchanged
+   source SVG alpha mask uses the source text/icon color in each state. */
+.btn.text:is(:hover,:active,[data-visual-state="hover"]):not(:disabled){color:#4080FF;background:transparent;box-shadow:none}
+.expand-icon{display:block;flex:none;width:14px;height:14px;background:currentColor;mask:url("assets/expand-down.svg") center/14px 14px no-repeat;-webkit-mask:url("assets/expand-down.svg") center/14px 14px no-repeat}
+.expand-control[aria-expanded="true"] .expand-icon{mask-image:url("assets/expand-up.svg");-webkit-mask-image:url("assets/expand-up.svg")}
+/* Source search1945:042944/042965: clear16, gap8, rightpadding12.
+   Only entered hover/focus variants show it. Source disabled search asset985. */
+.search-control{position:relative}
+.search-clear{position:absolute;right:44px;top:8px;z-index:1;display:none;width:16px;height:16px;margin:0;padding:0;border:0;background:transparent}
+.search-clear img{width:16px;height:16px}
+.search-control:is(:hover,:focus-within,[data-visual-state="hover"],[data-visual-state="focus"]):has(input:not(:placeholder-shown):not(:disabled)) .search-clear{display:block}
+.search-control:is(:hover,:focus-within,[data-visual-state="hover"],[data-visual-state="focus"]):has(input:not(:placeholder-shown):not(:disabled)) input{padding-right:36px}
+.search-control .search-submit.btn.primary:disabled img{content:url("assets/search-disabled.svg")}
+.search-control input:disabled{opacity:1;-webkit-text-fill-color:#86909C}.search-control input:disabled::placeholder{color:#BCC3CC;-webkit-text-fill-color:#BCC3CC;opacity:1}
+/* Empty-with-action22:245650 uses actual180x90 PNG, gap10 and14/14 label.
+   Its button instance selects the verified outline-blue/no-icon variation. */
+.empty-search{display:flex;align-items:center;justify-content:center}
+.empty-state{display:flex;width:180px;flex-direction:column;align-items:center;gap:10px}
+.empty-state>img{width:180px;height:90px;object-fit:cover}
+.empty-state>h3{margin:0;color:#86909C;font:400 14px/14px "PingFang SC",sans-serif;text-align:center}
+
+/* Documented global scrollbar:2px stroke,10px hitregion,shown on hover. */
+.eager-textarea .textarea-scrollbar{visibility:hidden;pointer-events:auto;cursor:default;z-index:1}
+.eager-textarea:is(:hover,[data-visual-state="hover"],.scrollbar-dragging) .textarea-scrollbar{visibility:visible}
+.textarea-scrollbar::before{content:"";position:absolute;left:-3px;right:-5px;top:0;bottom:0}
+.table-scroll::-webkit-scrollbar,.dms-tabs::-webkit-scrollbar,.dialog-body::-webkit-scrollbar,.confirm-body::-webkit-scrollbar{width:10px;height:10px;background:transparent}
+.table-scroll::-webkit-scrollbar-thumb,.dms-tabs::-webkit-scrollbar-thumb,.dialog-body::-webkit-scrollbar-thumb,.confirm-body::-webkit-scrollbar-thumb{border:4px solid transparent;border-radius:5px;background:transparent;background-clip:padding-box}
+.table-scroll:hover::-webkit-scrollbar-thumb,.dms-tabs:hover::-webkit-scrollbar-thumb,.dialog-body:hover::-webkit-scrollbar-thumb,.confirm-body:hover::-webkit-scrollbar-thumb{background-color:#E5E6EB}
+.dialog[open]{display:flex;flex-direction:column}.dialog>form{display:flex;flex-direction:column;max-height:inherit;min-height:0}
+.dialog-header,.dialog-footer{flex:none}.dialog-body,.confirm-body{min-height:0;overflow:auto;flex:1 1 auto}
+/* Explicit state hooks are shared by the component comparison gallery. */
+.search-control[data-visual-state="focus"] input:not(:disabled){box-shadow:inset 1px 0 #165DFF,inset 0 1px #165DFF,inset 0 -1px #165DFF}
+.search-control:has(input[data-visual-state="focus"]):has(input:not(:placeholder-shown):not(:disabled)) .search-clear{display:block}
+.search-control:has(input[data-visual-state="focus"]):has(input:not(:placeholder-shown):not(:disabled)) input{padding-right:36px}
+
+/* Table-main explicit hover/click annotation2205:046953/589:94520;
+   source mainrow2173:044672 and expandedchild2173:060314. */
+.customer-table>tbody>tr:not(.expanded-row):is(:hover,:active,[data-visual-state="hover"])>td{background:#F5F9FF}
+/* Pagination previous-arrow states:1749:048070/048045/048071. */
+.page-controls .page-prev:is(:hover,:active,[data-visual-state="hover"]):not(:disabled) img{content:url("assets/page-left-hover.svg")}
+.page-controls .page-prev:disabled img{content:url("assets/page-left-disabled.svg")}
+
+/* Paging shared state colors from explicit main-board state matrix.
+   Page numbers: hover048031/048058 #4080FF; disabled048052/048064 #C9CDD4.
+   Previous arrow048085/048084/048086 documents the arrow's3-state palette.
+   Next uses its ORIGINAL right SVG geometry with that shared palette; there
+   is no claim that an independent right-hover/disabled node was exported. */
+.page-controls .btn:is(.page-prev,.page-next,.page-number):is(:hover,:active,[data-visual-state="hover"]){background:transparent;box-shadow:none}
+.page-controls .btn:is(.page-prev,.page-next,.page-number):is(:hover,:active,[data-visual-state="hover"]):not(:disabled){color:#4080FF}
+.page-controls .btn:is(.page-prev,.page-next,.page-number):disabled{color:#C9CDD4;background:transparent;box-shadow:none}
+.page-next .page-arrow{display:block;flex:none;width:14px;height:14px;background:currentColor;mask:url("assets/page-right.svg") center/14px 14px no-repeat;-webkit-mask:url("assets/page-right.svg") center/14px 14px no-repeat}
+/* Jump1749:048037 default;048078 explicitly hover/click. Clicking aninput
+   places focus,sofocus uses the recorded click stroke.No extra UA halo.
+   Invalid pages use the known inline error helper;no invented error border. */
+.page-jump input:is(:hover,:active,:focus,:focus-visible,[data-visual-state="hover"],[data-visual-state="focus"]){outline:none;box-shadow:inset 0 0 0 1px #C9CDD4}
+/* Owner-confirmed supplement 2026-10-28; overrides source click state only
+   while focused. These two states are maintenance decisions, not source PNGs. */
+.page-jump input:is(:focus,:focus-visible,[data-visual-state="focus"]){outline:none;box-shadow:inset 0 0 0 1px #165DFF}
+.page-jump input[aria-invalid="true"],.page-jump input[data-visual-state="error"]{outline:none;box-shadow:inset 0 0 0 1px #F53F3F}
+
+/* Copy6587:28065 / counter6587:28541: empty hover uses bottom9; other source states remain7. */
+.eager-textarea:is(:hover,[data-visual-state="hover"]):has(textarea:placeholder-shown):not(:has(textarea:focus,textarea:disabled,textarea[aria-invalid="true"])):not([data-visual-state="focus"],[data-visual-state="disabled"],[data-visual-state="error"]) .textarea-count{bottom:9px}

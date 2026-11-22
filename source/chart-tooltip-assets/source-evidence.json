@@ -1,0 +1,23 @@
+{
+  "sourceDocumentId": "208396800935818",
+  "root": "2251:051382",
+  "node": "2251:051412",
+  "sourceSha256": "e438e6fecbc329061d76d3714c0f154351578cf0a87bf02b059e904e7c520f16",
+  "originalSvgSha256": "4f6bf0a000445d13df7d9bdf099fb377935bcb44fe5e17c4521860eea114c830",
+  "geometry": {
+    "width": 252.11231994628906,
+    "height": 185.00001525878906,
+    "svgViewBox": "0 0 284.181640625 217",
+    "imageOffset": [
+      -16,
+      -12
+    ],
+    "content": [
+      28,
+      24,
+      200,
+      137
+    ]
+  },
+  "limitation": "Source custom yellow data zone is annotation, intentionally not copied as product background; same source bubble mirrored for left placement, edge positioning is task-specific behavior."
+}

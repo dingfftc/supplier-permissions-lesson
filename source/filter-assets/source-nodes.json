@@ -1,0 +1,2886 @@
+[
+  {
+    "id": "1466:037806",
+    "type": "frame",
+    "name": "是否选中[aI]=未选,状态[a2]=悬浮/点击,类型[a0]=单选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "1466:037806",
+      "data-type": "component",
+      "data-variant-是否选中": "未选",
+      "data-variant-状态": "悬浮/点击",
+      "data-variant-类型": "单选",
+      "style": [
+        "width: 180px",
+        "height: 36px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "padding-top: 11px",
+        "padding-bottom: 11px",
+        "padding-right: 16px",
+        "padding-left: 16px",
+        "background: #F5F9FF",
+        "position: absolute",
+        "left: 10px",
+        "top: 202px",
+        "z-index: 1",
+        "overflow: hidden"
+      ]
+    },
+    "children": [
+      {
+        "id": "1483:016421",
+        "type": "frame",
+        "name": "下拉选择器内文本样式 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:016421",
+          "data-name": "下拉选择器内文本样式 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:016421/1466:036240",
+            "type": "frame",
+            "name": "正文",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1483:016421/1466:036240",
+              "data-name": "正文",
+              "style": [
+                "flex: 1",
+                "color: #1D2129",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px",
+                "--line: 1",
+                "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "未选选项(悬浮/点击)"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 148,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 16,
+          "y": 11,
+          "width": 148,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项(悬浮/点击)"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "颜色": "正文"
+        },
+        "ukey": "208396800935818+1466:036230"
+      }
+    ],
+    "bound": {
+      "x": 10,
+      "y": 202,
+      "width": 180,
+      "height": 36
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+1466:037806"
+  },
+  {
+    "id": "1466:036684",
+    "type": "frame",
+    "name": "是否选中[aI]=未选,状态[a0]=默认,类型[a0]=单选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "1466:036684",
+      "data-type": "component",
+      "data-variant-是否选中": "未选",
+      "data-variant-状态": "默认",
+      "data-variant-类型": "单选",
+      "style": [
+        "width: 180px",
+        "height: 36px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "padding-top: 11px",
+        "padding-bottom: 11px",
+        "padding-right: 16px",
+        "padding-left: 16px",
+        "position: absolute",
+        "left: 10px",
+        "top: 64px",
+        "z-index: 0",
+        "overflow: hidden"
+      ]
+    },
+    "children": [
+      {
+        "id": "10763:47229",
+        "type": "frame",
+        "name": "下拉悬浮框-文案",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "10763:47229",
+          "data-name": "下拉悬浮框-文案",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center"
+          ]
+        },
+        "children": [
+          {
+            "id": "10763:47229/1466:036240",
+            "type": "frame",
+            "name": "正文",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "10763:47229/1466:036240",
+              "data-name": "正文",
+              "style": [
+                "flex: 1",
+                "color: #1D2129",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px",
+                "--line: 1",
+                "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "未选选项"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 148,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 16,
+          "y": 11,
+          "width": 148,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "颜色": "正文"
+        },
+        "ukey": "208396800935818+1466:036230"
+      }
+    ],
+    "bound": {
+      "x": 10,
+      "y": 64,
+      "width": 180,
+      "height": 36
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+1466:036684"
+  },
+  {
+    "id": "22:156856",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[a0]=默认,是否选择[a0]=未选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "22:156856",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "默认",
+      "data-variant-是否选择": "未选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "border-style: solid",
+        "border-color: #E5E6EB",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 20px",
+        "z-index: 6"
+      ]
+    },
+    "children": [
+      {
+        "id": "1448:088480",
+        "type": "frame",
+        "name": "选择器内的文案 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1448:088480",
+          "data-name": "选择器内的文案 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1448:088480/1448:086662",
+            "type": "frame",
+            "name": "请选择",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1448:088480/1448:086662",
+              "data-name": "请选择",
+              "style": [
+                "flex-shrink: 0",
+                "color: #BCC3CC",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "请选择"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 42,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9.000001907348633,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "请选择": "请选择"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "提示信息"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "22:156861",
+        "type": "svg",
+        "name": "direction/down-下箭头",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "22:156861",
+          "data-name": "direction/down-下箭头",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14.000001907348633,
+          "height": 14.000001907348633
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "208396800935818+853:010086",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000001907348633 14.000001907348633\"><defs><clipPath id=\"master_svg0_22_156861\"><rect x=\"0\" y=\"0\" width=\"14.000001907348633\" height=\"14.000001907348633\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_22_156861)\"><path d=\"M11.958334884558106,5.52127861640625L7.000000984558105,10.479612816406249L4.319584084558105,7.79919601640625L2.0416669845581055,5.52127861640625L2.8758336945581053,4.69586181640625L5.145000684558106,6.96502901640625L7.000000984558105,8.82002881640625L11.124168384558105,4.69586181640625L11.958334884558106,5.52127861640625Z\" fill-rule=\"evenodd\" fill=\"#C9CDD4\" fill-opacity=\"1\"/></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 20,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+22:156856"
+  },
+  {
+    "id": "22:156703",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[a0]=默认,是否选择[a2]=已选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "22:156703",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "默认",
+      "data-variant-是否选择": "已选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "border-style: solid",
+        "border-color: #E5E6EB",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 266px",
+        "z-index: 14"
+      ]
+    },
+    "children": [
+      {
+        "id": "1466:020022",
+        "type": "frame",
+        "name": "选择器内的文案",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1466:020022",
+          "data-name": "选择器内的文案",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: center",
+            "align-items: flex-start",
+            "flex-direction: column",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1466:020022/1448:086670",
+            "type": "frame",
+            "name": "已选选项",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1466:020022/1448:086670",
+              "data-name": "已选选项",
+              "style": [
+                "flex-shrink: 0",
+                "color: #4E5969",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "已选选项"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 56,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9.000001907348633,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "已选选项": "已选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "已输入"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "22:156710",
+        "type": "svg",
+        "name": "direction/down-下箭头",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "22:156710",
+          "data-name": "direction/down-下箭头",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14.000001907348633,
+          "height": 14.000001907348633
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "208396800935818+853:010086",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000001907348633 14.000001907348633\"><defs><clipPath id=\"master_svg0_22_156710\"><rect x=\"0\" y=\"0\" width=\"14.000001907348633\" height=\"14.000001907348633\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_22_156710)\"><path d=\"M11.958334884558106,5.5213396515625L7.000000984558105,10.479673851562499L4.319584084558105,7.7992570515625L2.0416669845581055,5.5213396515625L2.8758336945581053,4.6959228515625L5.145000684558106,6.9650900515625L7.000000984558105,8.8200898515625L11.124168384558105,4.6959228515625L11.958334884558106,5.5213396515625Z\" fill-rule=\"evenodd\" fill=\"#C9CDD4\" fill-opacity=\"1\"/></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 266,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+22:156703"
+  },
+  {
+    "id": "22:156924",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[a3]=点击(触发),是否选择[a0]=未选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "22:156924",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "点击(触发)",
+      "data-variant-是否选择": "未选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "border-style: solid",
+        "border-color: #165DFF",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 184px",
+        "z-index: 2"
+      ]
+    },
+    "children": [
+      {
+        "id": "2886:025871",
+        "type": "frame",
+        "name": "选择器内的文案 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "2886:025871",
+          "data-name": "选择器内的文案 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center"
+          ]
+        },
+        "children": [
+          {
+            "id": "2886:025871/1448:086662",
+            "type": "frame",
+            "name": "请选择",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "2886:025871/1448:086662",
+              "data-name": "请选择",
+              "style": [
+                "flex-shrink: 0"
+              ]
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "|",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "style": [
+                    "color: #4E5969",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "|"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                },
+                "isVirtual": false,
+                "componentType": false
+              },
+              {
+                "type": "frame",
+                "name": "未选择",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "style": [
+                    "color: #BCC3CC",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选择"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                },
+                "isVirtual": false,
+                "componentType": false
+              },
+              {
+                "type": "characters"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 45,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "请选择": "|未选择"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "提示信息"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "22:156931",
+        "type": "svg",
+        "name": "direction/up",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "22:156931",
+          "data-name": "direction/up",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14.000000953674316,
+          "height": 14.000000953674316
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "81479566576211+0:864",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000000953674316 14.000000953674316\"><defs><clipPath id=\"master_svg0_22_156931\"><rect x=\"-0.5833333730697632\" y=\"-0.5833333730697632\" width=\"15.166667699813843\" height=\"15.166667699813843\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_22_156931)\"><g transform=\"matrix(-0.7071068286895752,0.7071067094802856,-0.7071067094802856,-0.7071068286895752,26.01902251931233,7.04713509438136)\"><path d=\"M15.195458898083496,15.912283443725585L17.966669098083496,15.912283443725585L17.966669098083496,14.745616443725586L12.133335768083496,14.745616443725586L12.133335468083496,8.912282943725586L10.966668728083496,8.912282943725586L10.966669018083497,15.912283443725585L15.195458898083496,15.912283443725585Z\" fill-rule=\"evenodd\" fill=\"#165DFF\" fill-opacity=\"1\"/></g></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 184,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+22:156924"
+  },
+  {
+    "id": "1466:037810",
+    "type": "frame",
+    "name": "是否选中[aH]=选中,状态[a2]=悬浮/点击,类型[a0]=单选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "1466:037810",
+      "data-type": "component",
+      "data-variant-是否选中": "选中",
+      "data-variant-状态": "悬浮/点击",
+      "data-variant-类型": "单选",
+      "style": [
+        "width: 180px",
+        "height: 36px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "padding-top: 11px",
+        "padding-bottom: 11px",
+        "padding-right: 16px",
+        "padding-left: 16px",
+        "background: #F5F9FF",
+        "position: absolute",
+        "left: 10px",
+        "top: 248px",
+        "z-index: 3",
+        "overflow: hidden"
+      ]
+    },
+    "children": [
+      {
+        "id": "1483:016558",
+        "type": "frame",
+        "name": "下拉选择器内文本样式 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:016558",
+          "data-name": "下拉选择器内文本样式 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:016558/1466:036232",
+            "type": "frame",
+            "name": "主色蓝",
+            "isSkip": false,
+            "tag": "p",
+            "attr": {
+              "data-node-id": "1483:016558/1466:036232",
+              "data-name": "主色蓝",
+              "style": [
+                "flex: 1",
+                "flex-shrink: 0",
+                "color: #165DFF",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "选中选项(悬浮/点击)"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 148,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 16,
+          "y": 11,
+          "width": 148,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "主色蓝": "选中选项(悬浮/点击)"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "颜色": "主色蓝"
+        },
+        "ukey": "208396800935818+1466:036230"
+      }
+    ],
+    "bound": {
+      "x": 10,
+      "y": 248,
+      "width": 180,
+      "height": 36
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+1466:037810"
+  },
+  {
+    "id": "22:156988",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[aA]=禁用,是否选择[a2]=已选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "22:156988",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "禁用",
+      "data-variant-是否选择": "已选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "background: #F7F8FA",
+        "border-style: solid",
+        "border-color: #E5E6EB",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 594px",
+        "z-index: 22"
+      ]
+    },
+    "children": [
+      {
+        "id": "1617:030913",
+        "type": "frame",
+        "name": "选择器内的文案 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1617:030913",
+          "data-name": "选择器内的文案 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1617:030913/1448:086666",
+            "type": "frame",
+            "name": "选项A",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1617:030913/1448:086666",
+              "data-name": "选项A",
+              "style": [
+                "flex-shrink: 0",
+                "color: #86909C",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "禁用(已选选项)已选选项"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 150,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9.000000953674316,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "选项A": "禁用(已选选项)已选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "禁用（已选选项）"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "22:156995",
+        "type": "svg",
+        "name": "direction/down-下箭头",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "22:156995",
+          "data-name": "direction/down-下箭头",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14.000001907348633,
+          "height": 14.000001907348633
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "208396800935818+853:010086",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000001907348633 14.000001907348633\"><defs><clipPath id=\"master_svg0_22_156995\"><rect x=\"0\" y=\"0\" width=\"14.000001907348633\" height=\"14.000001907348633\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_22_156995)\"><path d=\"M11.958334884558106,5.5213396515625L7.000000984558105,10.479673851562499L4.319584084558105,7.7992570515625L2.0416669845581055,5.5213396515625L2.8758336945581053,4.6959228515625L5.145000684558106,6.9650900515625L7.000000984558105,8.8200898515625L11.124168384558105,4.6959228515625L11.958334884558106,5.5213396515625Z\" fill-rule=\"evenodd\" fill=\"#C9CDD4\" fill-opacity=\"1\"/></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 594,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+22:156988"
+  },
+  {
+    "id": "22:156946",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[a2]=悬浮,是否选择[a0]=未选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "22:156946",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "悬浮",
+      "data-variant-是否选择": "未选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "border-style: solid",
+        "border-color: #C9CDD4",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 102px",
+        "z-index: 10"
+      ]
+    },
+    "children": [
+      {
+        "id": "1448:088569",
+        "type": "frame",
+        "name": "选择器内的文案 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1448:088569",
+          "data-name": "选择器内的文案 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center"
+          ]
+        },
+        "children": [
+          {
+            "id": "1448:088569/1448:086662",
+            "type": "frame",
+            "name": "请选择",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1448:088569/1448:086662",
+              "data-name": "请选择",
+              "style": [
+                "flex-shrink: 0",
+                "color: #BCC3CC",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "请选择"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 42,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9.000001907348633,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "请选择": "请选择"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "提示信息"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "22:156951",
+        "type": "svg",
+        "name": "direction/down-下箭头",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "22:156951",
+          "data-name": "direction/down-下箭头",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14.000001907348633,
+          "height": 14.000001907348633
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "208396800935818+853:010086",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000001907348633 14.000001907348633\"><defs><clipPath id=\"master_svg0_22_156951\"><rect x=\"0\" y=\"0\" width=\"14.000001907348633\" height=\"14.000001907348633\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_22_156951)\"><path d=\"M11.958334884558106,5.52127861640625L7.000000984558105,10.479612816406249L4.319584084558105,7.79919601640625L2.0416669845581055,5.52127861640625L2.8758336945581053,4.69586181640625L5.145000684558106,6.96502901640625L7.000000984558105,8.82002881640625L11.124168384558105,4.69586181640625L11.958334884558106,5.52127861640625Z\" fill-rule=\"evenodd\" fill=\"#C9CDD4\" fill-opacity=\"1\"/></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 102,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+22:156946"
+  },
+  {
+    "id": "22:157012",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[a2]=悬浮,是否选择[a2]=已选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "22:157012",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "悬浮",
+      "data-variant-是否选择": "已选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "border-style: solid",
+        "border-color: #C9CDD4",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 348px",
+        "z-index: 28"
+      ]
+    },
+    "children": [
+      {
+        "id": "1466:020028",
+        "type": "frame",
+        "name": "选择器内的文案",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1466:020028",
+          "data-name": "选择器内的文案",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: center",
+            "align-items: flex-start",
+            "flex-direction: column",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1466:020028/1448:086670",
+            "type": "frame",
+            "name": "已选选项",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1466:020028/1448:086670",
+              "data-name": "已选选项",
+              "style": [
+                "flex-shrink: 0",
+                "color: #4E5969",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "已选选项"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 56,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "已选选项": "已选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "已输入"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "22:157019",
+        "type": "svg",
+        "name": "general/close-circle-关闭删除",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "22:157019",
+          "data-name": "general/close-circle-关闭删除",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14,
+          "height": 14
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "208396800935818+636:033321",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14 14\"><defs><clipPath id=\"master_svg0_22_157019\"><rect x=\"0\" y=\"0\" width=\"14\" height=\"14\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_22_157019)\"><path d=\"M7.000000746139526,2.3332926765625C4.422658446139526,2.3332926765625,2.3333334461395263,4.4226176765625,2.3333334461395263,6.9999599765625C2.3333334461395263,9.5773009765625,4.422658446139526,11.6666269765625,7.000000746139526,11.6666269765625C9.577341746139526,11.6666269765625,11.666667746139526,9.5773009765625,11.666667746139526,6.9999599765625C11.666667746139526,4.4226176765625,9.577341746139526,2.3332926765625,7.000000746139526,2.3332926765625C7.000000746139526,2.3332926765625,7.000000746139526,2.3332926765625,7.000000746139526,2.3332926765625ZM1.1666667461395264,6.9999599765625C1.1666667461395264,3.7782969765625,3.778337746139526,1.1666259765625,7.000000746139526,1.1666259765625C10.221663246139526,1.1666259765625,12.833334746139526,3.7782969765625,12.833334746139526,6.9999599765625C12.833334746139526,10.2216224765625,10.221663246139526,12.8332939765625,7.000000746139526,12.8332939765625C3.778337746139526,12.8332939765625,1.1666667461395264,10.2216224765625,1.1666667461395264,6.9999599765625C1.1666667461395264,6.9999599765625,1.1666667461395264,6.9999599765625,1.1666667461395264,6.9999599765625ZM6.1770336461395265,7.0019726765625C6.1770336461395265,7.0019726765625,4.733371046139526,5.5582804765625,4.733371046139526,5.5582804765625C4.733371046139526,5.5582804765625,5.558321246139526,4.7333302765625,5.558321246139526,4.7333302765625C5.558321246139526,4.7333302765625,7.0019838461395265,6.1769928765625,7.0019838461395265,6.1769928765625C7.0019838461395265,6.1769928765625,8.445675646139527,4.7333302765625,8.445675646139527,4.7333302765625C8.445675646139527,4.7333302765625,9.270625846139527,5.5582804765625,9.270625846139527,5.5582804765625C9.270625846139527,5.5582804765625,7.826963146139526,7.0019726765625,7.826963146139526,7.0019726765625C7.826963146139526,7.0019726765625,9.270625846139527,8.445634876562501,9.270625846139527,8.445634876562501C9.270625846139527,8.445634876562501,8.445675646139527,9.2705850765625,8.445675646139527,9.2705850765625C8.445675646139527,9.2705850765625,7.0019838461395265,7.8269223765625,7.0019838461395265,7.8269223765625C7.0019838461395265,7.8269223765625,5.558321246139526,9.2705850765625,5.558321246139526,9.2705850765625C5.558321246139526,9.2705850765625,4.733371046139526,8.445634876562501,4.733371046139526,8.445634876562501C4.733371046139526,8.445634876562501,6.1770336461395265,7.0019726765625,6.1770336461395265,7.0019726765625C6.1770336461395265,7.0019726765625,6.1770336461395265,7.0019726765625,6.1770336461395265,7.0019726765625Z\" fill-rule=\"evenodd\" fill=\"#C9CDD4\" fill-opacity=\"1\"/></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 348,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+22:157012"
+  },
+  {
+    "id": "1697:020656",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[a3]=点击(触发),是否选择[a2]=已选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "1697:020656",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "点击(触发)",
+      "data-variant-是否选择": "已选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "border-style: solid",
+        "border-color: #165DFF",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 430px",
+        "z-index: 30"
+      ]
+    },
+    "children": [
+      {
+        "id": "1697:020657",
+        "type": "frame",
+        "name": "选择器内的文案",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1697:020657",
+          "data-name": "选择器内的文案",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: center",
+            "align-items: flex-start",
+            "flex-direction: column",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1697:020657/1448:086670",
+            "type": "frame",
+            "name": "已选选项",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1697:020657/1448:086670",
+              "data-name": "已选选项",
+              "style": [
+                "flex-shrink: 0",
+                "color: #4E5969",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "已选选项"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 56,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "已选选项": "已选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "已输入"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "1697:020669",
+        "type": "svg",
+        "name": "direction/up",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "1697:020669",
+          "data-name": "direction/up",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14.000000953674316,
+          "height": 14.000000953674316
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "81479566576211+0:864",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000000953674316 14.000000953674316\"><defs><clipPath id=\"master_svg0_1697_020669\"><rect x=\"-0.5833333730697632\" y=\"-0.5833333730697632\" width=\"15.166667699813843\" height=\"15.166667699813843\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_1697_020669)\"><g transform=\"matrix(-0.7071068286895752,0.7071067094802856,-0.7071067094802856,-0.7071068286895752,26.01902251931233,7.04713509438136)\"><path d=\"M15.195458898083496,15.912283443725585L17.966669098083496,15.912283443725585L17.966669098083496,14.745616443725586L12.133335768083496,14.745616443725586L12.133335468083496,8.912282943725586L10.966668728083496,8.912282943725586L10.966669018083497,15.912283443725585L15.195458898083496,15.912283443725585Z\" fill-rule=\"evenodd\" fill=\"#165DFF\" fill-opacity=\"1\"/></g></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 430,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+1697:020656"
+  },
+  {
+    "id": "22:156882",
+    "type": "frame",
+    "name": "宽度[a4]=120px (字数≤5),状态[aA]=禁用,是否选择[a0]=未选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "22:156882",
+      "data-type": "component",
+      "data-variant-宽度": "120px (字数≤5)",
+      "data-variant-状态": "禁用",
+      "data-variant-是否选择": "未选",
+      "style": [
+        "width: 120px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "background: #F7F8FA",
+        "border-style: solid",
+        "border-color: #E5E6EB",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 177px",
+        "top: 512px",
+        "z-index: 18"
+      ]
+    },
+    "children": [
+      {
+        "id": "1448:088599",
+        "type": "frame",
+        "name": "选择器内的文案 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1448:088599",
+          "data-name": "选择器内的文案 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1448:088599/1448:086662",
+            "type": "frame",
+            "name": "请选择",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1448:088599/1448:086662",
+              "data-name": "请选择",
+              "style": [
+                "flex-shrink: 0",
+                "color: #BCC3CC",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "请选择"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 42,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9.000001907348633,
+          "width": 74,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "请选择": "请选择"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "提示信息"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "22:156887",
+        "type": "svg",
+        "name": "direction/down-下箭头",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "22:156887",
+          "data-name": "direction/down-下箭头",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 94,
+          "y": 9,
+          "width": 14.000001907348633,
+          "height": 14.000001907348633
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "208396800935818+853:010086",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000001907348633 14.000001907348633\"><defs><clipPath id=\"master_svg0_22_156887\"><rect x=\"0\" y=\"0\" width=\"14.000001907348633\" height=\"14.000001907348633\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_22_156887)\"><path d=\"M11.958334884558106,5.5213396515625L7.000000984558105,10.479673851562499L4.319584084558105,7.7992570515625L2.0416669845581055,5.5213396515625L2.8758336945581053,4.6959228515625L5.145000684558106,6.9650900515625L7.000000984558105,8.8200898515625L11.124168384558105,4.6959228515625L11.958334884558106,5.5213396515625Z\" fill-rule=\"evenodd\" fill=\"#C9CDD4\" fill-opacity=\"1\"/></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 177,
+      "y": 512,
+      "width": 120,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+22:156882"
+  },
+  {
+    "id": "1895:080208",
+    "type": "frame",
+    "name": "宽度[a5]=90px (字数≤3),状态[a0]=默认,是否选择[a0]=未选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "1895:080208",
+      "data-type": "component",
+      "data-variant-宽度": "90px (字数≤3)",
+      "data-variant-状态": "默认",
+      "data-variant-是否选择": "未选",
+      "style": [
+        "width: 90px",
+        "height: 32px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "gap: 8px",
+        "padding-top: 9px",
+        "padding-bottom: 9px",
+        "padding-right: 12px",
+        "padding-left: 12px",
+        "border-style: solid",
+        "border-color: #E5E6EB",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "position: absolute",
+        "left: 17px",
+        "top: 20px",
+        "z-index: 7"
+      ]
+    },
+    "children": [
+      {
+        "id": "1895:080209",
+        "type": "frame",
+        "name": "选择器内的文案 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1895:080209",
+          "data-name": "选择器内的文案 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1895:080209/1448:086662",
+            "type": "frame",
+            "name": "请选择",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1895:080209/1448:086662",
+              "data-name": "请选择",
+              "style": [
+                "flex-shrink: 0",
+                "color: #BCC3CC",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "请选择"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 42,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 12,
+          "y": 9.000001907348633,
+          "width": 44,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "请选择": "请选择"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "输入状态": "提示信息"
+        },
+        "ukey": "208396800935818+1448:086660"
+      },
+      {
+        "id": "1895:080212",
+        "type": "svg",
+        "name": "direction/down-下箭头",
+        "isSkip": false,
+        "tag": "svg",
+        "attr": {
+          "data-node-id": "1895:080212",
+          "data-name": "direction/down-下箭头",
+          "style": [
+            "width: 14px",
+            "height: 14px"
+          ]
+        },
+        "children": [],
+        "bound": {
+          "x": 64,
+          "y": 9,
+          "width": 14.000001907348633,
+          "height": 14.000001907348633
+        },
+        "isVirtual": false,
+        "componentType": "INSTANCE",
+        "props": {},
+        "ukey": "208396800935818+853:010086",
+        "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"none\" version=\"1.1\" width=\"14\" height=\"14\" viewBox=\"0 0 14.000001907348633 14.000001907348633\"><defs><clipPath id=\"master_svg0_1895_080212\"><rect x=\"0\" y=\"0\" width=\"14.000001907348633\" height=\"14.000001907348633\" rx=\"0\"/></clipPath></defs><g clip-path=\"url(#master_svg0_1895_080212)\"><path d=\"M11.958334884558106,5.52127861640625L7.000000984558105,10.479612816406249L4.319584084558105,7.79919601640625L2.0416669845581055,5.52127861640625L2.8758336945581053,4.69586181640625L5.145000684558106,6.96502901640625L7.000000984558105,8.82002881640625L11.124168384558105,4.69586181640625L11.958334884558106,5.52127861640625Z\" fill-rule=\"evenodd\" fill=\"#C9CDD4\" fill-opacity=\"1\"/></g></svg>"
+      }
+    ],
+    "bound": {
+      "x": 17,
+      "y": 20,
+      "width": 90,
+      "height": 32
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+1895:080208"
+  },
+  {
+    "id": "1466:037460",
+    "type": "frame",
+    "name": "是否选中[aH]=选中,状态[a0]=默认,类型[a0]=单选",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "1466:037460",
+      "data-type": "component",
+      "data-variant-是否选中": "选中",
+      "data-variant-状态": "默认",
+      "data-variant-类型": "单选",
+      "style": [
+        "width: 180px",
+        "height: 36px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: center",
+        "padding-top: 11px",
+        "padding-bottom: 11px",
+        "padding-right: 16px",
+        "padding-left: 16px",
+        "position: absolute",
+        "left: 10px",
+        "top: 110px",
+        "z-index: 2",
+        "overflow: hidden"
+      ]
+    },
+    "children": [
+      {
+        "id": "1466:037461",
+        "type": "frame",
+        "name": "下拉选择器内文本样式 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1466:037461",
+          "data-name": "下拉选择器内文本样式 1",
+          "style": [
+            "display: flex",
+            "flex: 1",
+            "justify-content: flex-start",
+            "align-items: center"
+          ]
+        },
+        "children": [
+          {
+            "id": "1466:037461/1466:036232",
+            "type": "frame",
+            "name": "主色蓝",
+            "isSkip": false,
+            "tag": "span",
+            "attr": {
+              "data-node-id": "1466:037461/1466:036232",
+              "data-name": "主色蓝",
+              "style": [
+                "flex: 1",
+                "color: #165DFF",
+                "font-size: 14px",
+                "font-family: PingFang SC",
+                "line-height: 14px",
+                "--line: 1",
+                "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+              ]
+            },
+            "children": [
+              {
+                "type": "characters",
+                "text": "选中选项"
+              }
+            ],
+            "bound": {
+              "x": 0,
+              "y": 0,
+              "width": 148,
+              "height": 14
+            },
+            "isVirtual": false,
+            "componentType": false
+          }
+        ],
+        "bound": {
+          "x": 16,
+          "y": 11,
+          "width": 148,
+          "height": 14
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "主色蓝": "选中选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "颜色": "主色蓝"
+        },
+        "ukey": "208396800935818+1466:036230"
+      }
+    ],
+    "bound": {
+      "x": 10,
+      "y": 110,
+      "width": 180,
+      "height": 36
+    },
+    "isVirtual": false,
+    "componentType": "COMPONENT",
+    "ukey": "208396800935818+1466:037460"
+  },
+  {
+    "id": "1483:013183",
+    "type": "frame",
+    "name": "容器 522",
+    "isSkip": false,
+    "tag": "div",
+    "attr": {
+      "data-node-id": "1483:013183",
+      "data-name": "容器 522",
+      "style": [
+        "width: 320px",
+        "height: 376px",
+        "display: flex",
+        "justify-content: flex-start",
+        "align-items: flex-start",
+        "flex-direction: column",
+        "padding-top: 8px",
+        "padding-bottom: 8px",
+        "background: #FFFFFF",
+        "border-style: solid",
+        "border-color: #E5E6EB",
+        "border-width: 1px",
+        "border-radius: 4px",
+        "box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1)",
+        "position: absolute",
+        "left: 217px",
+        "top: 731px",
+        "z-index: 6"
+      ]
+    },
+    "children": [
+      {
+        "id": "1483:013166",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 1",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:013166",
+          "data-name": "下拉悬浮-各项状态(单选) 1",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:013166/10763:47229",
+            "type": "frame",
+            "name": "下拉悬浮框-文案",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "1483:013166/10763:47229",
+              "data-name": "下拉悬浮框-文案",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "1483:013166/10763:47229/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "1483:013166/10763:47229/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 8,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "1483:013170",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 2",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:013170",
+          "data-name": "下拉悬浮-各项状态(单选) 2",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:013170/1466:037461",
+            "type": "frame",
+            "name": "下拉选择器内文本样式 1",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "1483:013170/1466:037461",
+              "data-name": "下拉选择器内文本样式 1",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "1483:013170/1466:037461/1466:036232",
+                "type": "frame",
+                "name": "主色蓝",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "1483:013170/1466:037461/1466:036232",
+                  "data-name": "主色蓝",
+                  "style": [
+                    "flex: 1",
+                    "color: #165DFF",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "选中选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "主色蓝": "选中选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "主色蓝"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 44,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "主色蓝": "选中选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "选中",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "1483:013473",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 6",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:013473",
+          "data-name": "下拉悬浮-各项状态(单选) 6",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:013473/10763:47229",
+            "type": "frame",
+            "name": "下拉悬浮框-文案",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "1483:013473/10763:47229",
+              "data-name": "下拉悬浮框-文案",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "1483:013473/10763:47229/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "1483:013473/10763:47229/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "10101:027417",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 7",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "10101:027417",
+          "data-name": "下拉悬浮-各项状态(单选) 7",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "10101:027417/10763:47229",
+            "type": "frame",
+            "name": "下拉悬浮框-文案",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "10101:027417/10763:47229",
+              "data-name": "下拉悬浮框-文案",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "10101:027417/10763:47229/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "10101:027417/10763:47229/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 116,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "10101:027422",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 8",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "10101:027422",
+          "data-name": "下拉悬浮-各项状态(单选) 8",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "10101:027422/10763:47229",
+            "type": "frame",
+            "name": "下拉悬浮框-文案",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "10101:027422/10763:47229",
+              "data-name": "下拉悬浮框-文案",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "10101:027422/10763:47229/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "10101:027422/10763:47229/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 152,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "10101:027427",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 9",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "10101:027427",
+          "data-name": "下拉悬浮-各项状态(单选) 9",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "10101:027427/10763:47229",
+            "type": "frame",
+            "name": "下拉悬浮框-文案",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "10101:027427/10763:47229",
+              "data-name": "下拉悬浮框-文案",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "10101:027427/10763:47229/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "10101:027427/10763:47229/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 188,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "10101:027432",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 10",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "10101:027432",
+          "data-name": "下拉悬浮-各项状态(单选) 10",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "10101:027432/10763:47229",
+            "type": "frame",
+            "name": "下拉悬浮框-文案",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "10101:027432/10763:47229",
+              "data-name": "下拉悬浮框-文案",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "10101:027432/10763:47229/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "10101:027432/10763:47229/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 224,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "1483:013176",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 4",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:013176",
+          "data-name": "下拉悬浮-各项状态(单选) 4",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:013176/1466:037500",
+            "type": "frame",
+            "name": "下拉选择器内文本样式 1",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "1483:013176/1466:037500",
+              "data-name": "下拉选择器内文本样式 1",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "1483:013176/1466:037500/1466:036236",
+                "type": "frame",
+                "name": "置灰色",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "1483:013176/1466:037500/1466:036236",
+                  "data-name": "置灰色",
+                  "style": [
+                    "flex: 1",
+                    "color: #C9CDD4",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "禁用选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "置灰色": "禁用选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "置灰色"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 260,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "置灰色": "禁用选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "失效",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "1483:013194",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 5",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:013194",
+          "data-name": "下拉悬浮-各项状态(单选) 5",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:013194/10763:47229",
+            "type": "frame",
+            "name": "下拉悬浮框-文案",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "1483:013194/10763:47229",
+              "data-name": "下拉悬浮框-文案",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "1483:013194/10763:47229/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "1483:013194/10763:47229/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 296,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "默认",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      },
+      {
+        "id": "1483:013173",
+        "type": "frame",
+        "name": "下拉悬浮-各项状态(单选) 3",
+        "isSkip": false,
+        "tag": "div",
+        "attr": {
+          "data-node-id": "1483:013173",
+          "data-name": "下拉悬浮-各项状态(单选) 3",
+          "style": [
+            "display: flex",
+            "align-self: stretch",
+            "justify-content: flex-start",
+            "align-items: center",
+            "padding-top: 11px",
+            "padding-bottom: 11px",
+            "padding-right: 16px",
+            "padding-left: 16px",
+            "background: #F5F9FF",
+            "overflow: hidden"
+          ]
+        },
+        "children": [
+          {
+            "id": "1483:013173/1483:016421",
+            "type": "frame",
+            "name": "下拉选择器内文本样式 1",
+            "isSkip": false,
+            "tag": "div",
+            "attr": {
+              "data-node-id": "1483:013173/1483:016421",
+              "data-name": "下拉选择器内文本样式 1",
+              "style": [
+                "display: flex",
+                "flex: 1",
+                "flex-shrink: 0",
+                "justify-content: flex-start",
+                "align-items: center"
+              ]
+            },
+            "children": [
+              {
+                "id": "1483:013173/1483:016421/1466:036240",
+                "type": "frame",
+                "name": "正文",
+                "isSkip": false,
+                "tag": "span",
+                "attr": {
+                  "data-node-id": "1483:013173/1483:016421/1466:036240",
+                  "data-name": "正文",
+                  "style": [
+                    "flex: 1",
+                    "color: #1D2129",
+                    "font-size: 14px",
+                    "font-family: PingFang SC",
+                    "line-height: 14px",
+                    "--line: 1",
+                    "overflow: hidden; text-overflow: ellipsis; white-space: nowrap"
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "characters",
+                    "text": "未选选项(悬浮/点击)"
+                  }
+                ],
+                "bound": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 288,
+                  "height": 14
+                },
+                "isVirtual": false,
+                "componentType": false
+              }
+            ],
+            "bound": {
+              "x": 16,
+              "y": 11,
+              "width": 288,
+              "height": 14
+            },
+            "isVirtual": false,
+            "textOverrides": {
+              "正文": "未选选项(悬浮/点击)"
+            },
+            "componentType": "INSTANCE",
+            "props": {
+              "颜色": "正文"
+            },
+            "ukey": "208396800935818+1466:036230"
+          }
+        ],
+        "bound": {
+          "x": 0,
+          "y": 332,
+          "width": 320,
+          "height": 36
+        },
+        "isVirtual": false,
+        "textOverrides": {
+          "正文": "未选选项(悬浮/点击)"
+        },
+        "componentType": "INSTANCE",
+        "props": {
+          "是否选中": "未选",
+          "状态": "悬浮/点击",
+          "类型": "单选"
+        },
+        "ukey": "208396800935818+1466:036667"
+      }
+    ],
+    "bound": {
+      "x": 217,
+      "y": 731,
+      "width": 320,
+      "height": 376
+    },
+    "isVirtual": false,
+    "componentType": false
+  }
+]

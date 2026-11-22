@@ -1,0 +1,18 @@
+/* Table-specific source2214:046076/2214:046078: 3px #E5E6EB thumb,
+   radius1.5 and 4px blank above/below (11px hit region). This is not the
+   separate global2px scrollbar. Owner2026-10-30 requires visible table overflow. */
+.eager-table-scrollbar{box-sizing:border-box;position:relative;display:block;height:11px;min-height:11px;padding:0;border:0;margin-top:0;margin-bottom:0;background:#FFFFFF;touch-action:none;user-select:none;outline:none;overflow:hidden}
+.eager-table-scrollbar[hidden]{display:none!important}
+.eager-table-scrollbar-thumb{position:absolute;display:block;left:0;top:4px;height:3px;border-radius:1.5px;background:#E5E6EB;pointer-events:none}
+.eager-table-managed{scrollbar-width:none}
+.eager-table-managed::-webkit-scrollbar{display:none;width:0;height:0}
+/* Keep the actual final action edge24px from the TABLE edge. A td's24px
+   padding alone does not ensure this when the action column has spare width. */
+.customer-table.eager-has-actions>tbody>tr:not(.expanded-row)>td:last-child{padding-right:24px}
+.customer-table.eager-has-actions>tbody>tr:not(.expanded-row)>td:last-child .row-actions{display:flex;width:100%;justify-content:flex-end;gap:16px}
+.customer-table.eager-has-actions>thead>tr>th:last-child{padding-right:24px}
+/* Owner-confirmed behavior, 2026-11-09. Layering is inside the table viewport;
+   the action area is not a fixed toolbar at the top of the screen. */
+.eager-fixed-actions-active>tbody>tr:not(.expanded-row)>.eager-fixed-action{position:sticky;right:0;z-index:3;background:#FFFFFF;box-shadow:-1px 0 0 #E5E6EB}
+.eager-fixed-actions-active>thead>tr>.eager-fixed-action-header{position:sticky;right:0;top:0;z-index:6;background:#FAFAFA;box-shadow:-1px 0 0 #E5E6EB}
+.eager-fixed-actions-active>tbody>tr:not(.expanded-row):is(:hover,:active,[data-visual-state="hover"])>.eager-fixed-action{background:#F5F9FF}

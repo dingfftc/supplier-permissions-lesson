@@ -1,0 +1,22 @@
+/* Product page composition only. Source-backed component internals are in vendor and ui/business/dashboard resources. */
+body{min-width:960px;background:#F7F8FA}
+button{cursor:pointer}button:disabled{cursor:not-allowed}
+h1{font-size:20px;line-height:20px;font-weight:500}h2{font-size:16px;line-height:16px;font-weight:500}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.skip-link{position:fixed;left:216px;top:-100px;padding:8px 16px;background:#FFFFFF;z-index:100}.skip-link:focus{top:8px}
+.shell-sidebar{position:fixed;left:0;top:0;bottom:0;width:200px;display:flex;flex-direction:column;background:#FFF;z-index:10}
+.shell-brand{height:64px;flex:none;display:flex;align-items:center;padding:0 24px;gap:12px;font-size:18px;line-height:18px;font-weight:500;white-space:nowrap}.shell-brand span{font-size:14px;line-height:14px;font-weight:400;color:#4E5969}
+#sidebar-nav{overflow:auto;flex:1;padding-top:8px}.sidebar-note{margin:24px;color:#86909C;font-size:12px;line-height:16px}
+.shell-workspace{margin-left:200px;min-width:0}.shell-header{height:64px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 24px;background:#FFF;border-bottom:1px solid #E5E6EB}
+#location-label{color:#4E5969;font-size:14px;line-height:14px}.shell-user{display:flex;align-items:center;gap:16px;color:#4E5969;font-size:12px;line-height:16px}.environment-label{color:#86909C}
+#page-content{padding:24px;min-width:0;max-width:1760px;margin:0 auto}.shell-footnote{font-size:12px;line-height:16px;color:#86909C;margin-top:24px}
+.page-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:24px}.page-description{margin-top:12px;color:#4E5969}.heading-actions{display:flex;gap:16px;align-items:center}
+.table-card{background:#FFF;border-radius:4px}.search-toolbar{display:flex;align-items:center;gap:16px;padding:24px;flex-wrap:wrap}.search-field{display:flex;align-items:center;gap:16px}.search-field>label{color:#86909C;font-size:14px;line-height:14px}.search-control{width:280px}.field-hint{font-size:12px;line-height:16px;color:#86909C}#search-hint{margin-left:8px}
+.list-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 24px 24px}.list-heading>div{display:flex;align-items:center;gap:16px}.muted{color:#86909C}
+#supplier-view .table-scroll{position:relative;overflow:auto;max-height:max(340px,calc(100vh - 360px));min-height:227px}
+.customer-table{width:100%;min-width:880px;table-layout:fixed}.customer-table th{position:sticky;top:0;z-index:1;text-align:left}
+.supplier-column{width:28%}.contact-column{width:12%}.phone-column{width:17%}.notes-column{width:auto}.action-column{width:136px}.cell-text{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:16px 24px}.page-controls{display:flex;align-items:center;gap:0}.jump-error{padding:0 24px 16px;text-align:right}.empty-search{padding:64px 24px}.prototype-note{margin-top:16px;color:#86909C;font-size:12px;line-height:16px}
+.toast{position:fixed;left:calc(50% + 100px);transform:translateX(-50%);top:40px;z-index:1000}
+.drawer-content-block{margin-bottom:32px}.drawer-content-block h3{font:500 16px/16px "PingFang SC",sans-serif;margin:0 0 24px}.record-details{display:grid;grid-template-columns:100px minmax(0,1fr);gap:24px 16px;margin:0}.record-details dt{color:#86909C;font:400 14px/24px "PingFang SC",sans-serif}.record-details dd{margin:0;overflow-wrap:anywhere;font:400 14px/24px "PingFang SC",sans-serif}.record-notes{white-space:pre-wrap;overflow-wrap:anywhere;font:400 14px/24px "PingFang SC",sans-serif}
+#font-notice{color:#86909C;font-size:12px;line-height:16px;margin-top:16px}

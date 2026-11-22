@@ -1,0 +1,102 @@
+{
+  "sourceDocumentId": "208396800935818",
+  "application": "Eager 采购协作",
+  "templateStates": {
+    "expanded-default": {
+      "slot": "4693:039221",
+      "color": "#1D2129",
+      "sourceTemplateIconSha256": "dc2041fb9b88c1294242bac2df18edb07a6f63239348e7ef8e454a91ec07461a"
+    },
+    "expanded-hover": {
+      "slot": "4693:039271",
+      "color": "#1D2129",
+      "sourceTemplateIconSha256": "82629013552671d34bb0f98222c4ca8f6e0bd5d4044f51898fb376d0c7efedc8"
+    },
+    "expanded-disabled": {
+      "slot": "4693:039321",
+      "color": "#C9CDD4",
+      "sourceTemplateIconSha256": "e3556d90f2561696a298772c078c484f9ee92cc62547e6a59bb28857716d8adb"
+    },
+    "expanded-selected": {
+      "slot": "4693:040622",
+      "color": "#165DFF",
+      "sourceTemplateIconSha256": "45d5276ef58d5ad1e3018366a3de8847bdbfe27d21c9ebcf1066a7cd766743d8"
+    },
+    "expanded-selected-hover": {
+      "slot": "4693:040654",
+      "color": "#165DFF",
+      "sourceTemplateIconSha256": "122791682ecd3e85dcbf13f8aa6a75dec3fe2ccedccf75d45edd7c3b678acc7b"
+    },
+    "collapsed-default": {
+      "slot": "4693:039071",
+      "color": "#1D2129",
+      "sourceTemplateIconSha256": "8fde2f9f5302fa275cec3deb5d6af1aa2f3924ec111f7d691870dfe38c10f802"
+    },
+    "collapsed-hover": {
+      "slot": "4693:039121",
+      "color": "#1D2129",
+      "sourceTemplateIconSha256": "74a27c316ac3ddf7279672ed136d8be069ab2df3a0710cfd7244ef9767f0e0c0"
+    },
+    "collapsed-disabled": {
+      "slot": "4693:039171",
+      "color": "#C9CDD4",
+      "sourceTemplateIconSha256": "c9add8842791c4eaa54857576342ff7444cb09fabc62584df9d5b8e02113c5a0"
+    },
+    "collapsed-selected": {
+      "slot": "4693:040558",
+      "color": "#165DFF",
+      "sourceTemplateIconSha256": "af8267d601332aea1c0496457c057d120a0c70a7fe088bad59f3cf65cc45de3e"
+    },
+    "collapsed-selected-hover": {
+      "slot": "4693:040590",
+      "color": "#165DFF",
+      "sourceTemplateIconSha256": "2cbdcbce88a6e758a42e88dae41b0f22bf81beebd582343c6cef887190c1c2b0"
+    }
+  },
+  "hostSlot": {
+    "width": 16,
+    "height": 16,
+    "rowHeight": 38,
+    "iconLeft": 16,
+    "iconTop": 11,
+    "labelLeft": 36,
+    "gap": 4,
+    "assetPaint": "single-color alpha mask using the source template state color"
+  },
+  "icons": [
+    {
+      "group": "analysis",
+      "label": "经营分析",
+      "meaning": "折线图表达经营趋势。",
+      "sourceNodeId": "22:103376",
+      "sourceName": "general/analysis-line-分析图表折线图",
+      "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+      "sourceFile": "source-json/root-1-177000/node.json",
+      "sourcePointer": "/children/110",
+      "svg": "22-103376.svg",
+      "svgSha256": "13f73fc7fb01eb30a0eddd2686716c3fd5e80f5db9780ae6b5803a6a914a4052",
+      "sourceSize": [
+        48,
+        48
+      ],
+      "exportRecord": "22-103376.json"
+    },
+    {
+      "group": "business",
+      "label": "业务管理",
+      "meaning": "本示例集中处理采购申请、订单和供应商，选购物车表示采购业务。",
+      "sourceNodeId": "3284:024425",
+      "sourceName": "general/shopping-购物团购车",
+      "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+      "sourceFile": "source-json/root-1-177000/node.json",
+      "sourcePointer": "/children/318",
+      "svg": "3284-024425.svg",
+      "svgSha256": "5cb58de4b9a6a56153d8b29f40aa25def8209dc20df08746572f8119ed97b735",
+      "sourceSize": [
+        48,
+        48
+      ],
+      "exportRecord": "3284-024425.json"
+    }
+  ]
+}

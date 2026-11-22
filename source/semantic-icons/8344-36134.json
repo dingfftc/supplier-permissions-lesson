@@ -1,0 +1,50 @@
+{
+  "id": "master:208396800935818+8344:36134",
+  "sourceNodeId": "8344:36134",
+  "name": "general/phone-电话-朝右-未接来电-无法接通",
+  "kind": "icon",
+  "availability": "available",
+  "aliases": [
+    "未接通",
+    "通话未接通"
+  ],
+  "width": 48,
+  "height": 48,
+  "format": "svg",
+  "maskSafe": true,
+  "reason": "独立图标，原始 SVG。",
+  "usageMappings": [
+    {
+      "intent": "call-unreachable",
+      "sourceNodeId": "8344:36134",
+      "label": "未接来电／无法接通",
+      "queryTerms": [
+        "未接通",
+        "未接通·无摘要",
+        "未接来电",
+        "无法接通",
+        "通话未接通"
+      ],
+      "ruleClass": "P",
+      "when": "通话记录的主要含义是未接来电或无法接通，包括因此无摘要的状态。",
+      "result": "采用源未接来电轮廓；不以AI图形表示未接通状态。",
+      "notFor": "单独的摘要缺失、生成失败、待生成等AI状态需按真实原因处理，不能看到“无摘要”就推定未接通。",
+      "origin": "源名称及2026-11-09维护者反馈C确认。",
+      "verification": "sourceNodeId与字节指纹正确；核对图标旁实际状态是否表达未接通。"
+    }
+  ],
+  "sourceDocumentId": "208396800935818",
+  "snapshotBuild": "build-f2f00f4b7c10eacbea02",
+  "sourceFile": "source-json/root-1-177000/node.json",
+  "sourceSha256": "218187b465a3b302bda811a6a682cd01bd505c5719bf3ff34f343efb579e0588",
+  "jsonPointer": "/children/336",
+  "referenceSha256": "ac8f8de6b5a7a28b1ec9b9bf923de8c335682464947afc9754b92c3111cab5de",
+  "sourceReferenceCrop": {
+    "x": 784,
+    "y": 1699,
+    "width": 48,
+    "height": 48
+  },
+  "file": "8344-36134.svg",
+  "assetSha256": "c1a8eaba0eff5b49a574765d6917102f805733a3caae60a2bc5eaed333cdc69a"
+}
